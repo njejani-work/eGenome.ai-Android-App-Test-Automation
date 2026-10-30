@@ -1,0 +1,522 @@
+{
+  "spec": "Premium",
+  "page": "PremiumPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:02:01.619Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"eGenome Premium\")",
+      "text": "eGenome Premium",
+      "box": {
+        "x": 0.2458,
+        "y": 0.1188,
+        "w": 0.5069,
+        "h": 0.0453
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0444,
+        "y": 0.05,
+        "w": 0.1,
+        "h": 0.0563
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "oldPrice": {
+      "selector": "android=new UiSelector().text(\"₹11,988\")",
+      "box": {
+        "x": 0.0917,
+        "y": 0.3125,
+        "w": 0.8167,
+        "h": 0.0297
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "perYear": {
+      "selector": "android=new UiSelector().textStartsWith(\"per year\")",
+      "text": "per year*",
+      "box": {
+        "x": 0.3375,
+        "y": 0.3625,
+        "w": 0.1375,
+        "h": 0.0297
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "emiOption": {
+      "selector": "android=new UiSelector().descriptionContains(\"EMI Starts\")",
+      "box": {
+        "x": 0.0444,
+        "y": 0.7359,
+        "w": 0.9111,
+        "h": 0.0766
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "oneTimeOption": {
+      "selector": "android=new UiSelector().descriptionContains(\"/Year, one-time\")",
+      "box": {
+        "x": 0.0444,
+        "y": 0.8313,
+        "w": 0.9111,
+        "h": 0.0766
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "noAutoRenewal": {
+      "selector": "android=new UiSelector().text(\"No Auto Renewal\")",
+      "text": "No Auto Renewal",
+      "box": {
+        "x": 0.3694,
+        "y": 0.9078,
+        "w": 0.2597,
+        "h": 0.0297
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "pushYourBoundariesAndText": {
+      "match": {
+        "text": "Push your boundaries and kick off your wellness journey with eGenome Premium",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Push your boundaries and kick off your wellness journey with eGenome Premium",
+      "box": {
+        "x": 0.0444,
+        "y": 0.1766,
+        "w": 0.9111,
+        "h": 0.0656
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "freeText": {
+      "match": {
+        "text": "Free",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Free",
+      "box": {
+        "x": 0.5917,
+        "y": 0.5328,
+        "w": 0.0653,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "premiumText": {
+      "match": {
+        "text": "Premium",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Premium",
+      "box": {
+        "x": 0.7361,
+        "y": 0.5328,
+        "w": 0.1333,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "hassleFreeBloodTestText": {
+      "match": {
+        "text": "Hassle-free Blood Test",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Hassle-free Blood Test",
+      "box": {
+        "x": 0.1083,
+        "y": 0.5766,
+        "w": 0.4278,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "healthEvaluationReportText": {
+      "match": {
+        "text": "Health Evaluation Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Health Evaluation Report",
+      "box": {
+        "x": 0.1083,
+        "y": 0.6281,
+        "w": 0.4278,
+        "h": 0.0641
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "mastercardText": {
+      "match": {
+        "desc": "mastercard"
+      },
+      "box": {
+        "x": 0.2736,
+        "y": 0.7078,
+        "w": 0.0389,
+        "h": 0.0125
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "visaText": {
+      "match": {
+        "desc": "visa"
+      },
+      "box": {
+        "x": 0.3583,
+        "y": 0.7078,
+        "w": 0.0667,
+        "h": 0.0125
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "googlePayText": {
+      "match": {
+        "desc": "google pay"
+      },
+      "box": {
+        "x": 0.4694,
+        "y": 0.7078,
+        "w": 0.0583,
+        "h": 0.0125
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "phonepeText": {
+      "match": {
+        "desc": "phonepe"
+      },
+      "box": {
+        "x": 0.5722,
+        "y": 0.7047,
+        "w": 0.0333,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "upiText": {
+      "match": {
+        "desc": "upi"
+      },
+      "box": {
+        "x": 0.6514,
+        "y": 0.7078,
+        "w": 0.075,
+        "h": 0.0125
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "limitedTimeOfferText": {
+      "match": {
+        "text": "Limited Time Offer",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Limited Time Offer",
+      "box": {
+        "x": 0.7097,
+        "y": 0.7359,
+        "w": 0.1903,
+        "h": 0.0094
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "limitedTimeOfferText",
+      "parent": "emiOption",
+      "centered": false
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "freeText",
+        "premiumText"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "phonepeText",
+        "mastercardText",
+        "visaText",
+        "googlePayText",
+        "upiText"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "backBtn",
+        "title",
+        "pushYourBoundariesAndText",
+        "oldPrice",
+        "perYear",
+        "freeText",
+        "hassleFreeBloodTestText",
+        "healthEvaluationReportText",
+        "phonepeText",
+        "emiOption",
+        "oneTimeOption",
+        "noAutoRenewal"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "backBtn",
+      "below": "title",
+      "value": 0.0222
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "pushYourBoundariesAndText",
+      "value": 0.0222
+    },
+    {
+      "type": "gap",
+      "above": "perYear",
+      "below": "freeText",
+      "value": 0.25
+    },
+    {
+      "type": "gap",
+      "above": "freeText",
+      "below": "hassleFreeBloodTestText",
+      "value": 0.0333
+    },
+    {
+      "type": "gap",
+      "above": "hassleFreeBloodTestText",
+      "below": "healthEvaluationReportText",
+      "value": 0.0333
+    },
+    {
+      "type": "gap",
+      "above": "healthEvaluationReportText",
+      "below": "phonepeText",
+      "value": 0.0222
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "backBtn",
+        "pushYourBoundariesAndText"
+      ]
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "hassleFreeBloodTestText",
+        "healthEvaluationReportText"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "hassleFreeBloodTestText",
+        "healthEvaluationReportText"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "pushYourBoundariesAndText"
+    },
+    {
+      "type": "centerX",
+      "el": "oldPrice"
+    },
+    {
+      "type": "centerX",
+      "el": "googlePayText"
+    },
+    {
+      "type": "centerX",
+      "el": "emiOption"
+    },
+    {
+      "type": "centerX",
+      "el": "oneTimeOption"
+    },
+    {
+      "type": "centerX",
+      "el": "noAutoRenewal"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "backBtn",
+          "emiOption"
+        ],
+        [
+          "backBtn",
+          "oneTimeOption"
+        ],
+        [
+          "emiOption",
+          "oneTimeOption"
+        ]
+      ]
+    }
+  ]
+}

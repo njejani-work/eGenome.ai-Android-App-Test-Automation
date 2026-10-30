@@ -1,0 +1,225 @@
+{
+  "spec": "SwitchProfile",
+  "page": "SwitchProfileSheet",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:01:43.018Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Switch Profile\")",
+      "text": "Switch Profile",
+      "box": {
+        "x": 0.0819,
+        "y": 0.3414,
+        "w": 0.725,
+        "h": 0.0391
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "subtitle": {
+      "selector": "android=new UiSelector().textStartsWith(\"Choose which profile\")",
+      "text": "Choose which profile to use",
+      "box": {
+        "x": 0.0819,
+        "y": 0.382,
+        "w": 0.725,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "closeBtn": {
+      "selector": "android=new UiSelector().description(\"\")",
+      "box": {
+        "x": 0.8403,
+        "y": 0.3508,
+        "w": 0.0778,
+        "h": 0.0438
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "addProfile": {
+      "selector": "android=new UiSelector().descriptionContains(\"Add Profile\")",
+      "box": {
+        "x": 0.6653,
+        "y": 0.4578,
+        "w": 0.2333,
+        "h": 0.1719
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "selfText": {
+      "match": {
+        "text": "Self",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Self",
+      "box": {
+        "x": 0.1806,
+        "y": 0.5906,
+        "w": 0.0472,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "spouseText": {
+      "match": {
+        "text": "spouse",
+        "cls": "android.widget.TextView"
+      },
+      "text": "spouse",
+      "box": {
+        "x": 0.4528,
+        "y": 0.5906,
+        "w": 0.0819,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "addProfileText": {
+      "match": {
+        "text": "Add Profile",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Add Profile",
+      "box": {
+        "x": 0.7069,
+        "y": 0.5703,
+        "w": 0.1514,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "addProfileText",
+      "parent": "addProfile",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "title",
+        "closeBtn"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "addProfile",
+        "selfText",
+        "spouseText"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "title",
+        "subtitle",
+        "addProfile"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "subtitle",
+      "value": 0.0028
+    },
+    {
+      "type": "gap",
+      "above": "subtitle",
+      "below": "addProfile",
+      "value": 0.0958
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "title",
+        "subtitle"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "title",
+        "subtitle"
+      ]
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "closeBtn",
+          "addProfile"
+        ]
+      ]
+    }
+  ]
+}

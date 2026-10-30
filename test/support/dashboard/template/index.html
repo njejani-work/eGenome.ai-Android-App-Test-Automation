@@ -271,8 +271,8 @@ ul.actions code { font-size: 11.5px; }
 .test.passed.warned { border-left-color: var(--warn); }
 .test.failed > summary .ttl { color: var(--critical); }
 /* failed / warned rows and blocks: marker on the left instead of a fill */
-.steps tr.failed td:first-child { box-shadow: inset 3px 0 0 var(--critical); }
 .steps tr.warned td:first-child { box-shadow: inset 3px 0 0 var(--warn); }
+.steps tr.failed td:first-child { box-shadow: inset 3px 0 0 var(--critical); }
 .lay.has-fail { border-left: 3px solid var(--critical); }
 .lay.has-warn { border-left: 3px solid var(--warn); }
 .lay.all-ok { border-left: 3px solid var(--good); }
@@ -282,6 +282,81 @@ ul.actions code { font-size: 11.5px; }
 .stepfilter { display: flex; align-items: center; gap: 10px; margin: 10px 0 0; font-size: 12px; color: var(--text-2); }
 .linkbtn { border: 0; background: none; color: var(--accent); cursor: pointer; padding: 0; font-size: 12px; }
 .linkbtn:hover { text-decoration: underline; }
+
+/* ---------- compact layout */
+body { font-size: 13.5px; }
+.wrap { padding-bottom: 32px; }
+.top .wrap { padding-top: 8px; padding-bottom: 8px; }
+h1 { font-size: 18px; margin: 0; }
+.pagehead { display: flex; align-items: baseline; gap: 10px; margin: 14px 0 10px; flex-wrap: wrap; }
+.pagehead .muted { font-size: 12px; }
+.card-h { padding: 9px 14px 0; }
+.card[data-tone]:not(.kpi) > .card-h { padding-bottom: 0; }
+.card-b { padding: 8px 14px 12px; }
+.stack > * + * { margin-top: 12px; }
+th { padding: 6px 10px; font-size: 11.5px; }
+td { padding: 6px 10px; }
+.grid2 { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 6fr); gap: 12px; align-items: start; }
+@media (max-width: 960px) { .grid2 { grid-template-columns: minmax(0, 1fr); } }
+/* hero: last run + consolidated totals in one card */
+.hero { border-top: 2px solid var(--tone); margin-bottom: 12px; }
+.hero-g { display: grid; grid-template-columns: 300px minmax(0, 1fr); }
+.hero-l { padding: 12px 14px; border-right: 1px solid var(--border); display: flex; flex-direction: column; gap: 6px; }
+.hero-r { padding: 12px 14px; min-width: 0; }
+.lbl { font-size: 11px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 6px; }
+.lbl .muted { text-transform: none; letter-spacing: 0; }
+.hl { display: flex; align-items: center; gap: 8px; }
+.sm { font-size: 12px; }
+.kv { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; margin-top: auto; padding-top: 8px; border-top: 1px solid var(--border); }
+.kv > div { display: flex; flex-direction: column; min-width: 0; }
+.kv i { font-style: normal; font-size: 11px; color: var(--muted); }
+.kv b { font-size: 17px; font-weight: 650; font-variant-numeric: tabular-nums; }
+.kv s { text-decoration: none; font-size: 11px; color: var(--text-2); }
+@media (max-width: 860px) { .hero-g { grid-template-columns: minmax(0, 1fr); } .hero-l { border-right: 0; border-bottom: 1px solid var(--border); } }
+/* summary boxes: compact */
+.sum { gap: 8px; }
+.sum .t { padding: 7px 10px 8px; border-top-width: 2px; }
+.sum .t .th { display: flex; justify-content: space-between; align-items: baseline; }
+.sum .t .l { font-size: 11px; }
+.sum .t .pc { font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.sum .t .v { font-size: 20px; line-height: 1.2; }
+.sum .t .v .u { font-size: 12px; }
+.sum .t .mx { display: flex; justify-content: space-between; gap: 6px; margin: 4px 0 0; padding: 4px 0 0; font-size: 11.5px; color: var(--text-2); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sum .t .mx span { overflow: hidden; text-overflow: ellipsis; }
+.sumbar { height: 6px; margin-top: 8px; }
+/* run page header */
+.crumb { margin: 12px 0 4px; font-size: 12.5px; }
+.run-head { gap: 10px; margin-bottom: 10px; }
+.run-head h1 { margin: 0; }
+.run-head h1 code { font-size: 16px; }
+.rh-links { margin-left: auto; font-size: 12px; }
+.runcard .card-b { padding: 10px 14px 12px; }
+.facts { display: flex; flex-wrap: wrap; gap: 4px 18px; font-size: 12.5px; margin-bottom: 10px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+.facts span { white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+.facts i { font-style: normal; color: var(--muted); margin-right: 6px; font-size: 11px; text-transform: uppercase; letter-spacing: .04em; }
+.toolbar { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-top: 12px; }
+.toolbar .seg button { padding: 4px 10px; }
+.toolbar input[type="search"] { padding: 4px 10px; }
+.toolbar .icon-btn { padding: 4px 8px; font-size: 12.5px; }
+.spec-h { margin: 12px 2px 4px; }
+.test { margin-top: 6px; }
+.test > summary { padding: 8px 12px; }
+.test .ttl { font-size: 13.5px; }
+.test-b { padding: 2px 12px 10px; }
+.steps td { padding: 5px 8px; }
+.steps .st { padding-top: 7px; }
+.thumb { width: 40px; height: 72px; }
+/* test rows: title and suite on one line */
+.test > summary > div:not(.sum-r) { display: flex; align-items: baseline; gap: 8px; min-width: 0; flex: 1 1 auto; }
+.test > summary .ttl { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; min-width: 0; }
+.test > summary .suite { flex: none; }
+@media (max-width: 640px) { .test > summary > div:not(.sum-r) { flex-direction: column; gap: 0; } .test > summary .ttl { white-space: normal; } }
+/* health table */
+.health .tt { display: flex; align-items: center; gap: 6px; max-width: 380px; min-width: 0; }
+.health .tn { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.health table { table-layout: auto; }
+.health .dot { width: 10px; height: 10px; border-radius: 2px; }
+.c-warn { color: var(--warn-text); }
 </style>
 <script src="data/index.js"></script>
 </head>
@@ -441,10 +516,10 @@ ul.actions code { font-size: 11.5px; }
     const total = t.tests || 0, w = t.warnings || 0, msgs = t.warningMessages || 0;
     const p = (n) => (total ? `${Math.round((n / total) * 100)}%` : '—');
     const n0 = (v) => v || 0;
-    const tile = (key, label, n, color, steps, layout, note) => `<div class="t${clickable && key ? ' click' : ''}${clickable && key && key !== 'all' && view.filter === key ? ' active' : ''}${n ? '' : ' zero'}${n && (key === 'failed') ? ' alert' : ''}"${clickable && key ? ` data-f="${key}" role="button" tabindex="0" aria-pressed="${view.filter === key}"` : ''} style="--c:${color}">
-      <div class="l">${label}</div><div class="v">${n.toLocaleString('en-US')}<span class="u"> test${n === 1 ? '' : 's'}</span></div>
-      <dl class="mx"><div><dt>Steps</dt><dd>${steps.toLocaleString('en-US')}</dd></div><div><dt>Layout checks</dt><dd>${layout.toLocaleString('en-US')}</dd></div></dl>
-      <div class="n">${note}</div></div>`;
+    const tile = (key, label, n, color, steps, layout, note) => `<div class="t${clickable && key ? ' click' : ''}${clickable && key && key !== 'all' && view.filter === key ? ' active' : ''}${n ? '' : ' zero'}${n && (key === 'failed') ? ' alert' : ''}"${clickable && key ? ` data-f="${key}" role="button" tabindex="0" aria-pressed="${view.filter === key}"` : ''} style="--c:${color}" title="${esc(note)}">
+      <div class="th"><span class="l">${label}</span><span class="pc">${key === 'all' ? '' : p(n)}</span></div>
+      <div class="v">${n.toLocaleString('en-US')}<span class="u"> test${n === 1 ? '' : 's'}</span></div>
+      <div class="mx"><span>${steps.toLocaleString('en-US')} steps</span><span>${layout.toLocaleString('en-US')} layout</span></div></div>`;
     const seg = (n, color, label) => (n > 0 ? `<i style="width:${(n / Math.max(1, total)) * 100}%;background:${color}" title="${label}: ${n}"></i>` : '');
     const cleanPassed = Math.max(0, (t.passed || 0) - (t.passedWithWarnings ?? 0));
     const hookNote = t.hooks ? ` · ${t.hooks} setup hook${t.hooks === 1 ? '' : 's'}` : '';
@@ -467,25 +542,34 @@ ul.actions code { font-size: 11.5px; }
     return s;
   }
 
-  function kpis(idx) {
+  function hero(idx) {
     const runs = idx.runs;
     const last = runs[0];
     const done = runs.filter((r) => r.status !== 'running').slice(0, 10);
     const avgRate = done.length ? Math.round(done.reduce((a, r) => a + pct(r.totals.passed, r.totals.tests), 0) / done.length) : 0;
     const avgDur = done.length ? done.reduce((a, r) => a + (r.durationMs || 0), 0) / done.length : 0;
     const flaky = idx.tests.filter((t) => { const s = new Set(t.results.slice(0, 10).map((r) => r.status)); return s.has('passed') && s.has('failed'); }).length;
-    return `<section class="kpis">
-      <div class="card kpi" data-tone="${last.status === 'passed' ? 'good' : last.status === 'running' ? 'info' : 'crit'}"><div class="label">Last run</div><div class="value" style="font-size:18px;margin-top:8px">${pill(last.status)}</div><div class="note">${esc(fmtShort(last.startedAt))} · ${ago(last.startedAt)}</div></div>
-      <div class="card kpi" data-tone="${last.totals.failed ? 'crit' : 'good'}"><div class="label">Last run pass rate</div><div class="value">${pct(last.totals.passed, last.totals.tests)}%</div><div class="note">${last.totals.passed} of ${last.totals.tests} tests passed</div></div>
-      <div class="card kpi" data-tone="${avgRate >= 95 ? 'good' : avgRate >= 80 ? 'warn' : 'crit'}"><div class="label">Avg pass rate</div><div class="value">${avgRate}%</div><div class="note">last ${done.length} finished run${done.length === 1 ? '' : 's'}</div></div>
-      <div class="card kpi" data-tone="neutral"><div class="label">Avg run time</div><div class="value">${fmtDur(Math.round(avgDur))}</div><div class="note">${last.totals.steps} steps in last run</div></div>
-      <div class="card kpi" data-tone="${flaky ? 'warn' : 'good'}"><div class="label">Flaky tests</div><div class="value">${flaky}</div><div class="note">passed and failed in last 10 runs</div></div>
-    </section>`;
+    const lt = last.totals;
+    const dev = [last.device?.model || last.device?.name, last.device?.platformVersion && `Android ${last.device.platformVersion}`].filter(Boolean).join(' · ');
+    return `<section class="card hero" data-tone="${last.status === 'passed' ? 'good' : last.status === 'running' ? 'info' : 'crit'}"><div class="hero-g">
+      <div class="hero-l">
+        <div class="lbl">Last run</div>
+        <div class="hl">${pill(last.status)} <a href="#/run/${encodeURIComponent(last.id)}"><code>${esc(last.id)}</code></a></div>
+        <div class="muted sm">${esc(fmtShort(last.startedAt))} · ${ago(last.startedAt)}${dev ? ` · ${esc(dev)}` : ''}</div>
+        <div class="kv">
+          <div><i>Pass rate</i><b class="${lt.failed ? 'c-crit' : ''}">${pct(lt.passed, lt.tests)}%</b><s>${lt.passed}/${lt.tests}</s></div>
+          <div><i>Avg pass</i><b>${avgRate}%</b><s>last ${done.length}</s></div>
+          <div><i>Avg time</i><b>${fmtDur(Math.round(avgDur))}</b><s>per run</s></div>
+          <div><i>Flaky</i><b class="${flaky ? 'c-warn' : ''}">${flaky}</b><s>tests</s></div>
+        </div>
+      </div>
+      <div class="hero-r"><div class="lbl">All runs · consolidated <span class="muted">(${runs.length} kept · warnings also count as passed/failed)</span></div>${summaryStrip(sumTotals(runs))}</div>
+    </div></section>`;
   }
 
   function trendChart(el, runs) {
     const data = runs.slice(0, 30).reverse();
-    const W = Math.max(320, el.clientWidth), H = 200, m = { l: 34, r: 8, t: 10, b: 26 };
+    const W = Math.max(280, el.clientWidth), H = 170, m = { l: 34, r: 8, t: 10, b: 26 };
     const iw = W - m.l - m.r, ih = H - m.t - m.b;
     const max = Math.max(1, ...data.map((r) => r.totals.tests));
     const step = max <= 5 ? 1 : max <= 10 ? 2 : Math.ceil(max / 5);
@@ -570,14 +654,13 @@ ul.actions code { font-size: 11.5px; }
       const last = res[res.length - 1];
       return { t, res, passed, ran, flaky, avg, last };
     }).sort((a, b) => (b.last?.status === 'failed') - (a.last?.status === 'failed') || b.flaky - a.flaky || a.t.key.localeCompare(b.t.key));
-    return `<div class="tbl-wrap"><table>
-      <thead><tr><th>Test</th><th>Recent results <span class="muted">(oldest → newest)</span></th><th class="num">Pass rate</th><th class="num">Avg time</th><th>Last</th></tr></thead>
+    return `<div class="tbl-wrap health"><table>
+      <thead><tr><th>Test</th><th>Recent</th><th class="num">Pass</th><th class="num">Avg</th></tr></thead>
       <tbody>${rows.map(({ t, res, passed, ran, flaky, avg, last }) => `<tr>
-        <td><div style="font-weight:600">${esc(t.title)} ${flaky ? '<span class="tag" style="color:var(--critical)">flaky</span>' : ''}</div><div class="muted" style="font-size:12px">${esc(t.suite)}</div></td>
-        <td><div class="dots">${res.slice(-20).map((r) => `<a class="dot ${esc(r.status)}" href="#/run/${encodeURIComponent(r.runId)}/${encodeURIComponent(r.testId || '')}" title="${esc(r.runId)}: ${LABEL[r.status] || r.status}"></a>`).join('')}</div></td>
-        <td class="num">${ran ? `${pct(passed, ran)}%` : '—'} <span class="muted" style="font-size:12px">(${passed}/${ran})</span></td>
-        <td class="num">${fmtDur(Math.round(avg))}</td>
-        <td>${last ? pill(last.status) : ''}</td></tr>`).join('')}</tbody></table></div>`;
+        <td title="${esc(`${t.suite} › ${t.title}`)}"><div class="tt">${last ? statusIcon(last.status) : ''}<span class="tn">${esc(t.title)}</span>${flaky ? '<span class="tag c-crit">flaky</span>' : ''}</div></td>
+        <td><div class="dots">${res.slice(-10).map((r) => `<a class="dot ${esc(r.status)}" href="#/run/${encodeURIComponent(r.runId)}/${encodeURIComponent(r.testId || '')}" title="${esc(r.runId)}: ${LABEL[r.status] || r.status}"></a>`).join('')}</div></td>
+        <td class="num">${ran ? `${pct(passed, ran)}%` : '—'}</td>
+        <td class="num">${fmtDur(Math.round(avg))}</td></tr>`).join('')}</tbody></table></div>`;
   }
 
   function renderOverview() {
@@ -588,16 +671,16 @@ ul.actions code { font-size: 11.5px; }
       return;
     }
     app.innerHTML = `
-      <h1>Overview</h1><div class="muted">${idx.runs.length} run${idx.runs.length === 1 ? '' : 's'} kept · ${idx.tests.length} tests tracked</div>
-      ${kpis(idx)}
+      <div class="pagehead"><h1>Overview</h1><span class="muted">${idx.runs.length} run${idx.runs.length === 1 ? '' : 's'} kept · ${idx.tests.length} tests tracked</span></div>
+      ${hero(idx)}
       <div class="stack">
-        <section class="card" data-tone="info"><div class="card-h"><h2>All runs · consolidated</h2><div class="right muted" style="font-size:12px">${idx.runs.length} run${idx.runs.length === 1 ? '' : 's'} kept · warnings are tests that raised at least one warning (also counted as passed/failed)</div></div>
-          <div class="card-b">${summaryStrip(sumTotals(idx.runs))}</div></section>
-        <section class="card" data-tone="violet"><div class="card-h"><h2>Tests per run</h2><div class="right legend">
-          <span><i style="background:var(--good)"></i>Passed</span><span><i style="background:var(--critical)"></i>Failed</span><span><i style="background:var(--skipped)"></i>Skipped</span></div></div>
-          <div class="card-b"><div class="chart" id="chart"></div></div></section>
         <section class="card" data-tone="teal"><div class="card-h"><h2>Runs</h2><div class="right"><input type="search" id="runq" placeholder="Filter runs (id, status, device)" aria-label="Filter runs"></div></div><div class="card-b" id="runs">${runsTable(idx.runs)}</div></section>
-        <section class="card" data-tone="rose"><div class="card-h"><h2>Test health</h2><div class="right muted" style="font-size:12px">Click a square to open that run</div></div><div class="card-b">${healthTable(idx.tests, idx.runs)}</div></section>
+        <div class="grid2">
+          <section class="card" data-tone="violet"><div class="card-h"><h2>Tests per run</h2><div class="right legend">
+            <span><i style="background:var(--good)"></i>Passed</span><span><i style="background:var(--critical)"></i>Failed</span><span><i style="background:var(--skipped)"></i>Skipped</span></div></div>
+            <div class="card-b"><div class="chart" id="chart"></div></div></section>
+          <section class="card" data-tone="rose"><div class="card-h"><h2>Test health</h2><div class="right muted" style="font-size:12px">last 10 runs · click a square</div></div><div class="card-b">${healthTable(idx.tests, idx.runs)}</div></section>
+        </div>
       </div>`;
     const chartEl = $('#chart');
     trendChart(chartEl, idx.runs);
@@ -713,24 +796,22 @@ ul.actions code { font-size: 11.5px; }
     const total = Math.max(1, t.passed + t.failed + t.skipped);
     app.innerHTML = `
       <p class="crumb"><a href="#/">← All runs</a></p>
-      <div class="run-head"><h1>Run <code style="font-size:18px">${esc(run.id)}</code></h1>${pill(run.status)}${run.status === 'running' ? '<span class="live">Live - updating</span>' : ''}</div>
-      <div class="card" data-tone="neutral"><div class="card-b">
-        <div class="meta">
-          <div><span>Started</span><b>${esc(fmtDate(run.startedAt))}</b></div>
-          <div><span>Duration</span><b>${fmtDur(run.durationMs)}</b></div>
-          <div><span>Device</span><b>${esc([d.manufacturer, d.model || d.name].filter(Boolean).join(' ') || '—')}</b></div>
-          <div><span>Android</span><b>${esc(d.platformVersion || '—')}${d.apiLevel ? ` (API ${esc(d.apiLevel)})` : ''}</b></div>
-          <div><span>App</span><b>${esc(d.app || '—')}${d.appVersion ? ` ${esc(d.appVersion)}` : ''}</b></div>
-          <div><span>Environment</span><b>${esc(run.environment || '—')} · ${esc(run.trigger || 'local')}</b></div>
-          <div><span>Host</span><b>${esc(run.host ? `${run.host.machine || ''} (${run.host.os || ''})` : '—')}</b></div>
-          <div><span>Specs</span><b>${esc((run.specs || []).join(', ') || '—')}</b></div>
+      <div class="run-head"><h1>Run <code>${esc(run.id)}</code></h1>${pill(run.status)}${run.status === 'running' ? '<span class="live">Live - updating</span>' : ''}
+        <span class="rh-links"><a href="runs/${encodeURIComponent(run.id)}/run.log" target="_blank">Run log</a> · <a href="runs/${encodeURIComponent(run.id)}/run.json" target="_blank">run.json</a></span></div>
+      <div class="card runcard" data-tone="info"><div class="card-b">
+        <div class="facts">
+          <span><i>Started</i>${esc(fmtDate(run.startedAt))}</span>
+          <span><i>Duration</i>${fmtDur(run.durationMs)}</span>
+          <span><i>Device</i>${esc([d.manufacturer, d.model || d.name].filter(Boolean).join(' ') || '—')}</span>
+          <span><i>Android</i>${esc(d.platformVersion || '—')}${d.apiLevel ? ` (API ${esc(d.apiLevel)})` : ''}</span>
+          <span><i>App</i>${esc(d.app || '—')}${d.appVersion ? ` ${esc(d.appVersion)}` : ''}</span>
+          <span><i>Env</i>${esc(run.environment || '—')} · ${esc(run.trigger || 'local')}</span>
+          <span><i>Specs</i>${esc((run.specs || []).map((x) => x.split('/').pop()).join(', ') || '—')}</span>
+          <span title="${esc(run.host ? `${run.host.machine || ''} (${run.host.os || ''})` : '')}"><i>Host</i>${esc(run.host?.machine || '—')}</span>
         </div>
-      </div></div>
-      <div class="card" data-tone="info" style="margin-top:12px"><div class="card-h"><h2>Summary</h2><div class="right muted" style="font-size:12px">Click a box to filter the tests below</div></div><div class="card-b">
         ${summaryStrip(t, { clickable: true })}
-        <div style="margin-top:10px;font-size:12px"><a href="runs/${encodeURIComponent(run.id)}/run.log" target="_blank">Run log</a> · <a href="runs/${encodeURIComponent(run.id)}/run.json" target="_blank">run.json</a></div>
       </div></div>
-      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-top:16px">
+      <div class="toolbar">
         <div class="seg" role="group" aria-label="Filter tests">${['all', 'failed', 'passed', 'warnings', 'skipped'].map((k) => seg(k, { all: 'All', warnings: 'Warnings' }[k] || LABEL[k], run.tests.filter((x) => inTab(x, k)).length)).join('')}</div>
         <input type="search" id="tq" placeholder="Search tests and steps" value="${esc(view.q)}" aria-label="Search tests and steps">
         <div style="margin-left:auto;display:flex;gap:8px"><button class="icon-btn" id="expand">Expand all</button><button class="icon-btn" id="collapse">Collapse all</button></div>

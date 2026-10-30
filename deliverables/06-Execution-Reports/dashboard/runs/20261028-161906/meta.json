@@ -1,0 +1,25 @@
+{
+ "id": "20261028-161906",
+ "startedAt": 1793184546184,
+ "environment": "staging",
+ "trigger": "local",
+ "host": {
+  "os": "Windows_NT 10.0.26200",
+  "node": "v24.22.1",
+  "user": "Rohan Bansal",
+  "machine": "Egenome"
+ },
+ "specPattern": [
+  "./test/specs/smoke/**/*.js",
+  "./test/specs/regression/**/*.js"
+ ],
+ "args": "run ./wdio.conf.js --suite smoke",
+ "finishedAt": 1793184699934,
+ "exitCode": 1,
+ "results": {
+  "finished": 1,
+  "passed": 0,
+  "retries": 0,
+  "failed": 1
+ }
+}

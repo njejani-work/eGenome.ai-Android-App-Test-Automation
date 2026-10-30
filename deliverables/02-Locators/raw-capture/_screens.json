@@ -1,0 +1,1748 @@
+{
+  "screens": {
+    "MainScreen": {
+      "file": "MainScreen.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Send OTP",
+        "desc:Sending...",
+        "desc:󰅀",
+        "id:com.egenome.app:id/action_bar_root",
+        "t:9999",
+        "t:9999999999",
+        "t:99999999999",
+        "t:Enter your mobile number"
+      ],
+      "elementCount": 17,
+      "firstCaptured": "2026-10-28T07:39:39.306Z",
+      "lastCaptured": "2026-10-28T08:41:17.880Z"
+    },
+    "GrantPermissionsScreen": {
+      "file": "GrantPermissionsScreen.json",
+      "package": "com.google.android.permissioncontroller",
+      "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+      "title": "",
+      "signature": [
+        "id:com.android.permissioncontroller:id/content_container",
+        "id:com.android.permissioncontroller:id/grant_dialog",
+        "id:com.android.permissioncontroller:id/grant_singleton",
+        "id:com.android.permissioncontroller:id/permission_allow_button",
+        "id:com.android.permissioncontroller:id/permission_deny_and_dont_ask_again_button",
+        "id:com.android.permissioncontroller:id/permission_icon",
+        "id:com.android.permissioncontroller:id/permission_message"
+      ],
+      "elementCount": 7,
+      "firstCaptured": "2026-10-28T07:40:24.752Z",
+      "lastCaptured": "2026-10-28T07:40:24.752Z"
+    },
+    "MainScreen2": {
+      "file": "MainScreen2.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Complete Payment",
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Report",
+        "desc:Settings",
+        "desc:󰸘",
+        "desc:, BMI, GOOD, 21.2, 15, 18.5, 25, 30, 40, , Normal",
+        "desc:, ACTION NEEDED, Complete Payment, PAYMENT REQUIRED, Complete your payment to continue with your health report., Payment, Secure, Instant, , Secure payment processing, , Instant access after payment, , Full health report included, Complete Payment, Secure checkout • Instant activation",
+        "desc:, ACTION NEEDED, Complete Payment, PAYMENT REQUIRED, Complete your payment to continue with your health report., Payment, Secure, Instant, , Secure payment processing, , Instant access after payment, , Full health report included, Secure checkout • Instant activation",
+        "desc:, Weight, GOOD, 56 kg, 49, 58, 66, , 2 kg under ideal",
+        "desc:, Body Fat, ACG, 17 %, 10%, 15%, 20%, , Fitness",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 69,
+      "firstCaptured": "2026-10-28T07:40:33.638Z",
+      "lastCaptured": "2026-10-28T08:22:37.402Z"
+    },
+    "MainScreen3": {
+      "file": "MainScreen3.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:0, Day Streak",
+        "desc:Complete Payment",
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Report",
+        "desc:Settings",
+        "desc:󰸘",
+        "desc:, ACTION NEEDED, Complete Payment, PAYMENT REQUIRED, Complete your payment to continue with your health report., Payment, Secure, Instant, , Secure payment processing, , Instant access after payment, , Full health report included, Secure checkout • Instant activation",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 36,
+      "firstCaptured": "2026-10-28T07:40:48.341Z",
+      "lastCaptured": "2026-10-28T07:40:48.341Z"
+    },
+    "MainScreen4": {
+      "file": "MainScreen4.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:0, Day Streak",
+        "desc:Exercise",
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Meals",
+        "desc:Report",
+        "desc:Settings",
+        "desc:Supplements",
+        "desc:󰖜, Early Morning , 󰑊,  07:00 AM, 󰅀",
+        "desc:󰸘",
+        "desc:, ACTION NEEDED, Complete Payment, PAYMENT REQUIRED, Complete your payment to continue with your health report., Payment, Secure, Instant, , Secure payment processing, , Instant access after payment, , Full health report included, Complete Payment, Secure checkout • Instant activation",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 42,
+      "firstCaptured": "2026-10-28T07:40:53.932Z",
+      "lastCaptured": "2026-10-28T07:40:53.932Z"
+    },
+    "MainScreen5": {
+      "file": "MainScreen5.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Exercise",
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Meals",
+        "desc:Report",
+        "desc:Settings",
+        "desc:Supplements",
+        "desc:󰄬, Done",
+        "desc:󰅖, Skip",
+        "desc:󰉜, Lunch , 󰑊,  2:00 PM, Alternate, 󰅀",
+        "desc:󰉜, Lunch , 󰑊,  2:00 PM, 󰅀",
+        "desc:󰓡, Alternate",
+        "desc:󰖜, Early Morning , 󰑊,  07:00 AM, 󰅀",
+        "desc:󰟈, Breakfast , 󰑊,  10:00 AM, 󰅀",
+        "desc:󰩰, Dinner , 󰑊,  08:00 PM (latest), 󰅀",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 76,
+      "firstCaptured": "2026-10-28T07:40:59.562Z",
+      "lastCaptured": "2026-10-28T07:56:09.550Z"
+    },
+    "MainScreen6": {
+      "file": "MainScreen6.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Report",
+        "desc:Settings",
+        "desc:View Full Journey",
+        "desc:󰉜, Lunch , 󰑊,  2:00 PM, 󰅀",
+        "desc:󰟈, Breakfast , 󰑊,  10:00 AM, 󰅀",
+        "desc:󰩰, Dinner , 󰑊,  08:00 PM (latest), 󰅀",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 41,
+      "firstCaptured": "2026-10-28T07:41:05.158Z",
+      "lastCaptured": "2026-10-28T07:41:05.158Z"
+    },
+    "MainScreen7": {
+      "file": "MainScreen7.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Report",
+        "desc:Schedule Your Call",
+        "desc:Settings",
+        "desc:View Full Journey",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 30,
+      "firstCaptured": "2026-10-28T07:41:09.634Z",
+      "lastCaptured": "2026-10-28T08:21:40.105Z"
+    },
+    "MainScreen8": {
+      "file": "MainScreen8.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Report",
+        "desc:Settings",
+        "desc:Steps, , , Steps, steps",
+        "desc:, BMI, GOOD, 21.2, 15, 18.5, 25, 30, 40, , Normal",
+        "desc:, ACTION NEEDED, Complete Payment, PAYMENT REQUIRED, Complete your payment to continue with your health report., Payment, Secure, Instant, , Secure payment processing, , Instant access after payment, , Full health report included, Complete Payment, Secure checkout • Instant activation",
+        "desc:, Water Goal, AVG, 1800 ml, , ~7 glasses",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 47,
+      "firstCaptured": "2026-10-28T07:42:09.634Z",
+      "lastCaptured": "2026-10-28T07:56:20.300Z"
+    },
+    "MainScreen9": {
+      "file": "MainScreen9.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:, Add Profile",
+        "desc:",
+        "desc:, Johny Mark, spouse",
+        "desc:, , John Doe, Self, "
+      ],
+      "elementCount": 19,
+      "firstCaptured": "2026-10-28T07:42:16.835Z",
+      "lastCaptured": "2026-10-28T07:42:31.278Z"
+    },
+    "MainScreen10": {
+      "file": "MainScreen10.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:+3 more items",
+        "desc:1, Day Streak",
+        "desc:Complete Payment",
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Report",
+        "desc:Settings",
+        "desc:󰸘",
+        "desc:, ACTION NEEDED, Complete Payment, PAYMENT REQUIRED, Complete your payment to continue with your health report., Payment, Secure, Instant, , Secure payment processing, , Instant access after payment, , Full health report included, Secure checkout • Instant activation",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 50,
+      "firstCaptured": "2026-10-28T07:42:40.860Z",
+      "lastCaptured": "2026-10-28T07:56:42.671Z"
+    },
+    "October2026Screen": {
+      "file": "October2026Screen.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "October 2026",
+      "signature": [
+        "desc:1",
+        "desc:10",
+        "desc:11",
+        "desc:12",
+        "desc:13",
+        "desc:14",
+        "desc:15",
+        "desc:16",
+        "desc:17",
+        "desc:18",
+        "desc:19",
+        "desc:2",
+        "desc:20",
+        "desc:21",
+        "desc:22",
+        "desc:23",
+        "desc:24",
+        "desc:25",
+        "desc:26",
+        "desc:27",
+        "desc:28",
+        "desc:29",
+        "desc:3",
+        "desc:30",
+        "desc:31",
+        "desc:4",
+        "desc:5",
+        "desc:6",
+        "desc:7",
+        "desc:8",
+        "desc:9",
+        "desc:Exercise",
+        "desc:Go back",
+        "desc:Meals",
+        "desc:Supplements",
+        "id:com.egenome.app:id/action_bar_root",
+        "id:undefined.container",
+        "id:undefined.header",
+        "id:undefined.header.dayName_Fri",
+        "id:undefined.header.dayName_Mon",
+        "id:undefined.header.dayName_Sat",
+        "id:undefined.header.dayName_Sun",
+        "id:undefined.header.dayName_Thu",
+        "id:undefined.header.dayName_Tue",
+        "id:undefined.header.dayName_Wed",
+        "id:undefined.header.dayNames",
+        "id:undefined.header.leftArrow",
+        "id:undefined.header.rightArrow",
+        "id:undefined.header.title"
+      ],
+      "elementCount": 110,
+      "firstCaptured": "2026-10-28T07:42:45.292Z",
+      "lastCaptured": "2026-10-28T07:43:14.017Z"
+    },
+    "September2026Screen": {
+      "file": "September2026Screen.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "September 2026",
+      "signature": [
+        "desc:1",
+        "desc:10",
+        "desc:11",
+        "desc:12",
+        "desc:13",
+        "desc:14",
+        "desc:15",
+        "desc:16",
+        "desc:17",
+        "desc:18",
+        "desc:19",
+        "desc:2",
+        "desc:20",
+        "desc:21",
+        "desc:22",
+        "desc:23",
+        "desc:24",
+        "desc:25",
+        "desc:26",
+        "desc:27",
+        "desc:28",
+        "desc:29",
+        "desc:3",
+        "desc:30",
+        "desc:4",
+        "desc:5",
+        "desc:6",
+        "desc:7",
+        "desc:8",
+        "desc:9",
+        "desc:Go back",
+        "id:com.egenome.app:id/action_bar_root",
+        "id:undefined.container",
+        "id:undefined.header",
+        "id:undefined.header.dayName_Fri",
+        "id:undefined.header.dayName_Mon",
+        "id:undefined.header.dayName_Sat",
+        "id:undefined.header.dayName_Sun",
+        "id:undefined.header.dayName_Thu",
+        "id:undefined.header.dayName_Tue",
+        "id:undefined.header.dayName_Wed",
+        "id:undefined.header.dayNames",
+        "id:undefined.header.leftArrow",
+        "id:undefined.header.rightArrow",
+        "id:undefined.header.title"
+      ],
+      "elementCount": 88,
+      "firstCaptured": "2026-10-28T07:42:53.594Z",
+      "lastCaptured": "2026-10-28T07:42:53.594Z"
+    },
+    "August2026Screen": {
+      "file": "August2026Screen.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "August 2026",
+      "signature": [
+        "desc:1",
+        "desc:10",
+        "desc:11",
+        "desc:12",
+        "desc:13",
+        "desc:14",
+        "desc:15",
+        "desc:16",
+        "desc:17",
+        "desc:18",
+        "desc:19",
+        "desc:2",
+        "desc:20",
+        "desc:21",
+        "desc:22",
+        "desc:23",
+        "desc:24",
+        "desc:25",
+        "desc:26",
+        "desc:27",
+        "desc:28",
+        "desc:29",
+        "desc:3",
+        "desc:30",
+        "desc:31",
+        "desc:4",
+        "desc:5",
+        "desc:6",
+        "desc:7",
+        "desc:8",
+        "desc:9",
+        "desc:Go back",
+        "id:com.egenome.app:id/action_bar_root",
+        "id:undefined.container",
+        "id:undefined.header",
+        "id:undefined.header.dayName_Fri",
+        "id:undefined.header.dayName_Mon",
+        "id:undefined.header.dayName_Sat",
+        "id:undefined.header.dayName_Sun",
+        "id:undefined.header.dayName_Thu",
+        "id:undefined.header.dayName_Tue",
+        "id:undefined.header.dayName_Wed",
+        "id:undefined.header.dayNames",
+        "id:undefined.header.leftArrow",
+        "id:undefined.header.rightArrow",
+        "id:undefined.header.title"
+      ],
+      "elementCount": 86,
+      "firstCaptured": "2026-10-28T07:42:58.413Z",
+      "lastCaptured": "2026-10-28T07:42:58.413Z"
+    },
+    "MainScreen11": {
+      "file": "MainScreen11.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Exercise",
+        "desc:Go back",
+        "desc:Meals",
+        "desc:Supplements",
+        "desc:󰉜, Lunch, 2:00 PM, 🌟 Veggies, fiber, 󰅀",
+        "desc:󰖜, Early Morning, 07:00 AM, 🌟 Antioxidant, detox, 󰅀",
+        "desc:󰟈, Breakfast, 10:00 AM, 🌟 Protein, fiber, 󰅀",
+        "desc:󰩰, Dinner, 08:00 PM (latest), 🌟 Protein, veggies, 󰅀",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 60,
+      "firstCaptured": "2026-10-28T07:43:05.074Z",
+      "lastCaptured": "2026-10-28T07:43:32.682Z"
+    },
+    "MainScreen12": {
+      "file": "MainScreen12.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Before vs After: Your Blood Markers Compared. Your health progress since the first blood test — what improved and what to focus on.",
+        "desc:CVD Assessment Health Report. Comprehensive cardiovascular health evaluation with biological age assessment (Month 1)",
+        "desc:CVD Assessment Health Report. Comprehensive cardiovascular health evaluation with biological age assessment.",
+        "desc:Complete Payment, ",
+        "desc:Diabetes Risk Assessment Health Report. Comprehensive evaluation of Glucose control, insulin sensitivity, and metabolic risk insights.",
+        "desc:Global Health Percentiles. Comprehensive multi-domain health percentile evaluation across kidney, heart, diabetes, and liver.",
+        "desc:Home",
+        "desc:Kidney Function & Risk Assessment Health Report. Comprehensive evaluation of kidney filtration, biomarkers, and risk factors with actionable protection steps.",
+        "desc:Liver Function & Risk Assessment Health Report. Comprehensive evaluation of Liver performance, inflammation, and fibrosis risk evaluation.",
+        "desc:My Reports",
+        "desc:Report",
+        "desc:Sample Reports",
+        "desc:Settings",
+        "desc:Your Sleep, Read from Your Blood. Your monthly sleep report, read entirely from your blood markers — every insight backed by peer-reviewed research, no wearable needed.",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 62,
+      "firstCaptured": "2026-10-28T07:43:41.174Z",
+      "lastCaptured": "2026-10-28T07:50:16.751Z"
+    },
+    "MainScreen13": {
+      "file": "MainScreen13.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:EMI Starts @ ₹899/Month, Limited Time Offer",
+        "desc:Go back",
+        "desc:google pay",
+        "desc:mastercard",
+        "desc:phonepe",
+        "desc:upi",
+        "desc:visa",
+        "desc:₹9,999/Year, one-time",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 33,
+      "firstCaptured": "2026-10-28T07:44:41.680Z",
+      "lastCaptured": "2026-10-28T08:21:51.464Z"
+    },
+    "CheckoutScreen": {
+      "file": "CheckoutScreen.json",
+      "package": "com.egenome.app",
+      "activity": "com.razorpay.CheckoutActivity",
+      "title": "",
+      "signature": [
+        "desc:primary_webview"
+      ],
+      "elementCount": 1,
+      "firstCaptured": "2026-10-28T07:44:56.654Z",
+      "lastCaptured": "2026-10-28T08:20:11.358Z"
+    },
+    "CheckoutScreen2": {
+      "file": "CheckoutScreen2.json",
+      "package": "com.egenome.app",
+      "activity": "com.razorpay.CheckoutActivity",
+      "title": "",
+      "signature": [
+        "cls:android.webkit.WebView"
+      ],
+      "elementCount": 1,
+      "firstCaptured": "2026-10-28T07:45:01.452Z",
+      "lastCaptured": "2026-10-28T07:45:01.452Z"
+    },
+    "CheckoutScreen3": {
+      "file": "CheckoutScreen3.json",
+      "package": "com.egenome.app",
+      "activity": "com.razorpay.CheckoutActivity",
+      "title": "",
+      "signature": [
+        "desc:Edit Preferences",
+        "desc:Logo",
+        "desc:Privacy Notice",
+        "desc:notification-logo",
+        "hint:Mobile number",
+        "id:account-strip",
+        "id:bottom-container",
+        "id:contact-submit",
+        "id:main-container",
+        "id:main-stack-container",
+        "id:merchant-identity",
+        "id:overlay-backdrop",
+        "id:pop-theme-wrapper",
+        "id:razorpay-checkout-v2-container",
+        "id:scroll-container",
+        "t:About EPIGENOME.AI FU…",
+        "t:Account & Terms",
+        "t:Continue",
+        "t:Continue to payment",
+        "t:Go back",
+        "t:Mobile number",
+        "t:Yes, exit"
+      ],
+      "elementCount": 39,
+      "firstCaptured": "2026-10-28T07:45:10.872Z",
+      "lastCaptured": "2026-10-28T08:20:43.147Z"
+    },
+    "MainScreen14": {
+      "file": "MainScreen14.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Bio Age",
+        "desc:Bio Markers",
+        "desc:Blood Sugar",
+        "desc:Diet Plan",
+        "desc:Download report",
+        "desc:Go back",
+        "desc:Heart",
+        "desc:Plan",
+        "desc:Report Home",
+        "desc:Summary",
+        "desc:Vitamins",
+        "desc:🍯, Blood Sugar, Great!",
+        "desc:💊, Vitamins, Watch it",
+        "desc:🛡️, Defense, Watch it",
+        "desc:🫀, Apo-B, heart, Borderline Low, 61, mg/dl, <68, 68-80, 80-120, 120-138, >138, ApoB is widely considered a more accurate predictor of cardiovascular risk than LDL cholesterol alone. For most adults, a level below 90 mg/dL is optimal, while high-risk individuals (such as those with diabetes) often aim for below 65–70 mg/dL. An elevated ApoB indicates a high concentration of particles that can penetrate and stick to the arterial lining, leading to plaque formation., , View Source",
+        "desc:🫀, Heart, Needs care",
+        "desc:, See My Weekly Menu Plan, ",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 99,
+      "firstCaptured": "2026-10-28T07:45:49.275Z",
+      "lastCaptured": "2026-10-28T07:49:54.002Z"
+    },
+    "MainScreen15": {
+      "file": "MainScreen15.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Bio Age",
+        "desc:Bio Markers",
+        "desc:Diet Plan",
+        "desc:Download report",
+        "desc:Fri",
+        "desc:Full Report",
+        "desc:Go back",
+        "desc:Mon",
+        "desc:Plan",
+        "desc:RCA",
+        "desc:Sun",
+        "desc:Thu",
+        "desc:Tue",
+        "desc:Wed",
+        "desc:",
+        "desc:, Show Details",
+        "desc:",
+        "desc:",
+        "desc:",
+        "desc:, Breakfast, 10:00 AM, Complex carbs",
+        "desc:, Breakfast, 10:00 AM, Complex carbs, fiber",
+        "desc:, Breakfast, 10:00 AM, Fiber, healthy fats",
+        "desc:, Dinner, 08:00 PM (latest), Healthy fats",
+        "desc:, Dinner, 08:00 PM (latest), Veggies, healthy fats",
+        "desc:, Early Morning, 07:00 AM, Antioxidant support",
+        "desc:, Early Morning, 07:00 AM, Antioxidant, detox",
+        "desc:, Early Morning, 07:00 AM, Hydration, anti-inflammatory",
+        "desc:, Lunch, 2:00 PM, Balanced meal",
+        "desc:, Lunch, 2:00 PM, Veggies, fiber",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 113,
+      "firstCaptured": "2026-10-28T07:46:06.034Z",
+      "lastCaptured": "2026-10-28T07:50:10.391Z"
+    },
+    "MainScreen16": {
+      "file": "MainScreen16.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Bio Age",
+        "desc:Diet Plan",
+        "desc:Download report",
+        "desc:Elevated Inflammation, Secondary, Key markers: HS-CRP (HIGH SENSITIVITY C-REACTIVE PROTEIN)",
+        "desc:Full Report",
+        "desc:Go back",
+        "desc:Lymphocytosis, Monitoring, Key markers: Lymphocytes",
+        "desc:Mild Anemia, Primary, Key markers: Mean Corp Volume (MCV), Mean Corp Hb (MCH), Haemoglobin (HB), Red Blood Cell Count (RBC), Deficiencies: Iron, Vitamin B12",
+        "desc:RCA",
+        "desc:^",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 32,
+      "firstCaptured": "2026-10-28T07:46:16.995Z",
+      "lastCaptured": "2026-10-28T07:46:16.995Z"
+    },
+    "MainScreen17": {
+      "file": "MainScreen17.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:10, Critical",
+        "desc:10, Warning",
+        "desc:57, Normal",
+        "desc:77, Total",
+        "desc:Bio Age",
+        "desc:Calcium, 9.6, mg/dl, 8.5-10, ^",
+        "desc:Diet Plan",
+        "desc:Download report",
+        "desc:Fasting Insulin, 5.42, µIU/mL, <4.5, ^",
+        "desc:Full Report",
+        "desc:Go back",
+        "desc:Magnesium, 2, mg/dl, 2.2-2.6, ^",
+        "desc:Potassium, 4.14, mmol/l, 4-5.5, ^",
+        "desc:RCA",
+        "desc:Sodium, 142, mmol/l, 135-145, ^",
+        "desc:Vitamin B12, 617, pg/ml, 750-900, ^",
+        "desc:Vitamin D3, 38.36, ng/ml, 50-150, ^",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 66,
+      "firstCaptured": "2026-10-28T07:46:22.369Z",
+      "lastCaptured": "2026-10-28T07:46:22.369Z"
+    },
+    "MainScreen18": {
+      "file": "MainScreen18.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Home",
+        "desc:JD, , John Doe, Account Holder, Tap to manage profile, ",
+        "desc:Premium Features, 3",
+        "desc:Report",
+        "desc:Settings",
+        "desc:",
+        "desc:, Manage Addresses, ",
+        "desc:, Dark",
+        "desc:, Manage Dependents, ",
+        "desc:, Account Management, 2",
+        "desc:, System",
+        "desc:, Light",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 40,
+      "firstCaptured": "2026-10-28T07:50:19.015Z",
+      "lastCaptured": "2026-10-28T08:23:34.620Z"
+    },
+    "MainScreen19": {
+      "file": "MainScreen19.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Account Management, , 2",
+        "desc:Home",
+        "desc:Premium Features, 3",
+        "desc:Report",
+        "desc:Settings",
+        "desc:, Booking History, ",
+        "desc:, Transaction History, ",
+        "desc:, Help & Support, NEW, ",
+        "desc:",
+        "desc:, Manage Addresses, ",
+        "desc:, Logout, ",
+        "desc:, Manage Dependents, ",
+        "desc:, Support & Help, 1",
+        "desc:, Account Management, 2",
+        "desc:, Account Actions, 1",
+        "desc:, Subscription Management, ",
+        "desc:, Premium Features, 3",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 54,
+      "firstCaptured": "2026-10-28T07:50:21.994Z",
+      "lastCaptured": "2026-10-28T08:32:39.792Z"
+    },
+    "MainScreen20": {
+      "file": "MainScreen20.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Cancel Subscription",
+        "desc:Go back",
+        "desc:Home",
+        "desc:Report",
+        "desc:Settings",
+        "desc:, Email Priority Support, support@egenome.ai, Response time: Within 2 hours, ",
+        "desc:",
+        "desc:, Call Priority Support, +91-7045047045, Mon-Fri: 9:00 AM - 6:00 PM IST, ",
+        "desc:, PHONE, +919999999999, ",
+        "desc:",
+        "desc:, Sample Collection, , Report Generated, Blood sample collection, Sun, 07 Sep, 03:30 PM - 04:30 PM",
+        "desc:, EMAIL, Add & verify email, We'll use this to send your health reports and other updates., ",
+        "desc:, ",
+        "desc:, GENDER, Male, ",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 154,
+      "firstCaptured": "2026-10-28T07:50:43.417Z",
+      "lastCaptured": "2026-10-28T08:32:36.809Z"
+    },
+    "MainScreen21": {
+      "file": "MainScreen21.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Go back",
+        "desc:Home",
+        "desc:Male, ",
+        "desc:Report",
+        "desc:Save",
+        "desc:Settings",
+        "desc:, ",
+        "id:com.egenome.app:id/action_bar_root",
+        "t:Doe",
+        "t:John"
+      ],
+      "elementCount": 32,
+      "firstCaptured": "2026-10-28T07:50:48.620Z",
+      "lastCaptured": "2026-10-28T07:52:00.310Z"
+    },
+    "MainScreen22": {
+      "file": "MainScreen22.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Go back",
+        "desc:Home",
+        "desc:Male, ",
+        "desc:Report",
+        "desc:Save",
+        "desc:Settings",
+        "id:com.egenome.app:id/action_bar_root",
+        "t:4",
+        "t:5",
+        "t:56",
+        "t:Enter email address"
+      ],
+      "elementCount": 36,
+      "firstCaptured": "2026-10-28T07:50:53.499Z",
+      "lastCaptured": "2026-10-28T07:51:41.298Z"
+    },
+    "MainScreen23": {
+      "file": "MainScreen23.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:",
+        "desc:, Female",
+        "desc:, Male, ",
+        "desc:, Other",
+        "desc:, Prefer not to say"
+      ],
+      "elementCount": 16,
+      "firstCaptured": "2026-10-28T07:51:02.190Z",
+      "lastCaptured": "2026-10-28T07:51:02.190Z"
+    },
+    "MainScreen24": {
+      "file": "MainScreen24.json",
+      "package": "com.google.android.photopicker",
+      "activity": "com.android.photopicker.MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Collections",
+        "desc:Drag handle",
+        "desc:Media grid",
+        "desc:More",
+        "desc:Photos"
+      ],
+      "elementCount": 13,
+      "firstCaptured": "2026-10-28T07:51:16.836Z",
+      "lastCaptured": "2026-10-28T07:52:10.551Z"
+    },
+    "MainScreen25": {
+      "file": "MainScreen25.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Confirm & Proceed",
+        "desc:Google Map",
+        "desc:Home",
+        "desc:Map Marker",
+        "desc:Move pin to check availability",
+        "desc:Report",
+        "desc:Save Address Details",
+        "desc:Settings",
+        "desc:",
+        "desc:",
+        "desc:, Work",
+        "desc:",
+        "desc:, Home",
+        "desc:",
+        "desc:, Other",
+        "desc:",
+        "hint:Enter flat, house number, building",
+        "id:com.egenome.app:id/action_bar_root",
+        "id:location-search-input",
+        "t:122001",
+        "t:Enter area, locality, sector",
+        "t:Haryana",
+        "t:Search an area or address",
+        "t:Sector 10",
+        "t:as",
+        "t:sdg"
+      ],
+      "elementCount": 64,
+      "firstCaptured": "2026-10-28T07:52:42.073Z",
+      "lastCaptured": "2026-10-28T07:53:17.704Z"
+    },
+    "GrantPermissionsScreen2": {
+      "file": "GrantPermissionsScreen2.json",
+      "package": "com.google.android.permissioncontroller",
+      "activity": "com.android.permissioncontroller.permission.ui.GrantPermissionsActivity",
+      "title": "",
+      "signature": [
+        "id:com.android.permissioncontroller:id/content_container",
+        "id:com.android.permissioncontroller:id/grant_dialog",
+        "id:com.android.permissioncontroller:id/grant_singleton",
+        "id:com.android.permissioncontroller:id/permission_allow_foreground_only_button",
+        "id:com.android.permissioncontroller:id/permission_allow_one_time_button",
+        "id:com.android.permissioncontroller:id/permission_deny_button",
+        "id:com.android.permissioncontroller:id/permission_icon",
+        "id:com.android.permissioncontroller:id/permission_location_accuracy",
+        "id:com.android.permissioncontroller:id/permission_location_accuracy_radio_coarse",
+        "id:com.android.permissioncontroller:id/permission_location_accuracy_radio_container",
+        "id:com.android.permissioncontroller:id/permission_location_accuracy_radio_fine",
+        "id:com.android.permissioncontroller:id/permission_location_accuracy_radio_group",
+        "id:com.android.permissioncontroller:id/permission_message"
+      ],
+      "elementCount": 13,
+      "firstCaptured": "2026-10-28T07:52:51.959Z",
+      "lastCaptured": "2026-10-28T07:52:51.959Z"
+    },
+    "MainScreen26": {
+      "file": "MainScreen26.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Go back",
+        "desc:Home",
+        "desc:JM, , Johny Mark, Spouse, 30y, ",
+        "desc:Report",
+        "desc:Settings",
+        "desc:, Home, SERVICEABLE, Home Address, sdg, as\nSector 10, Haryana - 122001",
+        "desc:, Home, SERVICEABLE, PRIMARY, Home Address, 123, Main Street, Main Street\nJacobpura, Haryana - 122001",
+        "desc:",
+        "desc:",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 47,
+      "firstCaptured": "2026-10-28T07:53:22.688Z",
+      "lastCaptured": "2026-10-28T07:53:34.597Z"
+    },
+    "MainScreen27": {
+      "file": "MainScreen27.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Go back",
+        "desc:Home",
+        "desc:JM, , Johny Mark, Spouse, 30y, , , +919311235766",
+        "desc:Report",
+        "desc:Settings",
+        "desc:",
+        "desc:, Edit",
+        "desc:, Remove",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 36,
+      "firstCaptured": "2026-10-28T07:53:37.450Z",
+      "lastCaptured": "2026-10-28T07:54:04.185Z"
+    },
+    "MainScreen28": {
+      "file": "MainScreen28.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Go back",
+        "desc:Home",
+        "desc:Report",
+        "desc:September 11, 1996, ",
+        "desc:Settings",
+        "desc:Update Dependent",
+        "desc:, Female, ",
+        "id:com.egenome.app:id/action_bar_root",
+        "t:Johny",
+        "t:Mark"
+      ],
+      "elementCount": 29,
+      "firstCaptured": "2026-10-28T07:53:57.569Z",
+      "lastCaptured": "2026-10-28T07:53:57.569Z"
+    },
+    "MainScreen29": {
+      "file": "MainScreen29.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:All",
+        "desc:Authorized",
+        "desc:Captured",
+        "desc:Created",
+        "desc:Failed",
+        "desc:Go back",
+        "desc:Home",
+        "desc:Refunded",
+        "desc:Report",
+        "desc:Settings",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 28,
+      "firstCaptured": "2026-10-28T07:54:12.173Z",
+      "lastCaptured": "2026-10-28T08:22:11.309Z"
+    },
+    "MainScreen30": {
+      "file": "MainScreen30.json",
+      "package": "com.google.android.dialer",
+      "activity": "com.android.dialer.main.impl.MainActivity",
+      "title": "",
+      "signature": [
+        "id:com.google.android.dialer:id/action_bar_root",
+        "id:com.google.android.dialer:id/deleteButton",
+        "id:com.google.android.dialer:id/dialpad",
+        "id:com.google.android.dialer:id/dialpad_call_buttons",
+        "id:com.google.android.dialer:id/dialpad_key_icon",
+        "id:com.google.android.dialer:id/dialpad_key_letters",
+        "id:com.google.android.dialer:id/dialpad_key_number",
+        "id:com.google.android.dialer:id/dialpad_overflow",
+        "id:com.google.android.dialer:id/dialpad_scalable_contents",
+        "id:com.google.android.dialer:id/dialpad_search_dialpad_view",
+        "id:com.google.android.dialer:id/dialpad_search_root",
+        "id:com.google.android.dialer:id/dialpad_search_search_fragment_view",
+        "id:com.google.android.dialer:id/dialpad_view",
+        "id:com.google.android.dialer:id/dialpad_view_vertical",
+        "id:com.google.android.dialer:id/dialpad_voice_call_button",
+        "id:com.google.android.dialer:id/digits",
+        "id:com.google.android.dialer:id/digits_container",
+        "id:com.google.android.dialer:id/eight",
+        "id:com.google.android.dialer:id/five",
+        "id:com.google.android.dialer:id/four",
+        "id:com.google.android.dialer:id/main_fragment_container",
+        "id:com.google.android.dialer:id/main_fragment_root",
+        "id:com.google.android.dialer:id/main_screen_container",
+        "id:com.google.android.dialer:id/main_screen_coordinator_layout",
+        "id:com.google.android.dialer:id/main_screen_without_navigation_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_active_indicator_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_content_container",
+        "id:com.google.android.dialer:id/navigation_bar_item_icon_container",
+        "id:com.google.android.dialer:id/navigation_bar_item_icon_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_inner_content_container",
+        "id:com.google.android.dialer:id/navigation_bar_item_labels_group",
+        "id:com.google.android.dialer:id/navigation_bar_item_large_label_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_small_label_view",
+        "id:com.google.android.dialer:id/navigation_bar_layout",
+        "id:com.google.android.dialer:id/nine",
+        "id:com.google.android.dialer:id/one",
+        "id:com.google.android.dialer:id/pound",
+        "id:com.google.android.dialer:id/result_container",
+        "id:com.google.android.dialer:id/search_action_image",
+        "id:com.google.android.dialer:id/search_action_text",
+        "id:com.google.android.dialer:id/search_recycler_view",
+        "id:com.google.android.dialer:id/seven",
+        "id:com.google.android.dialer:id/six",
+        "id:com.google.android.dialer:id/star",
+        "id:com.google.android.dialer:id/tab_call_history",
+        "id:com.google.android.dialer:id/tab_dialpad",
+        "id:com.google.android.dialer:id/tab_fragment_container",
+        "id:com.google.android.dialer:id/tab_voicemail",
+        "id:com.google.android.dialer:id/three",
+        "id:com.google.android.dialer:id/two",
+        "id:com.google.android.dialer:id/zero"
+      ],
+      "elementCount": 75,
+      "firstCaptured": "2026-10-28T07:54:56.965Z",
+      "lastCaptured": "2026-10-28T07:54:59.878Z"
+    },
+    "MainScreen31": {
+      "file": "MainScreen31.json",
+      "package": "com.google.android.dialer",
+      "activity": "com.android.dialer.main.impl.MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Banner",
+        "desc:Close",
+        "desc:Open navigation drawer",
+        "id:com.google.android.dialer:id/action_bar_root",
+        "id:com.google.android.dialer:id/action_voice",
+        "id:com.google.android.dialer:id/call_log_recycler_view",
+        "id:com.google.android.dialer:id/call_log_snackbar_container",
+        "id:com.google.android.dialer:id/main_fragment_container",
+        "id:com.google.android.dialer:id/main_fragment_root",
+        "id:com.google.android.dialer:id/main_screen_container",
+        "id:com.google.android.dialer:id/main_screen_coordinator_layout",
+        "id:com.google.android.dialer:id/main_screen_without_navigation_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_active_indicator_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_content_container",
+        "id:com.google.android.dialer:id/navigation_bar_item_icon_container",
+        "id:com.google.android.dialer:id/navigation_bar_item_icon_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_inner_content_container",
+        "id:com.google.android.dialer:id/navigation_bar_item_labels_group",
+        "id:com.google.android.dialer:id/navigation_bar_item_large_label_view",
+        "id:com.google.android.dialer:id/navigation_bar_item_small_label_view",
+        "id:com.google.android.dialer:id/navigation_bar_layout",
+        "id:com.google.android.dialer:id/open_search_bar_text_view",
+        "id:com.google.android.dialer:id/open_search_bar_text_view_container",
+        "id:com.google.android.dialer:id/parent_constraint_layout",
+        "id:com.google.android.dialer:id/search_bar",
+        "id:com.google.android.dialer:id/tab_call_history",
+        "id:com.google.android.dialer:id/tab_dialpad",
+        "id:com.google.android.dialer:id/tab_fragment_container",
+        "id:com.google.android.dialer:id/tab_voicemail"
+      ],
+      "elementCount": 53,
+      "firstCaptured": "2026-10-28T07:55:03.474Z",
+      "lastCaptured": "2026-10-28T07:55:03.474Z"
+    },
+    "MainScreen32": {
+      "file": "MainScreen32.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Go back",
+        "desc:Home",
+        "desc:I didn't use it enough / my needs have changed",
+        "desc:It felt too expensive for what I got",
+        "desc:Report",
+        "desc:Settings",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 26,
+      "firstCaptured": "2026-10-28T07:55:25.040Z",
+      "lastCaptured": "2026-10-28T07:55:25.040Z"
+    },
+    "MainScreen33": {
+      "file": "MainScreen33.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Cancel Subscription",
+        "desc:Go back",
+        "desc:Home",
+        "desc:I faced billing or payment issues",
+        "desc:I found a better or more local app/service",
+        "desc:It felt too expensive for what I got",
+        "desc:Other",
+        "desc:Report",
+        "desc:Settings",
+        "desc:Technical issues or poor app experience",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 23,
+      "firstCaptured": "2026-10-28T07:55:27.922Z",
+      "lastCaptured": "2026-10-28T07:55:27.922Z"
+    },
+    "PermissionsScreen": {
+      "file": "PermissionsScreen.json",
+      "package": "com.google.android.healthconnect.controller",
+      "activity": "com.android.healthconnect.controller.permissions.request.PermissionsActivity",
+      "title": "",
+      "signature": [
+        "id:android:id/list_container",
+        "id:com.android.healthconnect.controller:id/access_info",
+        "id:com.android.healthconnect.controller:id/action_bar_root",
+        "id:com.android.healthconnect.controller:id/action_container",
+        "id:com.android.healthconnect.controller:id/bottom_sheet_fragment_container",
+        "id:com.android.healthconnect.controller:id/container",
+        "id:com.android.healthconnect.controller:id/coordinator",
+        "id:com.android.healthconnect.controller:id/data_access_type",
+        "id:com.android.healthconnect.controller:id/design_bottom_sheet",
+        "id:com.android.healthconnect.controller:id/detailed_permissions",
+        "id:com.android.healthconnect.controller:id/frame",
+        "id:com.android.healthconnect.controller:id/header_area",
+        "id:com.android.healthconnect.controller:id/health_connect_bottom_sheet",
+        "id:com.android.healthconnect.controller:id/icon",
+        "id:com.android.healthconnect.controller:id/pref_container",
+        "id:com.android.healthconnect.controller:id/preference_container",
+        "id:com.android.healthconnect.controller:id/primary_button_outline",
+        "id:com.android.healthconnect.controller:id/privacy_policy",
+        "id:com.android.healthconnect.controller:id/recycler_view",
+        "id:com.android.healthconnect.controller:id/secondary_button",
+        "id:com.android.healthconnect.controller:id/settingslib_main_switch_bar",
+        "id:com.android.healthconnect.controller:id/setup_container",
+        "id:com.android.healthconnect.controller:id/title",
+        "id:com.android.healthconnect.controller:id/touch_outside"
+      ],
+      "elementCount": 25,
+      "firstCaptured": "2026-10-28T07:56:25.042Z",
+      "lastCaptured": "2026-10-28T07:56:25.042Z"
+    },
+    "AllowEGenomeToReadScreen": {
+      "file": "AllowEGenomeToReadScreen.json",
+      "package": "com.google.android.healthconnect.controller",
+      "activity": "com.android.healthconnect.controller.permissions.request.PermissionsActivity",
+      "title": "Allow “eGenome” to read",
+      "signature": [
+        "desc:Activity. 0 of 1 selected. Read Access",
+        "desc:Steps. Read Access. Off",
+        "id:android:id/icon",
+        "id:android:id/list_container",
+        "id:android:id/summary",
+        "id:android:id/switch_widget",
+        "id:android:id/title",
+        "id:android:id/widget_frame",
+        "id:com.android.healthconnect.controller:id/access_info",
+        "id:com.android.healthconnect.controller:id/action_bar_root",
+        "id:com.android.healthconnect.controller:id/action_container",
+        "id:com.android.healthconnect.controller:id/bottom_sheet_fragment_container",
+        "id:com.android.healthconnect.controller:id/container",
+        "id:com.android.healthconnect.controller:id/coordinator",
+        "id:com.android.healthconnect.controller:id/data_access_type",
+        "id:com.android.healthconnect.controller:id/design_bottom_sheet",
+        "id:com.android.healthconnect.controller:id/detailed_permissions",
+        "id:com.android.healthconnect.controller:id/expand_arrow",
+        "id:com.android.healthconnect.controller:id/expand_arrow_frame",
+        "id:com.android.healthconnect.controller:id/frame",
+        "id:com.android.healthconnect.controller:id/health_connect_bottom_sheet",
+        "id:com.android.healthconnect.controller:id/icon_frame",
+        "id:com.android.healthconnect.controller:id/pref_container",
+        "id:com.android.healthconnect.controller:id/preference_container",
+        "id:com.android.healthconnect.controller:id/primary_button_outline",
+        "id:com.android.healthconnect.controller:id/privacy_policy",
+        "id:com.android.healthconnect.controller:id/recycler_view",
+        "id:com.android.healthconnect.controller:id/secondary_button",
+        "id:com.android.healthconnect.controller:id/settingslib_main_switch_bar",
+        "id:com.android.healthconnect.controller:id/setup_container",
+        "id:com.android.healthconnect.controller:id/switchWidget",
+        "id:com.android.healthconnect.controller:id/switch_text",
+        "id:com.android.healthconnect.controller:id/touch_outside"
+      ],
+      "elementCount": 37,
+      "firstCaptured": "2026-10-28T07:56:29.022Z",
+      "lastCaptured": "2026-10-28T07:56:29.022Z"
+    },
+    "MainScreen34": {
+      "file": "MainScreen34.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:+3 more items",
+        "desc:1, Day Streak",
+        "desc:Exercise",
+        "desc:Home",
+        "desc:John Doe, Self, , , ",
+        "desc:Meals",
+        "desc:Report",
+        "desc:Settings",
+        "desc:Supplements",
+        "desc:󰄬, Mark as eaten",
+        "desc:󰅖, Skip",
+        "desc:󰓡, Swap",
+        "desc:󰖜, Early Morning , 󰑊,  07:00 AM, 󰅀",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 48,
+      "firstCaptured": "2026-10-28T07:56:47.302Z",
+      "lastCaptured": "2026-10-28T07:56:50.969Z"
+    },
+    "ChooseAPhoneNumberScreen": {
+      "file": "ChooseAPhoneNumberScreen.json",
+      "package": "com.google.android.gms",
+      "activity": ".auth.api.credentials.assistedsignin.ui.PhoneNumberHintActivity",
+      "title": "Choose a phone number",
+      "signature": [
+        "id:com.google.android.gms:id/action_bar_root",
+        "id:com.google.android.gms:id/bottom_text",
+        "id:com.google.android.gms:id/cancel",
+        "id:com.google.android.gms:id/consent",
+        "id:com.google.android.gms:id/container",
+        "id:com.google.android.gms:id/coordinator",
+        "id:com.google.android.gms:id/description",
+        "id:com.google.android.gms:id/design_bottom_sheet",
+        "id:com.google.android.gms:id/header_icon",
+        "id:com.google.android.gms:id/header_with_logo",
+        "id:com.google.android.gms:id/phone_icon",
+        "id:com.google.android.gms:id/phone_number",
+        "id:com.google.android.gms:id/phone_number_list",
+        "id:com.google.android.gms:id/phone_number_list_item",
+        "id:com.google.android.gms:id/scroll_view_content",
+        "id:com.google.android.gms:id/title",
+        "id:com.google.android.gms:id/touch_outside"
+      ],
+      "elementCount": 17,
+      "firstCaptured": "2026-10-28T08:18:36.415Z",
+      "lastCaptured": "2026-10-28T08:41:13.739Z"
+    },
+    "MainScreen35": {
+      "file": "MainScreen35.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Continue",
+        "desc:OTP digit 1",
+        "desc:OTP digit 2",
+        "desc:OTP digit 3",
+        "desc:OTP digit 4",
+        "desc:OTP digit 5",
+        "desc:OTP digit 6",
+        "desc:Resend OTP in 45s",
+        "desc:Send OTP via WhatsApp",
+        "desc:",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 19,
+      "firstCaptured": "2026-10-28T08:19:13.005Z",
+      "lastCaptured": "2026-10-28T08:19:13.005Z"
+    },
+    "MainScreen36": {
+      "file": "MainScreen36.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Cancel",
+        "desc:Sign Out"
+      ],
+      "elementCount": 6,
+      "firstCaptured": "2026-10-28T08:32:43.378Z",
+      "lastCaptured": "2026-10-28T08:32:43.378Z"
+    },
+    "PhoneNumberHintScreen": {
+      "file": "PhoneNumberHintScreen.json",
+      "package": "com.egenome.app",
+      "activity": ".auth.api.credentials.assistedsignin.ui.PhoneNumberHintActivity",
+      "title": "",
+      "signature": [
+        "desc:Send OTP",
+        "desc:󰅀",
+        "id:com.egenome.app:id/action_bar_root",
+        "t:Enter your mobile number"
+      ],
+      "elementCount": 11,
+      "firstCaptured": "2026-10-28T08:32:50.932Z",
+      "lastCaptured": "2026-10-28T08:32:50.932Z"
+    },
+    "MainScreen37": {
+      "file": "MainScreen37.json",
+      "package": "com.egenome.app",
+      "activity": ".MainActivity",
+      "title": "",
+      "signature": [
+        "desc:Skip",
+        "id:com.egenome.app:id/action_bar_root"
+      ],
+      "elementCount": 8,
+      "firstCaptured": "2026-10-28T08:41:03.071Z",
+      "lastCaptured": "2026-10-28T08:41:03.071Z"
+    }
+  },
+  "transitions": [
+    {
+      "from": "MainScreen",
+      "to": "GrantPermissionsScreen",
+      "via": "manual"
+    },
+    {
+      "from": "GrantPermissionsScreen",
+      "to": "MainScreen2",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen2",
+      "to": "MainScreen3",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen3",
+      "to": "MainScreen4",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen4",
+      "to": "MainScreen5",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen5",
+      "to": "MainScreen6",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen6",
+      "to": "MainScreen7",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen7",
+      "to": "MainScreen5",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen5",
+      "to": "MainScreen8",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen8",
+      "to": "MainScreen9",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen9",
+      "to": "MainScreen8",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen8",
+      "to": "MainScreen10",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen10",
+      "to": "October2026Screen",
+      "via": "manual"
+    },
+    {
+      "from": "October2026Screen",
+      "to": "September2026Screen",
+      "via": "manual"
+    },
+    {
+      "from": "September2026Screen",
+      "to": "August2026Screen",
+      "via": "manual"
+    },
+    {
+      "from": "August2026Screen",
+      "to": "MainScreen11",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen11",
+      "to": "October2026Screen",
+      "via": "manual"
+    },
+    {
+      "from": "October2026Screen",
+      "to": "MainScreen11",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen11",
+      "to": "MainScreen10",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen10",
+      "to": "MainScreen12",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen12",
+      "to": "MainScreen13",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen13",
+      "to": "CheckoutScreen",
+      "via": "manual"
+    },
+    {
+      "from": "CheckoutScreen",
+      "to": "CheckoutScreen2",
+      "via": "manual"
+    },
+    {
+      "from": "CheckoutScreen2",
+      "to": "CheckoutScreen3",
+      "via": "manual"
+    },
+    {
+      "from": "CheckoutScreen3",
+      "to": "MainScreen13",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen13",
+      "to": "MainScreen5",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen5",
+      "to": "MainScreen12",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen12",
+      "to": "MainScreen14",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen14",
+      "to": "MainScreen15",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen15",
+      "to": "MainScreen16",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen16",
+      "to": "MainScreen17",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen17",
+      "to": "MainScreen15",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen15",
+      "to": "MainScreen14",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen15",
+      "to": "MainScreen12",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen12",
+      "to": "MainScreen18",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen18",
+      "to": "MainScreen19",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen19",
+      "to": "MainScreen18",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen18",
+      "to": "MainScreen20",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen20",
+      "to": "MainScreen21",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen21",
+      "to": "MainScreen22",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen22",
+      "to": "MainScreen21",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen21",
+      "to": "MainScreen23",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen23",
+      "to": "MainScreen21",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen21",
+      "to": "MainScreen24",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen24",
+      "to": "MainScreen21",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen21",
+      "to": "MainScreen20",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen20",
+      "to": "MainScreen24",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen24",
+      "to": "MainScreen20",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen20",
+      "to": "MainScreen18",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen19",
+      "to": "MainScreen25",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen25",
+      "to": "GrantPermissionsScreen2",
+      "via": "manual"
+    },
+    {
+      "from": "GrantPermissionsScreen2",
+      "to": "MainScreen25",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen25",
+      "to": "MainScreen26",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen26",
+      "to": "MainScreen19",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen19",
+      "to": "MainScreen26",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen26",
+      "to": "MainScreen27",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen27",
+      "to": "MainScreen28",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen28",
+      "to": "MainScreen27",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen27",
+      "to": "MainScreen19",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen19",
+      "to": "MainScreen29",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen29",
+      "to": "MainScreen19",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen19",
+      "to": "MainScreen20",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen20",
+      "to": "MainScreen30",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen30",
+      "to": "MainScreen31",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen31",
+      "to": "MainScreen20",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen20",
+      "to": "MainScreen19",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen20",
+      "to": "MainScreen32",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen32",
+      "to": "MainScreen33",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen33",
+      "to": "MainScreen20",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen18",
+      "to": "MainScreen5",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen8",
+      "to": "PermissionsScreen",
+      "via": "manual"
+    },
+    {
+      "from": "PermissionsScreen",
+      "to": "AllowEGenomeToReadScreen",
+      "via": "manual"
+    },
+    {
+      "from": "AllowEGenomeToReadScreen",
+      "to": "MainScreen2",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen2",
+      "to": "MainScreen10",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen10",
+      "to": "MainScreen34",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen34",
+      "to": "MainScreen7",
+      "via": "manual"
+    },
+    {
+      "from": "ChooseAPhoneNumberScreen",
+      "to": "MainScreen",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen",
+      "to": "MainScreen35",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen35",
+      "to": "MainScreen2",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen2",
+      "to": "MainScreen13",
+      "via": "manual"
+    },
+    {
+      "from": "CheckoutScreen",
+      "to": "CheckoutScreen3",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen13",
+      "to": "CheckoutScreen3",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen13",
+      "to": "MainScreen7",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen7",
+      "to": "MainScreen19",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen20",
+      "to": "MainScreen7",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen7",
+      "to": "MainScreen13",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen13",
+      "to": "MainScreen2",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen2",
+      "to": "MainScreen18",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen18",
+      "to": "MainScreen2",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen19",
+      "to": "MainScreen36",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen36",
+      "to": "PhoneNumberHintScreen",
+      "via": "manual"
+    },
+    {
+      "from": "PhoneNumberHintScreen",
+      "to": "ChooseAPhoneNumberScreen",
+      "via": "manual"
+    },
+    {
+      "from": "MainScreen37",
+      "to": "ChooseAPhoneNumberScreen",
+      "via": "manual"
+    }
+  ]
+}

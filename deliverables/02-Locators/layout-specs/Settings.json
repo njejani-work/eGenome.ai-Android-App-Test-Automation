@@ -1,0 +1,893 @@
+{
+  "spec": "Settings",
+  "page": "SettingsPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:05:34.397Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "profileCard": {
+      "selector": "android=new UiSelector().descriptionContains(\"Tap to manage profile\")",
+      "box": {
+        "x": 0.0472,
+        "y": 0.0898,
+        "w": 0.9056,
+        "h": 0.1922
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "appearance": {
+      "selector": "android=new UiSelector().text(\"Appearance\")",
+      "text": "Appearance",
+      "box": {
+        "x": 0.1028,
+        "y": 0.3477,
+        "w": 0.8042,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "jdText": {
+      "match": {
+        "text": "JD",
+        "cls": "android.widget.TextView"
+      },
+      "text": "JD",
+      "box": {
+        "x": 0.1764,
+        "y": 0.1695,
+        "w": 0.0667,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "accountHolderText": {
+      "match": {
+        "text": "Account Holder",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Account Holder",
+      "box": {
+        "x": 0.3903,
+        "y": 0.1813,
+        "w": 0.2181,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "tapToManageProfileText": {
+      "match": {
+        "text": "Tap to manage profile",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Tap to manage profile",
+      "box": {
+        "x": 0.3681,
+        "y": 0.2203,
+        "w": 0.4583,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "lightBtn": {
+      "match": {
+        "desc": ", Light"
+      },
+      "box": {
+        "x": 0.1,
+        "y": 0.3984,
+        "w": 0.2653,
+        "h": 0.0578
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "lightText": {
+      "match": {
+        "text": "Light",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Light",
+      "box": {
+        "x": 0.2153,
+        "y": 0.4109,
+        "w": 0.0833,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "darkBtn": {
+      "match": {
+        "desc": ", Dark"
+      },
+      "box": {
+        "x": 0.3653,
+        "y": 0.3984,
+        "w": 0.2667,
+        "h": 0.0578
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "darkText": {
+      "match": {
+        "text": "Dark",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Dark",
+      "box": {
+        "x": 0.4847,
+        "y": 0.4109,
+        "w": 0.075,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "systemBtn": {
+      "match": {
+        "desc": ", System"
+      },
+      "box": {
+        "x": 0.6319,
+        "y": 0.3984,
+        "w": 0.2653,
+        "h": 0.0578
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "systemText": {
+      "match": {
+        "text": "System",
+        "cls": "android.widget.TextView"
+      },
+      "text": "System",
+      "box": {
+        "x": 0.7278,
+        "y": 0.4109,
+        "w": 0.1222,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "accountManagement2Text": {
+      "match": {
+        "desc": ", Account Management, 2"
+      },
+      "box": {
+        "x": 0.0472,
+        "y": 0.5406,
+        "w": 0.9056,
+        "h": 0.0977
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width"
+      ]
+    },
+    "accountManagementText": {
+      "match": {
+        "text": "Account Management",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Account Management",
+      "box": {
+        "x": 0.2208,
+        "y": 0.568,
+        "w": 0.5222,
+        "h": 0.0422
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconBtn": {
+      "match": {
+        "desc": ""
+      },
+      "box": {
+        "x": 0.7639,
+        "y": 0.5719,
+        "w": 0.0611,
+        "h": 0.0344
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "manageAddressesBtn": {
+      "match": {
+        "desc": ", Manage Addresses, "
+      },
+      "box": {
+        "x": 0.0917,
+        "y": 0.6383,
+        "w": 0.8139,
+        "h": 0.075
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "manageAddressesText": {
+      "match": {
+        "text": "Manage Addresses",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Manage Addresses",
+      "box": {
+        "x": 0.2708,
+        "y": 0.6594,
+        "w": 0.5306,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "manageDependentsBtn": {
+      "match": {
+        "desc": ", Manage Dependents, "
+      },
+      "box": {
+        "x": 0.0917,
+        "y": 0.7203,
+        "w": 0.8139,
+        "h": 0.0758
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "manageDependentsText": {
+      "match": {
+        "text": "Manage Dependents",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Manage Dependents",
+      "box": {
+        "x": 0.2708,
+        "y": 0.7414,
+        "w": 0.5306,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "premiumFeatures3Text": {
+      "match": {
+        "desc": "Premium Features, 3"
+      },
+      "box": {
+        "x": 0.0472,
+        "y": 0.8492,
+        "w": 0.9056,
+        "h": 0.0195
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9266,
+        "w": 0.0764,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4556,
+        "y": 0.9266,
+        "w": 0.0875,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7806,
+        "y": 0.9266,
+        "w": 0.1056,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "jdText",
+      "parent": "profileCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "accountHolderText",
+      "parent": "profileCard",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "tapToManageProfileText",
+      "parent": "profileCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "lightText",
+      "parent": "lightBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "darkText",
+      "parent": "darkBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "systemText",
+      "parent": "systemBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "accountManagementText",
+      "parent": "accountManagement2Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconBtn",
+      "parent": "accountManagement2Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "manageAddressesText",
+      "parent": "manageAddressesBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "manageDependentsText",
+      "parent": "manageDependentsBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "homeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "lightBtn",
+        "darkBtn",
+        "systemBtn"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "homeBtn",
+        "reportBtn",
+        "settingsBtn"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "profileCard",
+        "appearance",
+        "lightBtn",
+        "accountManagement2Text",
+        "manageAddressesBtn",
+        "manageDependentsBtn",
+        "premiumFeatures3Text",
+        "homeBtn"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "appearance",
+      "below": "lightBtn",
+      "value": 0.0319
+    },
+    {
+      "type": "gap",
+      "above": "lightBtn",
+      "below": "accountManagement2Text",
+      "value": 0.15
+    },
+    {
+      "type": "gap",
+      "above": "accountManagement2Text",
+      "below": "manageAddressesBtn",
+      "value": 0
+    },
+    {
+      "type": "gap",
+      "above": "manageAddressesBtn",
+      "below": "manageDependentsBtn",
+      "value": 0.0125
+    },
+    {
+      "type": "gap",
+      "above": "manageDependentsBtn",
+      "below": "premiumFeatures3Text",
+      "value": 0.0944
+    },
+    {
+      "type": "gap",
+      "above": "premiumFeatures3Text",
+      "below": "homeBtn",
+      "value": 0
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "appearance",
+        "lightBtn"
+      ]
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "accountManagement2Text",
+        "premiumFeatures3Text"
+      ]
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "manageAddressesBtn",
+        "manageDependentsBtn"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "appearance",
+        "manageAddressesBtn",
+        "manageDependentsBtn"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "accountManagement2Text",
+        "premiumFeatures3Text"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "profileCard"
+    },
+    {
+      "type": "centerX",
+      "el": "appearance"
+    },
+    {
+      "type": "centerX",
+      "el": "darkBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "accountManagement2Text"
+    },
+    {
+      "type": "centerX",
+      "el": "manageAddressesBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "manageDependentsBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "premiumFeatures3Text"
+    },
+    {
+      "type": "centerX",
+      "el": "reportBtn"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "profileCard",
+          "lightBtn"
+        ],
+        [
+          "profileCard",
+          "darkBtn"
+        ],
+        [
+          "profileCard",
+          "systemBtn"
+        ],
+        [
+          "profileCard",
+          "manageAddressesBtn"
+        ],
+        [
+          "profileCard",
+          "manageDependentsBtn"
+        ],
+        [
+          "profileCard",
+          "homeBtn"
+        ],
+        [
+          "profileCard",
+          "reportBtn"
+        ],
+        [
+          "profileCard",
+          "settingsBtn"
+        ],
+        [
+          "lightBtn",
+          "darkBtn"
+        ],
+        [
+          "lightBtn",
+          "systemBtn"
+        ],
+        [
+          "lightBtn",
+          "manageAddressesBtn"
+        ],
+        [
+          "lightBtn",
+          "manageDependentsBtn"
+        ],
+        [
+          "lightBtn",
+          "homeBtn"
+        ],
+        [
+          "lightBtn",
+          "reportBtn"
+        ],
+        [
+          "lightBtn",
+          "settingsBtn"
+        ],
+        [
+          "darkBtn",
+          "systemBtn"
+        ],
+        [
+          "darkBtn",
+          "manageAddressesBtn"
+        ],
+        [
+          "darkBtn",
+          "manageDependentsBtn"
+        ],
+        [
+          "darkBtn",
+          "homeBtn"
+        ],
+        [
+          "darkBtn",
+          "reportBtn"
+        ],
+        [
+          "darkBtn",
+          "settingsBtn"
+        ],
+        [
+          "systemBtn",
+          "manageAddressesBtn"
+        ],
+        [
+          "systemBtn",
+          "manageDependentsBtn"
+        ],
+        [
+          "systemBtn",
+          "homeBtn"
+        ],
+        [
+          "systemBtn",
+          "reportBtn"
+        ],
+        [
+          "systemBtn",
+          "settingsBtn"
+        ],
+        [
+          "manageAddressesBtn",
+          "manageDependentsBtn"
+        ],
+        [
+          "manageAddressesBtn",
+          "homeBtn"
+        ],
+        [
+          "manageAddressesBtn",
+          "reportBtn"
+        ],
+        [
+          "manageAddressesBtn",
+          "settingsBtn"
+        ],
+        [
+          "manageDependentsBtn",
+          "homeBtn"
+        ],
+        [
+          "manageDependentsBtn",
+          "reportBtn"
+        ],
+        [
+          "manageDependentsBtn",
+          "settingsBtn"
+        ],
+        [
+          "homeBtn",
+          "reportBtn"
+        ],
+        [
+          "homeBtn",
+          "settingsBtn"
+        ],
+        [
+          "reportBtn",
+          "settingsBtn"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+ "id": "20261028-144247",
+ "startedAt": 1793178767474,
+ "environment": "staging",
+ "trigger": "local",
+ "host": {
+  "os": "Windows_NT 10.0.26200",
+  "node": "v24.22.1",
+  "user": "Rohan Bansal",
+  "machine": "Egenome"
+ },
+ "specPattern": [
+  "file:///C:/Users/egeno/Downloads/Nishant/Projects/App%20test%20Automation/eGenome.ai/test/specs/login.e2e.js"
+ ],
+ "args": "run ./wdio.conf.js --spec ./test/specs/login.e2e.js",
+ "finishedAt": 1793178903276,
+ "exitCode": 0,
+ "results": {
+  "finished": 1,
+  "passed": 1,
+  "retries": 0,
+  "failed": 0
+ },
+ "status": "passed",
+ "updatedAt": 1793178901874,
+ "durationMs": 135802,
+ "device": {
+  "name": "emulator-5554",
+  "udid": "emulator-5554",
+  "model": "sdk_gphone64_x86_64",
+  "manufacturer": "Google",
+  "platform": "Android",
+  "platformVersion": "17",
+  "apiLevel": 37,
+  "screen": "720x1280",
+  "app": "com.egenome.app"
+ },
+ "specs": [
+  "test/specs/login.e2e.js"
+ ],
+ "totals": {
+  "tests": 6,
+  "passed": 6,
+  "failed": 0,
+  "skipped": 0,
+  "steps": 23,
+  "stepsFailed": 0,
+  "hooksFailed": 0
+ },
+ "tests": [
+  {
+   "id": "0-0-001",
+   "index": 1,
+   "type": "hook",
+   "title": "before",
+   "suite": "Login with mobile number and OTP",
+   "file": "test/specs/login.e2e.js",
+   "status": "passed",
+   "start": 1793178811590,
+   "durationMs": 7315,
+   "steps": [
+    {
+     "n": 1,
+     "title": "Clear app data and relaunch",
+     "kind": "step",
+     "status": "passed",
+     "start": 0,
+     "durationMs": 1245,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t001-s001.png"
+    },
+    {
+     "n": 2,
+     "title": "System Dialogs · Handle all",
+     "call": "SystemDialogs.handleAll({\"timeout\":3000})",
+     "kind": "action",
+     "status": "passed",
+     "start": 3652,
+     "durationMs": 3003,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t001-s002.png"
+    }
+   ],
+   "cid": "0-0"
+  },
+  {
+   "id": "0-0-002",
+   "index": 2,
+   "type": "test",
+   "title": "shows the intro and skips it",
+   "suite": "Login with mobile number and OTP",
+   "file": "test/specs/login.e2e.js",
+   "status": "passed",
+   "start": 1793178819456,
+   "durationMs": 15053,
+   "steps": [
+    {
+     "n": 1,
+     "title": "Onboarding · Wait for open",
+     "call": "OnboardingPage.waitForOpen(30000)",
+     "kind": "action",
+     "status": "passed",
+     "start": 4,
+     "durationMs": 11066,
+     "actions": [
+      {
+       "t": 5,
+       "action": "wait for screen",
+       "target": "OnboardingPage"
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t002-s001.png"
+    },
+    {
+     "n": 2,
+     "title": "Check OnboardingPage.skipBtn is displayed",
+     "call": "expect(OnboardingPage.skipBtn).toBeDisplayed()",
+     "kind": "assertion",
+     "status": "passed",
+     "start": 11652,
+     "durationMs": 0,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t002-s002.png"
+    },
+    {
+     "n": 3,
+     "title": "Onboarding · Skip",
+     "call": "OnboardingPage.skip()",
+     "kind": "action",
+     "status": "passed",
+     "start": 12145,
+     "durationMs": 2254,
+     "actions": [
+      {
+       "t": 12146,
+       "action": "wait for screen",
+       "target": "OnboardingPage"
+      },
+      {
+       "t": 12342,
+       "action": "tap",
+       "target": "desc = \"Skip\""
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t002-s003.png"
+    }
+   ],
+   "cid": "0-0"
+  },
+  {
+   "id": "0-0-003",
+   "index": 3,
+   "type": "test",
+   "title": "shows the login screen",
+   "suite": "Login with mobile number and OTP",
+   "file": "test/specs/login.e2e.js",
+   "status": "passed",
+   "start": 1793178834993,
+   "durationMs": 7306,
+   "steps": [
+    {
+     "n": 1,
+     "title": "Login · Dismiss phone hint",
+     "call": "LoginPage.dismissPhoneHint(5000)",
+     "kind": "action",
+     "status": "passed",
+     "start": 5,
+     "durationMs": 4384,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t003-s001.png"
+    },
+    {
+     "n": 2,
+     "title": "Login · Wait for open",
+     "call": "LoginPage.waitForOpen(20000)",
+     "kind": "action",
+     "status": "passed",
+     "start": 4967,
+     "durationMs": 252,
+     "actions": [
+      {
+       "t": 4967,
+       "action": "wait for screen",
+       "target": "LoginPage"
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t003-s002.png"
+    },
+    {
+     "n": 3,
+     "title": "Check LoginPage.sendOtpBtn is displayed",
+     "call": "expect(LoginPage.sendOtpBtn).toBeDisplayed()",
+     "kind": "assertion",
+     "status": "passed",
+     "start": 6437,
+     "durationMs": 0,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t003-s003.png"
+    },
+    {
+     "n": 4,
+     "title": "Check LoginPage.countryCode has text \"+91\"",
+     "call": "expect(LoginPage.countryCode).toHaveText(\"+91\")",
+     "kind": "assertion",
+     "status": "passed",
+     "start": 6924,
+     "durationMs": 0,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t003-s004.png"
+    }
+   ],
+   "cid": "0-0"
+  },
+  {
+   "id": "0-0-004",
+   "index": 4,
+   "type": "test",
+   "title": "sends an OTP to the entered mobile number",
+   "suite": "Login with mobile number and OTP",
+   "file": "test/specs/login.e2e.js",
+   "status": "passed",
+   "start": 1793178842441,
+   "durationMs": 18789,
+   "steps": [
+    {
+     "n": 1,
+     "title": "Login · Request OTP",
+     "call": "LoginPage.requestOtp(\"9999999999\")",
+     "kind": "action",
+     "status": "passed",
+     "start": 1,
+     "durationMs": 16624,
+     "actions": [
+      {
+       "t": 6069,
+       "action": "wait for screen",
+       "target": "LoginPage"
+      },
+      {
+       "t": 14776,
+       "action": "tap",
+       "target": "desc = \"Send OTP\""
+      },
+      {
+       "t": 15150,
+       "action": "wait for screen",
+       "target": "OtpPage"
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t004-s001.png"
+    },
+    {
+     "n": 2,
+     "title": "Check OtpPage.title is displayed",
+     "call": "expect(OtpPage.title).toBeDisplayed()",
+     "kind": "assertion",
+     "status": "passed",
+     "start": 17349,
+     "durationMs": 0,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t004-s002.png"
+    },
+    {
+     "n": 3,
+     "title": "Otp · Get sent to number",
+     "call": "OtpPage.getSentToNumber()",
+     "kind": "action",
+     "status": "passed",
+     "start": 17703,
+     "durationMs": 710,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t004-s003.png"
+    }
+   ],
+   "cid": "0-0"
+  },
+  {
+   "id": "0-0-005",
+   "index": 5,
+   "type": "test",
+   "title": "logs in with the correct OTP and lands on Home",
+   "suite": "Login with mobile number and OTP",
+   "file": "test/specs/login.e2e.js",
+   "status": "passed",
+   "start": 1793178861807,
+   "durationMs": 24584,
+   "steps": [
+    {
+     "n": 1,
+     "title": "Otp · Submit OTP",
+     "call": "OtpPage.submitOtp(\"••••••\")",
+     "kind": "action",
+     "status": "passed",
+     "start": 1,
+     "durationMs": 18777,
+     "actions": [
+      {
+       "t": 1,
+       "action": "wait for screen",
+       "target": "OtpPage"
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t005-s001.png"
+    },
+    {
+     "n": 2,
+     "title": "System Dialogs · Handle all",
+     "call": "SystemDialogs.handleAll()",
+     "kind": "action",
+     "status": "passed",
+     "start": 19565,
+     "durationMs": 3459,
+     "actions": [
+      {
+       "t": 20505,
+       "action": "tap",
+       "target": "id matches \".*:id/permission_allow_button\""
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t005-s002.png"
+    },
+    {
+     "n": 3,
+     "title": "Home · Wait for open",
+     "call": "HomePage.waitForOpen(30000)",
+     "kind": "action",
+     "status": "passed",
+     "start": 23316,
+     "durationMs": 343,
+     "actions": [
+      {
+       "t": 23316,
+       "action": "wait for screen",
+       "target": "HomePage"
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t005-s003.png"
+    },
+    {
+     "n": 4,
+     "title": "Check value is existing",
+     "call": "expect(…).toBeExisting()",
+     "kind": "assertion",
+     "status": "passed",
+     "start": 24251,
+     "durationMs": 0,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t005-s004.png"
+    }
+   ],
+   "cid": "0-0"
+  },
+  {
+   "id": "0-0-006",
+   "index": 6,
+   "type": "test",
+   "title": "keeps the session when sign-out is cancelled",
+   "suite": "Login with mobile number and OTP",
+   "file": "test/specs/login.e2e.js",
+   "status": "passed",
+   "start": 1793178886681,
+   "durationMs": 8153,
+   "steps": [
+    {
+     "n": 1,
+     "title": "Settings · Open",
+     "call": "SettingsPage.open()",
+     "kind": "action",
+     "status": "passed",
+     "start": 1,
+     "durationMs": 1356,
+     "actions": [
+      {
+       "t": 1,
+       "action": "tap",
+       "target": "desc = \"Settings\""
+      },
+      {
+       "t": 358,
+       "action": "wait for screen",
+       "target": "SettingsPage"
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t006-s001.png"
+    },
+    {
+     "n": 2,
+     "title": "Settings · Cancel logout",
+     "call": "SettingsPage.cancelLogout()",
+     "kind": "action",
+     "status": "passed",
+     "start": 1737,
+     "durationMs": 5578,
+     "actions": [
+      {
+       "t": 1737,
+       "action": "tap",
+       "target": "desc matches \".+, Logout(, .*)?\""
+      },
+      {
+       "t": 1738,
+       "action": "scroll down to",
+       "target": "desc matches \".+, Logout(, .*)?\""
+      },
+      {
+       "t": 6475,
+       "action": "tap",
+       "target": "desc = \"Cancel\""
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t006-s002.png"
+    },
+    {
+     "n": 3,
+     "title": "Check value is displayed",
+     "call": "expect(…).toBeDisplayed()",
+     "kind": "assertion",
+     "status": "passed",
+     "start": 7800,
+     "durationMs": 0,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t006-s003.png"
+    }
+   ],
+   "cid": "0-0"
+  },
+  {
+   "id": "0-0-007",
+   "index": 7,
+   "type": "test",
+   "title": "signs out and returns to the login screen",
+   "suite": "Login with mobile number and OTP",
+   "file": "test/specs/login.e2e.js",
+   "status": "passed",
+   "start": 1793178895025,
+   "durationMs": 6829,
+   "steps": [
+    {
+     "n": 1,
+     "title": "Settings · Logout",
+     "call": "SettingsPage.logout()",
+     "kind": "action",
+     "status": "passed",
+     "start": 1,
+     "durationMs": 1500,
+     "actions": [
+      {
+       "t": 2,
+       "action": "tap",
+       "target": "desc matches \".+, Logout(, .*)?\""
+      },
+      {
+       "t": 2,
+       "action": "scroll down to",
+       "target": "desc matches \".+, Logout(, .*)?\""
+      },
+      {
+       "t": 1324,
+       "action": "tap",
+       "target": "desc = \"Sign Out\""
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t007-s001.png"
+    },
+    {
+     "n": 2,
+     "title": "Login · Dismiss phone hint",
+     "call": "LoginPage.dismissPhoneHint(5000)",
+     "kind": "action",
+     "status": "passed",
+     "start": 1854,
+     "durationMs": 2948,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t007-s002.png"
+    },
+    {
+     "n": 3,
+     "title": "Login · Wait for open",
+     "call": "LoginPage.waitForOpen(20000)",
+     "kind": "action",
+     "status": "passed",
+     "start": 5269,
+     "durationMs": 243,
+     "actions": [
+      {
+       "t": 5269,
+       "action": "wait for screen",
+       "target": "LoginPage"
+      }
+     ],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t007-s003.png"
+    },
+    {
+     "n": 4,
+     "title": "Check LoginPage.sendOtpBtn is displayed",
+     "call": "expect(LoginPage.sendOtpBtn).toBeDisplayed()",
+     "kind": "assertion",
+     "status": "passed",
+     "start": 6382,
+     "durationMs": 0,
+     "actions": [],
+     "screenshot": "runs/20261028-144247/screenshots/0-0/t007-s004.png"
+    }
+   ],
+   "cid": "0-0"
+  }
+ ]
+}

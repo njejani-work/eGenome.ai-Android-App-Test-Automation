@@ -1,0 +1,753 @@
+{
+  "screen": "PermissionsScreen",
+  "package": "com.google.android.healthconnect.controller",
+  "activity": "com.android.healthconnect.controller.permissions.request.PermissionsActivity",
+  "title": "",
+  "firstCaptured": "2026-10-28T07:56:25.038Z",
+  "elements": {
+    "actionBarRootView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/action_bar_root|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/action_bar_root",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/action_bar_root\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/action_bar_root",
+        "clickable": false,
+        "bounds": "[0,0][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "containerView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/container",
+        "clickable": false,
+        "bounds": "[0,0][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "coordinatorView": {
+      "key": "android.view.ViewGroup|id:com.android.healthconnect.controller:id/coordinator|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/coordinator",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@resource-id=\"com.android.healthconnect.controller:id/coordinator\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.android.healthconnect.controller:id/coordinator",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "touchOutsideBtn": {
+      "key": "android.view.View|id:com.android.healthconnect.controller:id/touch_outside|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/touch_outside",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"com.android.healthconnect.controller:id/touch_outside\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "com.android.healthconnect.controller:id/touch_outside",
+        "clickable": true,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "designBottomSheetView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/design_bottom_sheet|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/design_bottom_sheet",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/design_bottom_sheet\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/design_bottom_sheet",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "healthConnectBottomSheetView": {
+      "key": "android.widget.RelativeLayout|id:com.android.healthconnect.controller:id/health_connect_bottom_sheet|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/health_connect_bottom_sheet",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.RelativeLayout[@resource-id=\"com.android.healthconnect.controller:id/health_connect_bottom_sheet\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.RelativeLayout",
+        "resourceId": "com.android.healthconnect.controller:id/health_connect_bottom_sheet",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "bottomSheetFragmentContainerView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/bottom_sheet_fragment_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/bottom_sheet_fragment_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/bottom_sheet_fragment_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/bottom_sheet_fragment_container",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "setupContainerView": {
+      "key": "android.widget.RelativeLayout|id:com.android.healthconnect.controller:id/setup_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/setup_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.RelativeLayout[@resource-id=\"com.android.healthconnect.controller:id/setup_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.RelativeLayout",
+        "resourceId": "com.android.healthconnect.controller:id/setup_container",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "preferenceContainerView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/preference_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/preference_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/preference_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/preference_container",
+        "clickable": false,
+        "bounds": "[0,48][720,1050]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "prefContainerView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/pref_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/pref_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/pref_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/pref_container",
+        "clickable": false,
+        "bounds": "[0,48][720,1050]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "listContainerView": {
+      "key": "android.widget.FrameLayout|id:android:id/list_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=android:id/list_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"android:id/list_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "android:id/list_container",
+        "clickable": false,
+        "bounds": "[0,48][720,1050]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "recyclerList": {
+      "key": "androidx.recyclerview.widget.RecyclerView|id:com.android.healthconnect.controller:id/recycler_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/recycler_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//androidx.recyclerview.widget.RecyclerView[@resource-id=\"com.android.healthconnect.controller:id/recycler_view\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "androidx.recyclerview.widget.RecyclerView",
+        "resourceId": "com.android.healthconnect.controller:id/recycler_view",
+        "clickable": false,
+        "scrollable": true,
+        "bounds": "[0,48][720,1050]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "headerAreaView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/header_area|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/header_area",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/header_area\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/header_area",
+        "clickable": false,
+        "bounds": "[48,80][672,524]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "iconImage": {
+      "key": "android.widget.ImageView|id:com.android.healthconnect.controller:id/icon|desc:",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.ImageView[@resource-id=\"com.android.healthconnect.controller:id/icon\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.android.healthconnect.controller:id/icon\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "id",
+          "selector": "id=com.android.healthconnect.controller:id/icon",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageView",
+        "resourceId": "com.android.healthconnect.controller:id/icon",
+        "clickable": false,
+        "bounds": "[312,80][408,176]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "titleText": {
+      "key": "android.widget.TextView|id:com.android.healthconnect.controller:id/title|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/title",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Allow eGenome to access your fitness and wellness data?\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.android.healthconnect.controller:id/title\" and @text=\"Allow eGenome to access your fitness and wellness data?\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.android.healthconnect.controller:id/title",
+        "text": "Allow eGenome to access your fitness and wellness data?",
+        "clickable": false,
+        "bounds": "[48,176][672,524]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "detailedPermissionsView": {
+      "key": "android.widget.LinearLayout|id:com.android.healthconnect.controller:id/detailed_permissions|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/detailed_permissions",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.android.healthconnect.controller:id/detailed_permissions\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.android.healthconnect.controller:id/detailed_permissions",
+        "clickable": false,
+        "bounds": "[48,524][672,974]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "dataAccessTypeText": {
+      "key": "android.widget.TextView|id:com.android.healthconnect.controller:id/data_access_type|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/data_access_type",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.android.healthconnect.controller:id/data_access_type\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.android.healthconnect.controller:id/data_access_type",
+        "text": "Choose which fitness and wellness data this app can access. This includes data tracked and stored on this device, learn more about how your data is accessed",
+        "clickable": false,
+        "bounds": "[48,524][672,738]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "accessInfoText": {
+      "key": "android.widget.TextView|id:com.android.healthconnect.controller:id/access_info|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/access_info",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.android.healthconnect.controller:id/access_info\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.android.healthconnect.controller:id/access_info",
+        "text": "If you give read access, the app can read new data and data from the past 30 days",
+        "clickable": false,
+        "bounds": "[48,738][672,856]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "privacyPolicyText": {
+      "key": "android.widget.TextView|id:com.android.healthconnect.controller:id/privacy_policy|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/privacy_policy",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.android.healthconnect.controller:id/privacy_policy\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.android.healthconnect.controller:id/privacy_policy",
+        "text": "You can learn how eGenome handles your data in their privacy policy",
+        "clickable": false,
+        "bounds": "[48,856][672,974]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "btn": {
+      "key": "android.widget.FrameLayout|xpath:/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": "[0,1010][720,1050]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "settingslibMainSwitchBarBtn": {
+      "key": "android.widget.LinearLayout|id:com.android.healthconnect.controller:id/settingslib_main_switch_bar|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/settingslib_main_switch_bar",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.android.healthconnect.controller:id/settingslib_main_switch_bar\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.android.healthconnect.controller:id/settingslib_main_switch_bar",
+        "clickable": true,
+        "bounds": "[32,1010][688,1050]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "frameView": {
+      "key": "android.widget.LinearLayout|id:com.android.healthconnect.controller:id/frame|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/frame",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.android.healthconnect.controller:id/frame\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.android.healthconnect.controller:id/frame",
+        "clickable": false,
+        "bounds": "[32,1042][688,1050]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "actionContainerView": {
+      "key": "android.widget.FrameLayout|id:com.android.healthconnect.controller:id/action_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/action_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.android.healthconnect.controller:id/action_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.android.healthconnect.controller:id/action_container",
+        "clickable": false,
+        "bounds": "[0,1050][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "secondaryBtn": {
+      "key": "android.widget.Button|id:com.android.healthconnect.controller:id/secondary_button|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/secondary_button",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Don't allow\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@resource-id=\"com.android.healthconnect.controller:id/secondary_button\" and @text=\"Don't allow\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "resourceId": "com.android.healthconnect.controller:id/secondary_button",
+        "text": "Don't allow",
+        "clickable": true,
+        "bounds": "[48,1082][352,1200]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    },
+    "primaryOutlineBtn": {
+      "key": "android.widget.Button|id:com.android.healthconnect.controller:id/primary_button_outline|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.android.healthconnect.controller:id/primary_button_outline",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Allow\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@resource-id=\"com.android.healthconnect.controller:id/primary_button_outline\" and @text=\"Allow\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.Button[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "resourceId": "com.android.healthconnect.controller:id/primary_button_outline",
+        "text": "Allow",
+        "clickable": true,
+        "bounds": "[368,1082][672,1200]"
+      },
+      "firstSeen": "2026-10-28T07:56:25.038Z",
+      "lastSeen": "2026-10-28T07:56:25.038Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T07:56:25.038Z",
+  "captures": 1
+}

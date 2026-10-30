@@ -1,0 +1,339 @@
+{
+  "spec": "Addresses",
+  "page": "AddressesPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:08:29.560Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Manage Addresses\")",
+      "text": "Manage Addresses",
+      "box": {
+        "x": 0.2847,
+        "y": 0.05,
+        "w": 0.4306,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0444,
+        "y": 0.032,
+        "w": 0.1222,
+        "h": 0.0688
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "addBtn": {
+      "selector": "android=new UiSelector().description(\"\")",
+      "box": {
+        "x": 0.8389,
+        "y": 0.0359,
+        "w": 0.1222,
+        "h": 0.0609
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "primaryCard": {
+      "selector": "android=new UiSelector().descriptionContains(\", PRIMARY, \")",
+      "box": {
+        "x": 0.0444,
+        "y": 0.1203,
+        "w": 0.9111,
+        "h": 0.2656
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "primaryText": {
+      "match": {
+        "text": "PRIMARY",
+        "cls": "android.widget.TextView"
+      },
+      "text": "PRIMARY",
+      "box": {
+        "x": 0.6444,
+        "y": 0.1586,
+        "w": 0.0972,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4556,
+        "y": 0.9266,
+        "w": 0.0875,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7806,
+        "y": 0.9266,
+        "w": 0.1056,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "primaryText",
+      "parent": "primaryCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "backBtn",
+        "addBtn",
+        "title"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "homeBtn",
+        "reportBtn",
+        "settingsBtn"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "backBtn",
+        "primaryCard",
+        "homeBtn"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "primaryCard"
+    },
+    {
+      "type": "centerX",
+      "el": "reportBtn"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "backBtn",
+          "addBtn"
+        ],
+        [
+          "backBtn",
+          "primaryCard"
+        ],
+        [
+          "backBtn",
+          "homeBtn"
+        ],
+        [
+          "backBtn",
+          "reportBtn"
+        ],
+        [
+          "backBtn",
+          "settingsBtn"
+        ],
+        [
+          "addBtn",
+          "primaryCard"
+        ],
+        [
+          "addBtn",
+          "homeBtn"
+        ],
+        [
+          "addBtn",
+          "reportBtn"
+        ],
+        [
+          "addBtn",
+          "settingsBtn"
+        ],
+        [
+          "primaryCard",
+          "homeBtn"
+        ],
+        [
+          "primaryCard",
+          "reportBtn"
+        ],
+        [
+          "primaryCard",
+          "settingsBtn"
+        ],
+        [
+          "homeBtn",
+          "reportBtn"
+        ],
+        [
+          "homeBtn",
+          "settingsBtn"
+        ],
+        [
+          "reportBtn",
+          "settingsBtn"
+        ]
+      ]
+    }
+  ]
+}

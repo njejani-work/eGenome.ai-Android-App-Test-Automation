@@ -1,0 +1,525 @@
+{
+  "screen": "ChooseAPhoneNumberScreen",
+  "package": "com.google.android.gms",
+  "activity": ".auth.api.credentials.assistedsignin.ui.PhoneNumberHintActivity",
+  "title": "Choose a phone number",
+  "firstCaptured": "2026-10-28T08:18:36.412Z",
+  "elements": {
+    "actionBarRootView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.gms:id/action_bar_root|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/action_bar_root",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.gms:id/action_bar_root\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.gms:id/action_bar_root",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "containerView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.gms:id/container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.gms:id/container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.gms:id/container",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "coordinatorView": {
+      "key": "android.view.ViewGroup|id:com.google.android.gms:id/coordinator|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/coordinator",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@resource-id=\"com.google.android.gms:id/coordinator\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.google.android.gms:id/coordinator",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "touchOutsideBtn": {
+      "key": "android.view.View|id:com.google.android.gms:id/touch_outside|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/touch_outside",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"com.google.android.gms:id/touch_outside\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "com.google.android.gms:id/touch_outside",
+        "clickable": true,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "designBottomSheetView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.gms:id/design_bottom_sheet|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/design_bottom_sheet",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.gms:id/design_bottom_sheet\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.gms:id/design_bottom_sheet",
+        "clickable": false,
+        "bounds": "[0,464][720,1280]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "headerWithLogoView": {
+      "key": "android.widget.LinearLayout|id:com.google.android.gms:id/header_with_logo|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/header_with_logo",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.google.android.gms:id/header_with_logo\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.gms:id/header_with_logo",
+        "clickable": false,
+        "bounds": "[48,512][672,608]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "headerIconImage": {
+      "key": "android.widget.ImageView|id:com.google.android.gms:id/header_icon|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/header_icon",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.ImageView[@resource-id=\"com.google.android.gms:id/header_icon\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageView",
+        "resourceId": "com.google.android.gms:id/header_icon",
+        "clickable": false,
+        "bounds": "[48,536][96,584]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "cancelBtn": {
+      "key": "android.widget.ImageView|id:com.google.android.gms:id/cancel|desc:Cancel",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Cancel",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.gms:id/cancel",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.ImageView[@resource-id=\"com.google.android.gms:id/cancel\" and @content-desc=\"Cancel\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageView",
+        "resourceId": "com.google.android.gms:id/cancel",
+        "contentDesc": "Cancel",
+        "clickable": true,
+        "bounds": "[576,512][672,608]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "scrollContentView": {
+      "key": "android.widget.LinearLayout|id:com.google.android.gms:id/scroll_view_content|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/scroll_view_content",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.google.android.gms:id/scroll_view_content\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.gms:id/scroll_view_content",
+        "clickable": false,
+        "bounds": "[48,640][672,1232]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "titleText": {
+      "key": "android.widget.TextView|id:com.google.android.gms:id/title|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/title",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Choose a phone number\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.gms:id/title\" and @text=\"Choose a phone number\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.gms:id/title",
+        "text": "Choose a phone number",
+        "clickable": false,
+        "bounds": "[48,640][672,706]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "consentText": {
+      "key": "android.widget.TextView|id:com.google.android.gms:id/consent|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/consent",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.gms:id/consent\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.gms:id/consent",
+        "text": "You can choose a phone number that's assigned to your phone, and Google will share it only with this app.",
+        "clickable": false,
+        "bounds": "[48,722][672,848]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "descriptionText": {
+      "key": "android.widget.TextView|id:com.google.android.gms:id/description|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/description",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.gms:id/description\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.gms:id/description",
+        "text": "Google won't store the phone number you share with this app in your Google account",
+        "clickable": false,
+        "bounds": "[48,864][672,948]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "phoneNumberList": {
+      "key": "android.support.v7.widget.RecyclerView|id:com.google.android.gms:id/phone_number_list|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/phone_number_list",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.support.v7.widget.RecyclerView[@resource-id=\"com.google.android.gms:id/phone_number_list\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.support.v7.widget.RecyclerView",
+        "resourceId": "com.google.android.gms:id/phone_number_list",
+        "clickable": false,
+        "bounds": "[48,964][672,1084]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "phoneNumberListItemBtn": {
+      "key": "android.widget.LinearLayout|id:com.google.android.gms:id/phone_number_list_item|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/phone_number_list_item",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.google.android.gms:id/phone_number_list_item\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.gms:id/phone_number_list_item",
+        "clickable": true,
+        "bounds": "[48,964][672,1084]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "phoneIconImage": {
+      "key": "android.widget.ImageView|id:com.google.android.gms:id/phone_icon|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/phone_icon",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.ImageView[@resource-id=\"com.google.android.gms:id/phone_icon\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageView",
+        "resourceId": "com.google.android.gms:id/phone_icon",
+        "clickable": false,
+        "bounds": "[96,998][148,1050]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "phoneNumberText": {
+      "key": "android.widget.TextView|id:com.google.android.gms:id/phone_number|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/phone_number",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"(555) 123-4567\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.gms:id/phone_number\" and @text=\"(555) 123-4567\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.gms:id/phone_number",
+        "text": "(555) 123-4567",
+        "clickable": false,
+        "bounds": "[164,1003][360,1045]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    },
+    "bottomText": {
+      "key": "android.widget.TextView|id:com.google.android.gms:id/bottom_text|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.gms:id/bottom_text",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.gms:id/bottom_text\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.widget.TextView[4]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.gms:id/bottom_text",
+        "text": "You can update your phone number sharing preference in your device settings.",
+        "clickable": false,
+        "bounds": "[48,1100][672,1184]"
+      },
+      "firstSeen": "2026-10-28T08:18:36.413Z",
+      "lastSeen": "2026-10-28T08:41:13.737Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T08:41:13.737Z",
+  "captures": 3
+}

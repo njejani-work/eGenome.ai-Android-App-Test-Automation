@@ -1,0 +1,661 @@
+{
+  "spec": "ReportDetail",
+  "page": "ReportDetailPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:04:04.851Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().textMatches(\"Month \\\\d+ Report\")",
+      "text": "Month 1 Report",
+      "box": {
+        "x": 0.3153,
+        "y": 0.0602,
+        "w": 0.3667,
+        "h": 0.0422
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0444,
+        "y": 0.0531,
+        "w": 0.1,
+        "h": 0.0563
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "downloadBtn": {
+      "selector": "android=new UiSelector().description(\"Download report\")",
+      "box": {
+        "x": 0.8556,
+        "y": 0.0531,
+        "w": 0.1,
+        "h": 0.0563
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportHomeBtn": {
+      "match": {
+        "desc": "Report Home"
+      },
+      "box": {
+        "x": 0.0444,
+        "y": 0.1375,
+        "w": 0.3139,
+        "h": 0.0641
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportHomeText": {
+      "match": {
+        "text": "Report Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report Home",
+      "box": {
+        "x": 0.0917,
+        "y": 0.1547,
+        "w": 0.2194,
+        "h": 0.0297
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "planBtn": {
+      "match": {
+        "desc": "Plan"
+      },
+      "box": {
+        "x": 0.6986,
+        "y": 0.1375,
+        "w": 0.1639,
+        "h": 0.0641
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "planText": {
+      "match": {
+        "text": "Plan",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Plan",
+      "box": {
+        "x": 0.7458,
+        "y": 0.1547,
+        "w": 0.0694,
+        "h": 0.0297
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dietPlanBtn": {
+      "match": {
+        "desc": "Diet Plan"
+      },
+      "box": {
+        "x": 0.8903,
+        "y": 0.1375,
+        "w": 0.1097,
+        "h": 0.0641
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "dietPlanText": {
+      "match": {
+        "text": "Diet Plan",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Diet Plan",
+      "box": {
+        "x": 0.9375,
+        "y": 0.1547,
+        "w": 0.0625,
+        "h": 0.0297
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "hereSYourCustomizedText": {
+      "match": {
+        "text": "Here's your customized AI health insights",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Here's your customized AI health insights",
+      "box": {
+        "x": 0.1375,
+        "y": 0.3289,
+        "w": 0.7236,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "month1Text": {
+      "match": {
+        "text": "Month 1",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Month 1",
+      "box": {
+        "x": 0.1472,
+        "y": 0.3805,
+        "w": 0.1,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "cvdRiskText": {
+      "match": {
+        "text": "📊 CVD Risk",
+        "cls": "android.widget.TextView"
+      },
+      "text": "📊 CVD Risk",
+      "box": {
+        "x": 0.3111,
+        "y": 0.3805,
+        "w": 0.1583,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "healthPlanText": {
+      "match": {
+        "text": "Health Plan",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Health Plan",
+      "box": {
+        "x": 0.5236,
+        "y": 0.3805,
+        "w": 0.1431,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bioAgeText": {
+      "match": {
+        "text": "⚡ Bio Age",
+        "cls": "android.widget.TextView"
+      },
+      "text": "⚡ Bio Age",
+      "box": {
+        "x": 0.7194,
+        "y": 0.3805,
+        "w": 0.1403,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "newInsightsText": {
+      "match": {
+        "text": "✨ New Insights",
+        "cls": "android.widget.TextView"
+      },
+      "text": "✨ New Insights",
+      "box": {
+        "x": 0.3958,
+        "y": 0.4313,
+        "w": 0.2056,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "yourBiologicalAgeText": {
+      "match": {
+        "text": "Your Biological Age",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Your Biological Age",
+      "box": {
+        "x": 0.2181,
+        "y": 0.5727,
+        "w": 0.5611,
+        "h": 0.0484
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "yearsText": {
+      "match": {
+        "text": "Years",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Years",
+      "box": {
+        "x": 0.4528,
+        "y": 0.7648,
+        "w": 0.0944,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "yourBodyIsTellingText": {
+      "match": {
+        "text": "Your body is telling an important story. We are identifying specific areas where targeted changes can help you reclaim your lost years.",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Your body is telling an important story. We are identifying specific areas where targeted changes can help you reclaim your lost years.",
+      "box": {
+        "x": 0.0931,
+        "y": 0.8789,
+        "w": 0.8139,
+        "h": 0.0891
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "🫀",
+        "cls": "android.widget.TextView"
+      },
+      "text": "🫀",
+      "box": {
+        "x": 0.1847,
+        "y": 0.9938,
+        "w": 0.0833,
+        "h": 0.0063
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "🍯",
+        "cls": "android.widget.TextView"
+      },
+      "text": "🍯",
+      "box": {
+        "x": 0.4556,
+        "y": 0.9938,
+        "w": 0.0833,
+        "h": 0.0063
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText3": {
+      "match": {
+        "text": "💊",
+        "cls": "android.widget.TextView"
+      },
+      "text": "💊",
+      "box": {
+        "x": 0.7278,
+        "y": 0.9938,
+        "w": 0.0833,
+        "h": 0.0063
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "reportHomeText",
+      "parent": "reportHomeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "planText",
+      "parent": "planBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "dietPlanText",
+      "parent": "dietPlanBtn",
+      "centered": false
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "backBtn",
+        "downloadBtn",
+        "title"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "reportHomeBtn",
+        "planBtn",
+        "dietPlanBtn"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "month1Text",
+        "cvdRiskText",
+        "healthPlanText",
+        "bioAgeText"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "iconText",
+        "iconText2",
+        "iconText3"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "backBtn",
+        "reportHomeBtn",
+        "hereSYourCustomizedText",
+        "month1Text",
+        "newInsightsText",
+        "yourBiologicalAgeText",
+        "yearsText",
+        "yourBodyIsTellingText",
+        "iconText"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "backBtn",
+      "below": "reportHomeBtn",
+      "value": 0.05
+    },
+    {
+      "type": "gap",
+      "above": "reportHomeBtn",
+      "below": "hereSYourCustomizedText",
+      "value": 0.2264
+    },
+    {
+      "type": "gap",
+      "above": "hereSYourCustomizedText",
+      "below": "month1Text",
+      "value": 0.0333
+    },
+    {
+      "type": "gap",
+      "above": "month1Text",
+      "below": "newInsightsText",
+      "value": 0.0319
+    },
+    {
+      "type": "gap",
+      "above": "newInsightsText",
+      "below": "yourBiologicalAgeText",
+      "value": 0.1931
+    },
+    {
+      "type": "gap",
+      "above": "yourBiologicalAgeText",
+      "below": "yearsText",
+      "value": 0.2556
+    },
+    {
+      "type": "gap",
+      "above": "yearsText",
+      "below": "yourBodyIsTellingText",
+      "value": 0.1444
+    },
+    {
+      "type": "gap",
+      "above": "yourBodyIsTellingText",
+      "below": "iconText",
+      "value": 0.0458
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "backBtn",
+        "reportHomeBtn"
+      ]
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "yearsText",
+        "iconText2"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "planBtn",
+        "hereSYourCustomizedText",
+        "bioAgeText"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "hereSYourCustomizedText"
+    },
+    {
+      "type": "centerX",
+      "el": "newInsightsText"
+    },
+    {
+      "type": "centerX",
+      "el": "yourBiologicalAgeText"
+    },
+    {
+      "type": "centerX",
+      "el": "yearsText"
+    },
+    {
+      "type": "centerX",
+      "el": "yourBodyIsTellingText"
+    },
+    {
+      "type": "centerX",
+      "el": "iconText2"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "backBtn",
+          "downloadBtn"
+        ],
+        [
+          "backBtn",
+          "reportHomeBtn"
+        ],
+        [
+          "backBtn",
+          "planBtn"
+        ],
+        [
+          "backBtn",
+          "dietPlanBtn"
+        ],
+        [
+          "downloadBtn",
+          "reportHomeBtn"
+        ],
+        [
+          "downloadBtn",
+          "planBtn"
+        ],
+        [
+          "downloadBtn",
+          "dietPlanBtn"
+        ],
+        [
+          "reportHomeBtn",
+          "planBtn"
+        ],
+        [
+          "reportHomeBtn",
+          "dietPlanBtn"
+        ],
+        [
+          "planBtn",
+          "dietPlanBtn"
+        ]
+      ]
+    }
+  ]
+}

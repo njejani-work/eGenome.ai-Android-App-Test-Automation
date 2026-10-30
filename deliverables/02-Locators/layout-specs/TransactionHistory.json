@@ -1,0 +1,730 @@
+{
+  "spec": "TransactionHistory",
+  "page": "TransactionHistoryPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:10:05.218Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Transaction History\")",
+      "text": "Transaction History",
+      "box": {
+        "x": 0.2792,
+        "y": 0.0438,
+        "w": 0.4736,
+        "h": 0.0422
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "subtitle": {
+      "selector": "android=new UiSelector().textStartsWith(\"Your transaction history\")",
+      "text": "Your transaction history",
+      "box": {
+        "x": 0.3389,
+        "y": 0.0922,
+        "w": 0.3542,
+        "h": 0.0297
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "empty": {
+      "selector": "android=new UiSelector().text(\"No Transactions Yet\")",
+      "text": "No Transactions Yet",
+      "box": {
+        "x": 0.2583,
+        "y": 0.4164,
+        "w": 0.4819,
+        "h": 0.0422
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "goBackBtn": {
+      "match": {
+        "desc": "Go back"
+      },
+      "box": {
+        "x": 0.0444,
+        "y": 0.0484,
+        "w": 0.1222,
+        "h": 0.0688
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "allBtn": {
+      "match": {
+        "desc": "All"
+      },
+      "box": {
+        "x": 0.0444,
+        "y": 0.1422,
+        "w": 0.1292,
+        "h": 0.0438
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "allText": {
+      "match": {
+        "text": "All",
+        "cls": "android.widget.TextView"
+      },
+      "text": "All",
+      "box": {
+        "x": 0.0917,
+        "y": 0.1531,
+        "w": 0.0333,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "capturedBtn": {
+      "match": {
+        "desc": "Captured"
+      },
+      "box": {
+        "x": 0.1972,
+        "y": 0.1422,
+        "w": 0.2139,
+        "h": 0.0438
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "capturedText": {
+      "match": {
+        "text": "Captured",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Captured",
+      "box": {
+        "x": 0.2444,
+        "y": 0.1531,
+        "w": 0.1181,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "refundedBtn": {
+      "match": {
+        "desc": "Refunded"
+      },
+      "box": {
+        "x": 0.4333,
+        "y": 0.1422,
+        "w": 0.2194,
+        "h": 0.0438
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "refundedText": {
+      "match": {
+        "text": "Refunded",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Refunded",
+      "box": {
+        "x": 0.4806,
+        "y": 0.1531,
+        "w": 0.1236,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "failedBtn": {
+      "match": {
+        "desc": "Failed"
+      },
+      "box": {
+        "x": 0.675,
+        "y": 0.1422,
+        "w": 0.1708,
+        "h": 0.0438
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "failedText": {
+      "match": {
+        "text": "Failed",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Failed",
+      "box": {
+        "x": 0.7222,
+        "y": 0.1531,
+        "w": 0.075,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "authorizedBtn": {
+      "match": {
+        "desc": "Authorized"
+      },
+      "box": {
+        "x": 0.8681,
+        "y": 0.1422,
+        "w": 0.1319,
+        "h": 0.0438
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "authorizedText": {
+      "match": {
+        "text": "Authorized",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Authorized",
+      "box": {
+        "x": 0.9153,
+        "y": 0.1531,
+        "w": 0.0847,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "whenYouMakePaymentsText": {
+      "match": {
+        "text": "When you make payments or receive money, they'll appear here.",
+        "cls": "android.widget.TextView"
+      },
+      "text": "When you make payments or receive money, they'll appear here.",
+      "box": {
+        "x": 0.1125,
+        "y": 0.4711,
+        "w": 0.7736,
+        "h": 0.075
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9266,
+        "w": 0.0764,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4556,
+        "y": 0.9266,
+        "w": 0.0875,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7806,
+        "y": 0.9266,
+        "w": 0.1056,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "allText",
+      "parent": "allBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "capturedText",
+      "parent": "capturedBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "refundedText",
+      "parent": "refundedBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "failedText",
+      "parent": "failedBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "authorizedText",
+      "parent": "authorizedBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "homeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "title",
+        "goBackBtn"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "allBtn",
+        "capturedBtn",
+        "refundedBtn",
+        "failedBtn",
+        "authorizedBtn"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "homeBtn",
+        "reportBtn",
+        "settingsBtn"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "title",
+        "subtitle",
+        "allBtn",
+        "empty",
+        "whenYouMakePaymentsText",
+        "homeBtn"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "subtitle",
+      "value": 0.0111
+    },
+    {
+      "type": "gap",
+      "above": "subtitle",
+      "below": "allBtn",
+      "value": 0.0361
+    },
+    {
+      "type": "gap",
+      "above": "allBtn",
+      "below": "empty",
+      "value": 0.4097
+    },
+    {
+      "type": "gap",
+      "above": "empty",
+      "below": "whenYouMakePaymentsText",
+      "value": 0.0222
+    },
+    {
+      "type": "gap",
+      "above": "whenYouMakePaymentsText",
+      "below": "homeBtn",
+      "value": 0.5736
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "goBackBtn",
+        "allBtn"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "authorizedBtn",
+        "settingsBtn"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "empty"
+    },
+    {
+      "type": "centerX",
+      "el": "whenYouMakePaymentsText"
+    },
+    {
+      "type": "centerX",
+      "el": "reportBtn"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "goBackBtn",
+          "allBtn"
+        ],
+        [
+          "goBackBtn",
+          "capturedBtn"
+        ],
+        [
+          "goBackBtn",
+          "refundedBtn"
+        ],
+        [
+          "goBackBtn",
+          "failedBtn"
+        ],
+        [
+          "goBackBtn",
+          "authorizedBtn"
+        ],
+        [
+          "goBackBtn",
+          "homeBtn"
+        ],
+        [
+          "goBackBtn",
+          "reportBtn"
+        ],
+        [
+          "goBackBtn",
+          "settingsBtn"
+        ],
+        [
+          "allBtn",
+          "capturedBtn"
+        ],
+        [
+          "allBtn",
+          "refundedBtn"
+        ],
+        [
+          "allBtn",
+          "failedBtn"
+        ],
+        [
+          "allBtn",
+          "authorizedBtn"
+        ],
+        [
+          "allBtn",
+          "homeBtn"
+        ],
+        [
+          "allBtn",
+          "reportBtn"
+        ],
+        [
+          "allBtn",
+          "settingsBtn"
+        ],
+        [
+          "capturedBtn",
+          "refundedBtn"
+        ],
+        [
+          "capturedBtn",
+          "failedBtn"
+        ],
+        [
+          "capturedBtn",
+          "authorizedBtn"
+        ],
+        [
+          "capturedBtn",
+          "homeBtn"
+        ],
+        [
+          "capturedBtn",
+          "reportBtn"
+        ],
+        [
+          "capturedBtn",
+          "settingsBtn"
+        ],
+        [
+          "refundedBtn",
+          "failedBtn"
+        ],
+        [
+          "refundedBtn",
+          "authorizedBtn"
+        ],
+        [
+          "refundedBtn",
+          "homeBtn"
+        ],
+        [
+          "refundedBtn",
+          "reportBtn"
+        ],
+        [
+          "refundedBtn",
+          "settingsBtn"
+        ],
+        [
+          "failedBtn",
+          "authorizedBtn"
+        ],
+        [
+          "failedBtn",
+          "homeBtn"
+        ],
+        [
+          "failedBtn",
+          "reportBtn"
+        ],
+        [
+          "failedBtn",
+          "settingsBtn"
+        ],
+        [
+          "authorizedBtn",
+          "homeBtn"
+        ],
+        [
+          "authorizedBtn",
+          "reportBtn"
+        ],
+        [
+          "authorizedBtn",
+          "settingsBtn"
+        ],
+        [
+          "homeBtn",
+          "reportBtn"
+        ],
+        [
+          "homeBtn",
+          "settingsBtn"
+        ],
+        [
+          "reportBtn",
+          "settingsBtn"
+        ]
+      ]
+    }
+  ]
+}

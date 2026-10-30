@@ -1,0 +1,227 @@
+﻿"ID","Test suite","Priority","Area","Test case","Expected result","Layout checks (Layer 1)","Automated","Prerequisite","Automated steps (latest run)","Spec file","Line","Last status","Last run","Duration","Passed (kept runs)"
+"SMK-01","smoke","P0","Smoke","intro and login screen","Intro and login screen","Onboarding, Login","Yes","","1. Onboarding · Wait for open
+2. Onboarding · Verify layout
+3. Onboarding · Skip
+4. Login · Open
+5. Login · Verify layout","test/specs/smoke/smoke.e2e.js","31","passed","20261028-173144","33.8 s","6/6"
+"SMK-02","smoke","P0","Smoke","login with mobile number and OTP","Login with mobile number and OTP","Otp","Yes","","1. Login · Request OTP
+2. Otp · Verify layout
+3. Otp · Submit OTP
+4. System Dialogs · Handle all
+5. Home · Wait for open","test/specs/smoke/smoke.e2e.js","39","passed","20261028-173144","39.4 s","4/6"
+"SMK-03","smoke","P0","Smoke","Home loads, with the profile switcher and Monthly Progress","Home loads, with the profile switcher and Monthly Progress","Home, SwitchProfile, MonthlyProgress","Yes","","1. Home · Open
+2. Home · Verify layout
+3. Check value is existing
+4. Home · Open profile switcher
+5. Switch Profile · Wait for open
+6. Switch Profile · Verify layout
+7. Switch Profile · Close
+8. Home · Open monthly progress
+9. Monthly Progress · Wait for open
+10. Monthly Progress · Verify layout
+11. Monthly Progress · Close
+12. Home · Wait for open","test/specs/smoke/smoke.e2e.js","47","passed","20261028-173144","24.6 s","3/6"
+"SMK-04","smoke","P0","Smoke","Premium plan screen opens from the payment banner","Premium plan screen opens from the payment banner","Premium","Yes","","1. Home · Scroll to top
+2. Home · Is payment pending
+3. Home · Tap complete payment
+4. Premium · Wait for open
+5. Premium · Verify layout
+6. Premium · Close
+7. Home · Wait for open","test/specs/smoke/smoke.e2e.js","64","passed","20261028-173144","11.6 s","3/6"
+"SMK-05","smoke","P0","Smoke","Report tab lists reports and one report opens","Report tab lists reports and one report opens","Reports, ReportDetail","Yes","","1. Reports · Open
+2. Reports · Verify layout
+3. Reports · Get report count
+4. Reports · Open report
+5. Report Detail · Wait for open
+6. Report Detail · Verify layout
+7. Report Detail · Close
+8. Reports · Wait for open","test/specs/smoke/smoke.e2e.js","74","passed","20261028-173144","18.0 s","1/6"
+"SMK-06","smoke","P0","Smoke","Settings, Profile and Edit Profile open","Settings, Profile and Edit Profile open","Settings, Profile, EditProfile","Yes","","1. Settings · Open
+2. Settings · Verify layout
+3. Settings · Open profile
+4. Profile · Wait for open
+5. Profile · Verify layout
+6. Profile · Edit
+7. Edit Profile · Wait for open
+8. Edit Profile · Verify layout
+9. Edit Profile · Close
+10. Profile · Wait for open
+11. Profile · Close
+12. Settings · Wait for open","test/specs/smoke/smoke.e2e.js","85","passed","20261028-173144","22.9 s","3/6"
+"SMK-07","smoke","P1","Smoke","every Settings sub-screen opens","Every Settings sub-screen opens","","Yes","","1. Settings · Open
+2. Settings · Open manage addresses
+3. Addresses · Wait for open
+4. Addresses · Verify layout
+5. Addresses · Go back
+6. Settings · Wait for open
+7. Settings · Open manage dependents
+8. Dependents · Wait for open
+9. Dependents · Verify layout
+10. Dependents · Go back
+11. Settings · Wait for open
+12. Settings · Open transaction history
+13. Transaction History · Wait for open
+14. Transaction History · Verify layout
+15. Transaction History · Go back
+16. Settings · Wait for open
+17. Settings · Open booking history
+18. Booking History · Wait for open
+19. Booking History · Go back
+20. Settings · Wait for open
+21. Settings · Open subscription management
+22. Subscription · Wait for open
+23. Subscription · Go back
+24. Settings · Wait for open
+25. Settings · Open help support
+26. Help Support · Wait for open
+27. Help Support · Go back
+28. Settings · Wait for open","test/specs/smoke/smoke.e2e.js","101","passed","20261028-173144","39.5 s","1/6"
+"SMK-08","smoke","P0","Smoke","sign out returns to the login screen","Sign out returns to the login screen","SignOutDialog","Yes","","1. Settings · Open
+2. Settings · Open sign out dialog
+3. Settings · Verify sign out layout
+4. Settings · Confirm sign out
+5. Login · Open
+6. Check LoginPage.sendOtpBtn is displayed","test/specs/smoke/smoke.e2e.js","111","passed","20261028-173144","13.6 s","2/6"
+"LGN-01","regression","P0","Login and session","intro is shown on first launch and can be skipped","Intro is shown on first launch and can be skipped","Onboarding","Yes","","","test/specs/regression/01-login.e2e.js","15","not run yet","","",""
+"LGN-02","regression","P0","Login and session","login screen shows the expected text and layout","Login screen shows the expected text and layout","Login","Yes","","","test/specs/regression/01-login.e2e.js","21","not run yet","","",""
+"LGN-03","regression","P1","Login and session","an empty phone number does not send an OTP","An empty phone number does not send an OTP","","Yes","","","test/specs/regression/01-login.e2e.js","28","not run yet","","",""
+"LGN-04","regression","P1","Login and session","an incomplete phone number does not send an OTP","An incomplete phone number does not send an OTP","","Yes","","","test/specs/regression/01-login.e2e.js","35","not run yet","","",""
+"LGN-05","regression","P1","Login and session","the phone field does not accept letters or symbols","The phone field does not accept letters or symbols","","Yes","","","test/specs/regression/01-login.e2e.js","42","not run yet","","",""
+"LGN-06","regression","P0","Login and session","a valid number opens one OTP screen for that number (Send OTP tapped twice)","A valid number opens one OTP screen for that number (Send OTP tapped twice)","Otp","Yes","","","test/specs/regression/01-login.e2e.js","47","not run yet","","",""
+"LGN-07","regression","P1","Login and session","Resend is disabled while its countdown runs","Resend is disabled while its countdown runs","","Yes","","","test/specs/regression/01-login.e2e.js","55","not run yet","","",""
+"LGN-08","regression","P1","Login and session","back from the OTP screen returns to the login screen","Back from the OTP screen returns to the login screen","","Yes","","","test/specs/regression/01-login.e2e.js","62","not run yet","","",""
+"LGN-09","regression","P1","Login and session","Resend becomes available when the countdown ends and restarts it","Resend becomes available when the countdown ends and restarts it","","Yes","","","test/specs/regression/01-login.e2e.js","68","not run yet","","",""
+"LGN-10","regression","P0","Login and session","a wrong OTP keeps the user on the OTP screen","A wrong OTP keeps the user on the OTP screen","","Yes","","","test/specs/regression/01-login.e2e.js","75","not run yet","","",""
+"LGN-11","regression","P0","Login and session","the correct OTP logs in and lands on Home","The correct OTP logs in and lands on Home","","Yes","","","test/specs/regression/01-login.e2e.js","81","not run yet","","",""
+"LGN-12","regression","P1","Login and session","the session survives an app restart","The session survives an app restart","","Yes","","","test/specs/regression/01-login.e2e.js","88","not run yet","","",""
+"LGN-13","regression","P1","Login and session","cancelling sign-out keeps the user signed in","Cancelling sign-out keeps the user signed in","SignOutDialog","Yes","","","test/specs/regression/01-login.e2e.js","95","not run yet","","",""
+"LGN-14","regression","P0","Login and session","signing out returns to the login screen and Back does not return to the app","Signing out returns to the login screen and Back does not return to the app","","Yes","","","test/specs/regression/01-login.e2e.js","103","not run yet","","",""
+"LGN-15","regression","P1","Login with permissions denied","denying notification / Health Connect permissions still lets the user in and use the app","Denying notification / Health Connect permissions still lets the user in and use the app","","Yes","","","test/specs/regression/01-login.e2e.js","121","not run yet","","",""
+"HOM-01","regression","P0","Home","Home shows the profile, health cards and tabs in the expected layout","Home shows the profile, health cards and tabs in the expected layout","Home","Yes","","","test/specs/regression/02-home.e2e.js","17","not run yet","","",""
+"HOM-02","regression","P1","Home","weight and BMI cards show values and ranges","Weight and BMI cards show values and ranges","","Yes","","","test/specs/regression/02-home.e2e.js","23","not run yet","","",""
+"HOM-03","regression","P1","Home","routine tabs Meals / Exercise / Supplements can be selected","Routine tabs Meals / Exercise / Supplements can be selected","","Yes","","","test/specs/regression/02-home.e2e.js","28","not run yet","","",""
+"HOM-04","regression","P1","Home","expanding a routine slot shows its actions","Expanding a routine slot shows its actions","","Yes","","","test/specs/regression/02-home.e2e.js","34","not run yet","","",""
+"HOM-05","regression","P1","Home","""+N more items"" expands the current routine card","""+N more items"" expands the current routine card","","Yes","","","test/specs/regression/02-home.e2e.js","40","not run yet","","",""
+"HOM-06","regression","P1","Home","the daily task counter is consistent","The daily task counter is consistent","","Yes","","","test/specs/regression/02-home.e2e.js","48","not run yet","","",""
+"HOM-07","regression","P1","Home","marking a routine item as done updates today's progress","Marking a routine item as done updates today's progress","","Yes","","","test/specs/regression/02-home.e2e.js","54","not run yet","","",""
+"HOM-08","regression","P1","Home","Monthly Progress opens on the current month and moves between months","Monthly Progress opens on the current month and moves between months","MonthlyProgress","Yes","","","test/specs/regression/02-home.e2e.js","71","not run yet","","",""
+"HOM-09","regression","P1","Home","Monthly Progress crosses the year boundary (January → December) and a past day opens","Monthly Progress crosses the year boundary (January → December) and a past day opens","","Yes","","","test/specs/regression/02-home.e2e.js","84","not run yet","","",""
+"HOM-10","regression","P1","Home","profile switcher lists profiles and switches to a dependent and back","Profile switcher lists profiles and switches to a dependent and back","SwitchProfile","Yes","","","test/specs/regression/02-home.e2e.js","96","not run yet","","",""
+"RPT-01","regression","P0","Reports","Report tab shows the expected layout and at least one report","Report tab shows the expected layout and at least one report","Reports","Yes","","","test/specs/regression/03-reports.e2e.js","11","not run yet","","",""
+"RPT-02","regression","P0","Reports","the ""N reports found"" count matches the report cards","The ""N reports found"" count matches the report cards","","Yes","","","test/specs/regression/03-reports.e2e.js","17","not run yet","","",""
+"RPT-03","regression","P1","Reports","a payment-pending report offers Complete Payment and stays locked","A payment-pending report offers Complete Payment and stays locked","","Yes","","","test/specs/regression/03-reports.e2e.js","23","not run yet","","",""
+"RPT-04","regression","P0","Reports","a completed report opens with its summary","A completed report opens with its summary","ReportDetail","Yes","","","test/specs/regression/03-reports.e2e.js","35","not run yet","","",""
+"RPT-05","regression","P1","Reports","every section tab of the report opens","Every section tab of the report opens","","Yes","","","test/specs/regression/03-reports.e2e.js","43","not run yet","","",""
+"RPT-06","regression","P1","Reports","the diet plan shows a calorie target for each day","The diet plan shows a calorie target for each day","","Yes","","","test/specs/regression/03-reports.e2e.js","50","not run yet","","",""
+"RPT-07","regression","P1","Reports","biomarker counters add up (Total = Normal + Warning + Critical)","Biomarker counters add up (Total = Normal + Warning + Critical)","","Yes","","","test/specs/regression/03-reports.e2e.js","58","not run yet","","",""
+"RPT-08","regression","P1","Reports","biomarker rows show a value, unit and reference range","Biomarker rows show a value, unit and reference range","","Yes","","","test/specs/regression/03-reports.e2e.js","69","not run yet","","",""
+"RPT-09","regression","P1","Reports","Download report works and returns to the report","Download report works and returns to the report","","Yes","","","test/specs/regression/03-reports.e2e.js","79","not run yet","","",""
+"PAY-01","regression","P0","Payments","the payment banner opens the Premium plan screen with prices","The payment banner opens the Premium plan screen with prices","Premium","Yes","","","test/specs/regression/04-payments.e2e.js","20","not run yet","","",""
+"PAY-02","regression","P1","Payments","payment methods are shown","Payment methods are shown","","Yes","","","test/specs/regression/04-payments.e2e.js","27","not run yet","","",""
+"PAY-03","regression","P1","Payments","both plan options can be selected","Both plan options can be selected","","Yes","","","test/specs/regression/04-payments.e2e.js","31","not run yet","","",""
+"PAY-04","regression","P0","Payments","Razorpay checkout opens with the plan amount","Razorpay checkout opens with the plan amount","","Yes","","","test/specs/regression/04-payments.e2e.js","37","not run yet","","",""
+"PAY-05","regression","P1","Payments","""Continue to payment"" on the exit dialog keeps the user in checkout","""Continue to payment"" on the exit dialog keeps the user in checkout","","Yes","","","test/specs/regression/04-payments.e2e.js","44","not run yet","","",""
+"PAY-06","regression","P1","Payments","leaving checkout returns to the app without paying; the report stays locked","Leaving checkout returns to the app without paying; the report stays locked","","Yes","","","test/specs/regression/04-payments.e2e.js","51","not run yet","","",""
+"PAY-07","regression","P1","Payments","a successful test-mode payment unlocks the report and is listed as Captured","A successful test-mode payment unlocks the report and is listed as Captured","","Yes","RAZORPAY_TEST_MODE=true + Razorpay card-form capture","","test/specs/regression/04-payments.e2e.js","61","not run yet","","",""
+"PAY-08","regression","P1","Payments","a failed test-mode payment shows an error and can be retried","A failed test-mode payment shows an error and can be retried","","Yes","RAZORPAY_TEST_MODE=true + Razorpay card-form capture","","test/specs/regression/04-payments.e2e.js","69","not run yet","","",""
+"SET-01","regression","P1","Settings and account","Settings shows its layout and every menu entry","Settings shows its layout and every menu entry","Settings","Yes","","","test/specs/regression/05-settings.e2e.js","25","not run yet","","",""
+"SET-02","regression","P1","Settings and account","Profile shows the account holder details","Profile shows the account holder details","Profile","Yes","","","test/specs/regression/05-settings.e2e.js","30","not run yet","","",""
+"SET-03","regression","P1","Settings and account","Edit Profile shows read-only date of birth and the phone number","Edit Profile shows read-only date of birth and the phone number","EditProfile","Yes","","","test/specs/regression/05-settings.e2e.js","40","not run yet","","",""
+"SET-04","regression","P1","Settings and account","a profile change is saved and shown on Profile (weight +1 kg, then restored)","A profile change is saved and shown on Profile (weight +1 kg, then restored)","","Yes","","","test/specs/regression/05-settings.e2e.js","50","not run yet","","",""
+"SET-05","regression","P1","Settings and account","Manage Addresses lists a primary, serviceable address","Manage Addresses lists a primary, serviceable address","Addresses","Yes","","","test/specs/regression/05-settings.e2e.js","68","not run yet","","",""
+"SET-06","regression","P1","Settings and account","Family Network shows the dependent and opens their details","Family Network shows the dependent and opens their details","Dependents","Yes","","","test/specs/regression/05-settings.e2e.js","76","not run yet","","",""
+"SET-07","regression","P1","Settings and account","Transaction History filters can all be applied","Transaction History filters can all be applied","TransactionHistory","Yes","","","test/specs/regression/05-settings.e2e.js","91","not run yet","","",""
+"SET-08","regression","P1","Settings and account","Booking History lists bookings with their details","Booking History lists bookings with their details","","Yes","","","test/specs/regression/05-settings.e2e.js","99","not run yet","","",""
+"SET-09","regression","P1","Settings and account","Subscription shows the plan; cancellation can be started and abandoned","Subscription shows the plan; cancellation can be started and abandoned","","Yes","","","test/specs/regression/05-settings.e2e.js","108","not run yet","","",""
+"SET-10","regression","P1","Settings and account","Edit Profile rejects an empty first name and an invalid e-mail (nothing saved)","Edit Profile rejects an empty first name and an invalid e-mail (nothing saved)","","Yes","","","test/specs/regression/05-settings.e2e.js","119","not run yet","","",""
+"SET-11","regression","P1","Settings and account","Family Network: the Members count matches the member cards","Family Network: the Members count matches the member cards","","Yes","","","test/specs/regression/05-settings.e2e.js","144","not run yet","","",""
+"SET-12","regression","P1","Settings and account","a dependent's change is saved and shown (last name edited, then restored)","A dependent's change is saved and shown (last name edited, then restored)","","Yes","","","test/specs/regression/05-settings.e2e.js","151","not run yet","","",""
+"SET-13","regression","P1","Settings and account","the add-dependent form opens (saving one is EXT-19: needs a disposable account and the date-of-birth picker capture)","The add-dependent form opens (saving one is EXT-19: needs a disposable account and the date-of-birth picker capture)","","Yes","","","test/specs/regression/05-settings.e2e.js","176","not run yet","","",""
+"SET-14","regression","P1","Settings and account","the add-address form will not save without required fields","The add-address form will not save without required fields","","Yes","","","test/specs/regression/05-settings.e2e.js","185","not run yet","","",""
+"SET-15","regression","P1","Settings and account","a new address can be added and is serviceable","A new address can be added and is serviceable","","Yes","TEST_ALLOW_DATA_CHANGES=true - addresses can't be deleted by the tests","","test/specs/regression/05-settings.e2e.js","200","not run yet","","",""
+"RES-01","regression","P1","Resilience","the app survives losing the network and recovers when it returns","The app survives losing the network and recovers when it returns","","Yes","","","test/specs/regression/06-resilience.e2e.js","11","not run yet","","",""
+"RES-02","regression","P1","Resilience","backgrounding and resuming keeps the user on the same screen","Backgrounding and resuming keeps the user on the same screen","","Yes","","","test/specs/regression/06-resilience.e2e.js","25","not run yet","","",""
+"RES-03","regression","P1","Resilience","backgrounding mid-edit keeps the unsaved form (then discarded)","Backgrounding mid-edit keeps the unsaved form (then discarded)","","Yes","","","test/specs/regression/06-resilience.e2e.js","34","not run yet","","",""
+"LAY-01","layout","","Before login","Onboarding","Onboarding","Onboarding","Yes","","1. Onboarding · Wait for open
+2. Onboarding · Verify layout
+3. Onboarding · Skip","test/specs/layout/screens.layout.e2e.js","22","passed","20261028-162953","13.9 s","1/1"
+"LAY-02","layout","","Before login","Login","Login","Login","Yes","","1. Login · Open
+2. Login · Verify layout","test/specs/layout/screens.layout.e2e.js","28","passed","20261028-162953","7.7 s","1/1"
+"LAY-03","layout","","Before login","OTP","OTP","Otp","Yes","","1. Login · Request OTP
+2. Otp · Verify layout
+3. Otp · Submit OTP
+4. System Dialogs · Handle all
+5. Home · Wait for open","test/specs/layout/screens.layout.e2e.js","33","passed","20261028-162953","46.0 s","1/1"
+"LAY-04","layout","","Signed in","Home","Home","Home","Yes","","1. Home · Open
+2. Home · Verify layout","test/specs/layout/screens.layout.e2e.js","47","passed","20261028-162953","5.3 s","1/1"
+"LAY-05","layout","","Signed in","Switch Profile sheet","Switch Profile sheet","SwitchProfile","Yes","","1. Home · Open profile switcher
+2. Switch Profile · Wait for open
+3. Switch Profile · Verify layout
+4. Switch Profile · Close","test/specs/layout/screens.layout.e2e.js","52","passed","20261028-162953","6.4 s","1/1"
+"LAY-06","layout","","Signed in","Monthly Progress","Monthly Progress","MonthlyProgress","Yes","","1. Home · Open monthly progress
+2. Monthly Progress · Wait for open
+3. Monthly Progress · Verify layout
+4. Monthly Progress · Close","test/specs/layout/screens.layout.e2e.js","59","passed","20261028-162953","9.5 s","1/1"
+"LAY-07","layout","","Signed in","Premium","Premium","Premium","Yes","","1. Home · Open
+2. Home · Is payment pending
+3. Home · Tap complete payment
+4. Premium · Wait for open
+5. Premium · Verify layout
+6. Premium · Close","test/specs/layout/screens.layout.e2e.js","66","passed","20261028-162953","8.6 s","1/1"
+"LAY-08","layout","","Signed in","Reports","Reports","Reports","Yes","","1. Reports · Open
+2. Reports · Verify layout","test/specs/layout/screens.layout.e2e.js","75","passed","20261028-162953","5.4 s","1/1"
+"LAY-09","layout","","Signed in","Report details","Report details","ReportDetail","Yes","","1. Reports · Open report
+2. Report Detail · Wait for open
+3. Report Detail · Verify layout
+4. Report Detail · Close","test/specs/layout/screens.layout.e2e.js","80","failed","20261028-162953","199.1 s","0/1"
+"LAY-10","layout","","Signed in","Settings","Settings","Settings","Yes","","1. Settings · Open
+2. Settings · Verify layout","test/specs/layout/screens.layout.e2e.js","87","passed","20261028-162953","6.2 s","1/1"
+"LAY-11","layout","","Signed in","Sign Out dialog","Sign Out dialog","SignOutDialog","Yes","","1. Settings · Open sign out dialog
+2. Settings · Verify sign out layout
+3. Settings · Cancel sign out","test/specs/layout/screens.layout.e2e.js","92","passed","20261028-162953","7.2 s","1/1"
+"LAY-12","layout","","Signed in","Profile","Profile","Profile","Yes","","1. Settings · Open profile
+2. Profile · Wait for open
+3. Profile · Verify layout","test/specs/layout/screens.layout.e2e.js","98","passed","20261028-162953","10.6 s","1/1"
+"LAY-13","layout","","Signed in","Edit Profile","Edit Profile","EditProfile","Yes","","1. Profile · Edit
+2. Edit Profile · Wait for open
+3. Edit Profile · Verify layout
+4. Edit Profile · Close
+5. Profile · Close","test/specs/layout/screens.layout.e2e.js","104","passed","20261028-162953","9.2 s","1/1"
+"LAY-14","layout","","Signed in","Manage Addresses","Manage Addresses","Addresses","Yes","","1. Settings · Open
+2. Settings · Open manage addresses
+3. Addresses · Wait for open
+4. Addresses · Verify layout
+5. Addresses · Close","test/specs/layout/screens.layout.e2e.js","112","failed","20261028-162953","209.0 s","0/1"
+"LAY-15","layout","","Signed in","Family Network","Family Network","Dependents","Yes","","1. Settings · Open manage dependents
+2. Dependents · Wait for open
+3. Dependents · Verify layout
+4. Dependents · Close","test/specs/layout/screens.layout.e2e.js","120","passed","20261028-162953","7.2 s","1/1"
+"LAY-16","layout","","Signed in","Transaction History","Transaction History","TransactionHistory","Yes","","1. Settings · Open transaction history
+2. Transaction History · Wait for open
+3. Transaction History · Verify layout
+4. Transaction History · Go back","test/specs/layout/screens.layout.e2e.js","127","passed","20261028-162953","6.0 s","1/1"
+"EXT-03","extended","P2","Extended · Payments","payment banner disappears from Home after payment","Payment banner disappears from Home after payment","","Pending","Razorpay test mode","","test/specs/extended/extended.e2e.js","10","pending","","",""
+"EXT-04","extended","P2","Extended · Login extras","OTP via WhatsApp starts the alternate flow","OTP via WhatsApp starts the alternate flow","","Pending","WhatsApp OTP enabled for the test number","","test/specs/extended/extended.e2e.js","15","pending","","",""
+"EXT-05","extended","P2","Extended · Login extras","picking a number from Google's phone picker fills the field","Picking a number from Google's phone picker fills the field","","Pending","SIM/number on the emulator","","test/specs/extended/extended.e2e.js","17","pending","","",""
+"EXT-06","extended","P2","Extended · Login extras","swiping through the whole intro reaches login","Swiping through the whole intro reaches login","","Pending","capture of every intro slide","","test/specs/extended/extended.e2e.js","19","pending","","",""
+"EXT-07","extended","P1","Extended · Login extras","resend OTP invalidates the previous code","Resend OTP invalidates the previous code","","Pending","staging that issues real/different OTPs","","test/specs/extended/extended.e2e.js","21","pending","","",""
+"EXT-08","extended","P2","Extended · Login extras","switching accounts leaves no data from the previous user","Switching accounts leaves no data from the previous user","","Pending","TEST_USER2_* in .env","","test/specs/extended/extended.e2e.js","23","pending","","",""
+"EXT-10","extended","P2","Extended · Home and reports","marking a routine item updates progress and persists","Marking a routine item updates progress and persists","","Pending","disposable account or a way to reset the day","","test/specs/extended/extended.e2e.js","28","pending","","",""
+"EXT-11","extended","P2","Extended · Home and reports","View Full Journey / Path to Health Insights opens","View Full Journey / Path to Health Insights opens","","Pending","capture of the journey screen","","test/specs/extended/extended.e2e.js","29","pending","","",""
+"EXT-12","extended","P2","Extended · Home and reports","Schedule Your Call opens the booking flow (no booking made)","Schedule Your Call opens the booking flow (no booking made)","","Pending","capture of the booking screens","","test/specs/extended/extended.e2e.js","30","pending","","",""
+"EXT-13","extended","P2","Extended · Home and reports","every sample report opens","Every sample report opens","","Pending","capture of a sample report screen","","test/specs/extended/extended.e2e.js","32","pending","","",""
+"EXT-15","extended","P2","Extended · Home and reports","RCA conditions expand to key markers and deficiencies","RCA conditions expand to key markers and deficiencies","","Pending","capture of an expanded RCA card","","test/specs/extended/extended.e2e.js","33","pending","","",""
+"EXT-17","extended","P2","Extended · Settings (changes account data - use a disposable account)","edit / delete an address and change the primary one","Edit / delete an address and change the primary one","","Pending","capture of the card menu","","test/specs/extended/extended.e2e.js","37","pending","","",""
+"EXT-18","extended","P2","Extended · Settings (changes account data - use a disposable account)","non-serviceable pincode is flagged","Non-serviceable pincode is flagged","","Pending","a known non-serviceable pincode","","test/specs/extended/extended.e2e.js","38","pending","","",""
+"EXT-19","extended","P1","Extended · Settings (changes account data - use a disposable account)","add a dependent - appears in Family Network and in Switch Profile","Add a dependent - appears in Family Network and in Switch Profile","","Pending","disposable account","","test/specs/extended/extended.e2e.js","39","pending","","",""
+"EXT-20","extended","P2","Extended · Settings (changes account data - use a disposable account)","remove a dependent","Remove a dependent","","Pending","disposable dependent + remove-confirmation capture","","test/specs/extended/extended.e2e.js","40","pending","","",""
+"EXT-22","extended","P2","Extended · Settings (changes account data - use a disposable account)","add and verify an email address","Add and verify an email address","","Pending","test mailbox","","test/specs/extended/extended.e2e.js","41","pending","","",""
+"EXT-23","extended","P2","Extended · Settings (changes account data - use a disposable account)","change profile photo / cancel the picker","Change profile photo / cancel the picker","","Pending","test image on the emulator","","test/specs/extended/extended.e2e.js","42","pending","","",""
+"EXT-24","extended","P2","Extended · Settings (changes account data - use a disposable account)","theme Light / Dark / System applies and persists","Theme Light / Dark / System applies and persists","","Pending","dark-theme layout specs","","test/specs/extended/extended.e2e.js","43","pending","","",""
+"EXT-25","extended","P1","Extended · Settings (changes account data - use a disposable account)","cancel subscription (confirm)","Cancel subscription (confirm)","","Pending","disposable subscribed account","","test/specs/extended/extended.e2e.js","44","pending","","",""
+"EXT-26","extended","P2","Extended · Settings (changes account data - use a disposable account)","Help & Support opens the dialer and e-mail","Help & Support opens the dialer and e-mail","","Pending","decision on leaving the app in tests","","test/specs/extended/extended.e2e.js","46","pending","","",""
+"EXT-27","extended","P2","Extended · Device and accessibility","largest system font size does not break key screens","Largest system font size does not break key screens","","Pending","layout specs at font scale 1.3","","test/specs/extended/extended.e2e.js","50","pending","","",""
+"EXT-28","extended","P2","Extended · Device and accessibility","rotation / second screen size","Rotation / second screen size","","Pending","second emulator profile + its layout baseline","","test/specs/extended/extended.e2e.js","51","pending","","",""
+"EXT-29","extended","P2","Extended · Device and accessibility","Android Back behaves consistently on every screen","Android Back behaves consistently on every screen","","Pending","expected back behaviour per screen","","test/specs/extended/extended.e2e.js","52","pending","","",""
+"EXT-30","extended","P2","Extended · Device and accessibility","notification / deep links open the right screen","Notification / deep links open the right screen","","Pending","list of deep links","","test/specs/extended/extended.e2e.js","53","pending","","",""
+"EXT-31","extended","P2","Extended · Device and accessibility","accessibility audit: every tappable element has a label and ≥48dp target","Accessibility audit: every tappable element has a label and ≥48dp target","","Pending","testIDs from developers","","test/specs/extended/extended.e2e.js","54","pending","","",""

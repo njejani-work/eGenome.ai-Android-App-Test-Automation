@@ -1,0 +1,24 @@
+{
+ "id": "20261028-144247",
+ "startedAt": 1793178767474,
+ "environment": "staging",
+ "trigger": "local",
+ "host": {
+  "os": "Windows_NT 10.0.26200",
+  "node": "v24.22.1",
+  "user": "Rohan Bansal",
+  "machine": "Egenome"
+ },
+ "specPattern": [
+  "file:///C:/Users/egeno/Downloads/Nishant/Projects/App%20test%20Automation/eGenome.ai/test/specs/login.e2e.js"
+ ],
+ "args": "run ./wdio.conf.js --spec ./test/specs/login.e2e.js",
+ "finishedAt": 1793178903276,
+ "exitCode": 0,
+ "results": {
+  "finished": 1,
+  "passed": 1,
+  "retries": 0,
+  "failed": 0
+ }
+}

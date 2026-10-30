@@ -1,0 +1,497 @@
+{
+  "spec": "Dependents",
+  "page": "DependentsPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:09:59.062Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Family Network\")",
+      "text": "Family Network",
+      "box": {
+        "x": 0.2903,
+        "y": 0.0758,
+        "w": 0.4306,
+        "h": 0.0469
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0681,
+        "y": 0.0773,
+        "w": 0.1222,
+        "h": 0.0688
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "addBtn": {
+      "selector": "android=new UiSelector().description(\"\")",
+      "box": {
+        "x": 0.8208,
+        "y": 0.0805,
+        "w": 0.1111,
+        "h": 0.0625
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "memberText": {
+      "match": {
+        "text": "member",
+        "cls": "android.widget.TextView"
+      },
+      "text": "member",
+      "box": {
+        "x": 0.4486,
+        "y": 0.1258,
+        "w": 0.1139,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "membersText": {
+      "match": {
+        "text": "Members",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Members",
+      "box": {
+        "x": 0.1681,
+        "y": 0.2609,
+        "w": 0.1167,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "relationsText": {
+      "match": {
+        "text": "Relations",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Relations",
+      "box": {
+        "x": 0.4417,
+        "y": 0.2609,
+        "w": 0.1153,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "minorsText": {
+      "match": {
+        "text": "Minors",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Minors",
+      "box": {
+        "x": 0.7319,
+        "y": 0.2609,
+        "w": 0.0847,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "userProfilesText": {
+      "match": {
+        "text": "User Profiles",
+        "cls": "android.widget.TextView"
+      },
+      "text": "User Profiles",
+      "box": {
+        "x": 0.0681,
+        "y": 0.3602,
+        "w": 0.3069,
+        "h": 0.0422
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "jmText": {
+      "match": {
+        "text": "JM",
+        "cls": "android.widget.TextView"
+      },
+      "text": "JM",
+      "box": {
+        "x": 0.1417,
+        "y": 0.4914,
+        "w": 0.0639,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "spouseText": {
+      "match": {
+        "text": "Spouse",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Spouse",
+      "box": {
+        "x": 0.3014,
+        "y": 0.5125,
+        "w": 0.0931,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9266,
+        "w": 0.0764,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4556,
+        "y": 0.9266,
+        "w": 0.0875,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.8688,
+        "w": 0.3333,
+        "h": 0.1016
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7806,
+        "y": 0.9266,
+        "w": 0.1056,
+        "h": 0.0188
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "homeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "title",
+        "backBtn",
+        "addBtn"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "membersText",
+        "relationsText",
+        "minorsText"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "homeBtn",
+        "reportBtn",
+        "settingsBtn"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "title",
+        "memberText",
+        "membersText",
+        "userProfilesText",
+        "jmText",
+        "spouseText",
+        "homeBtn"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "memberText",
+      "value": 0.0056
+    },
+    {
+      "type": "gap",
+      "above": "memberText",
+      "below": "membersText",
+      "value": 0.2014
+    },
+    {
+      "type": "gap",
+      "above": "membersText",
+      "below": "userProfilesText",
+      "value": 0.1375
+    },
+    {
+      "type": "gap",
+      "above": "userProfilesText",
+      "below": "jmText",
+      "value": 0.1583
+    },
+    {
+      "type": "gap",
+      "above": "spouseText",
+      "below": "homeBtn",
+      "value": 0.575
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "backBtn",
+        "userProfilesText"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "memberText"
+    },
+    {
+      "type": "centerX",
+      "el": "relationsText"
+    },
+    {
+      "type": "centerX",
+      "el": "reportBtn"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "backBtn",
+          "addBtn"
+        ],
+        [
+          "backBtn",
+          "homeBtn"
+        ],
+        [
+          "backBtn",
+          "reportBtn"
+        ],
+        [
+          "backBtn",
+          "settingsBtn"
+        ],
+        [
+          "addBtn",
+          "homeBtn"
+        ],
+        [
+          "addBtn",
+          "reportBtn"
+        ],
+        [
+          "addBtn",
+          "settingsBtn"
+        ],
+        [
+          "homeBtn",
+          "reportBtn"
+        ],
+        [
+          "homeBtn",
+          "settingsBtn"
+        ],
+        [
+          "reportBtn",
+          "settingsBtn"
+        ]
+      ]
+    }
+  ]
+}

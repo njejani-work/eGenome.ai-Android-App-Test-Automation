@@ -1,0 +1,1522 @@
+[
+  {
+    "page": "OnboardingPage",
+    "screen": "Intro carousel",
+    "area": "Login",
+    "source": "test/pageobjects/OnboardingPage.js",
+    "captures": [
+      "MainScreen37"
+    ],
+    "screenshots": [
+      "screenshots/OnboardingPage.png"
+    ],
+    "elements": {
+      "skipBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Skip\")",
+        "readable": "desc = \"Skip\""
+      },
+      "carousel": {
+        "strategy": "Class + index",
+        "selector": "android=new UiSelector().className(\"androidx.viewpager.widget.ViewPager\")",
+        "readable": "class = \"androidx.viewpager.widget.ViewPager\""
+      },
+      "slideTitle": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Discover Your Biological Age\")",
+        "readable": "text starts with \"Discover Your Biological Age\""
+      },
+      "labBadge": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"National Reference Laboratory\")",
+        "readable": "text starts with \"National Reference Laboratory\""
+      }
+    }
+  },
+  {
+    "page": "LoginPage (phone picker)",
+    "screen": "Google \"Choose a phone number\" sheet",
+    "area": "Login",
+    "source": "test/pageobjects/LoginPage.js",
+    "captures": [
+      "ChooseAPhoneNumberScreen"
+    ],
+    "screenshots": [
+      "screenshots/LoginPage-phone-picker.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Resource ID",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.gms:id/title\")",
+        "readable": "id = \"com.google.android.gms:id/title\""
+      },
+      "cancel": {
+        "strategy": "Resource ID",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.gms:id/cancel\")",
+        "readable": "id = \"com.google.android.gms:id/cancel\""
+      },
+      "number": {
+        "strategy": "Resource ID",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.gms:id/phone_number\")",
+        "readable": "id = \"com.google.android.gms:id/phone_number\""
+      }
+    }
+  },
+  {
+    "page": "LoginPage",
+    "screen": "Log in or Sign up",
+    "area": "Login",
+    "source": "test/pageobjects/LoginPage.js",
+    "captures": [
+      "MainScreen",
+      "PhoneNumberHintScreen"
+    ],
+    "screenshots": [
+      "screenshots/LoginPage.png",
+      "screenshots/LoginPage-2.png"
+    ],
+    "elements": {
+      "headline": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Start your health\")",
+        "readable": "text starts with \"Start your health\""
+      },
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Log in or Sign up\")",
+        "readable": "text = \"Log in or Sign up\""
+      },
+      "countryCodeBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uF0140\")",
+        "readable": "desc = \"\\uF0140\"",
+        "notes": "chevron next to +91 (icon glyph) · Icon glyph (fragile - ask devs for a testID)"
+      },
+      "countryCode": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"+91\")",
+        "readable": "text = \"+91\""
+      },
+      "phoneInput": {
+        "strategy": "Class + index",
+        "selector": "android=new UiSelector().className(\"android.widget.EditText\").instance(0)",
+        "readable": "class = \"android.widget.EditText\" #0",
+        "notes": "only input on this screen; placeholder \"Enter your mobile number\" · Index-based"
+      },
+      "sendOtpBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Send OTP\")",
+        "readable": "desc = \"Send OTP\""
+      },
+      "sending": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Sending...\")",
+        "readable": "desc = \"Sending...\""
+      },
+      "consent": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"By submitting\")",
+        "readable": "text starts with \"By submitting\""
+      }
+    }
+  },
+  {
+    "page": "OtpPage",
+    "screen": "OTP, please",
+    "area": "Login",
+    "source": "test/pageobjects/OtpPage.js",
+    "captures": [
+      "MainScreen35"
+    ],
+    "screenshots": [
+      "screenshots/OtpPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"OTP, please\")",
+        "readable": "text = \"OTP, please\""
+      },
+      "sentTo": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Please enter the code we just sent to\")",
+        "readable": "text starts with \"Please enter the code we just sent to\""
+      },
+      "digit": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"OTP digit {n}\")",
+        "readable": "desc = \"OTP digit {n}\"",
+        "notes": "Template - fill in {placeholders}"
+      },
+      "anyDigit": {
+        "strategy": "Accessibility label (starts with)",
+        "selector": "android=new UiSelector().descriptionStartsWith(\"OTP digit \")",
+        "readable": "desc starts with \"OTP digit \""
+      },
+      "continueBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Continue\")",
+        "readable": "desc = \"Continue\""
+      },
+      "resendTimer": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\"Resend OTP in [0-9]+s\")",
+        "readable": "desc matches \"Resend OTP in [0-9]+s\"",
+        "notes": "countdown while resend is disabled"
+      },
+      "resend": {
+        "strategy": "Accessibility label (starts with)",
+        "selector": "android=new UiSelector().descriptionStartsWith(\"Resend OTP\")",
+        "readable": "desc starts with \"Resend OTP\""
+      },
+      "whatsapp": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Send OTP via WhatsApp\")",
+        "readable": "desc = \"Send OTP via WhatsApp\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uEA28\")",
+        "readable": "desc = \"\\uEA28\"",
+        "notes": "back arrow icon, top left · Icon glyph (fragile - ask devs for a testID)"
+      }
+    }
+  },
+  {
+    "page": "SystemDialogs",
+    "screen": "Android permission dialogs",
+    "area": "System",
+    "source": "test/pageobjects/components/SystemDialogs.js",
+    "captures": [
+      "GrantPermissionsScreen",
+      "GrantPermissionsScreen2",
+      "PermissionsScreen",
+      "AllowEGenomeToReadScreen"
+    ],
+    "screenshots": [
+      "screenshots/SystemDialogs.png",
+      "screenshots/SystemDialogs-2.png",
+      "screenshots/SystemDialogs-3.png",
+      "screenshots/SystemDialogs-4.png"
+    ],
+    "elements": {
+      "allow": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_allow_button\")",
+        "readable": "id matches \".*:id/permission_allow_button\"",
+        "notes": "Notifications (\"Allow eGenome to send you notifications?\")"
+      },
+      "denyDontAsk": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_deny_and_dont_ask_again_button\")",
+        "readable": "id matches \".*:id/permission_deny_and_dont_ask_again_button\""
+      },
+      "whileUsingApp": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_allow_foreground_only_button\")",
+        "readable": "id matches \".*:id/permission_allow_foreground_only_button\"",
+        "notes": "Location"
+      },
+      "onlyThisTime": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_allow_one_time_button\")",
+        "readable": "id matches \".*:id/permission_allow_one_time_button\""
+      },
+      "deny": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_deny_button\")",
+        "readable": "id matches \".*:id/permission_deny_button\""
+      },
+      "precise": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_location_accuracy_radio_fine\")",
+        "readable": "id matches \".*:id/permission_location_accuracy_radio_fine\""
+      },
+      "approximate": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_location_accuracy_radio_coarse\")",
+        "readable": "id matches \".*:id/permission_location_accuracy_radio_coarse\""
+      },
+      "message": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/permission_message\")",
+        "readable": "id matches \".*:id/permission_message\""
+      },
+      "hcAllowAll": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/settingslib_main_switch_bar\")",
+        "readable": "id matches \".*:id/settingslib_main_switch_bar\"",
+        "notes": "Health Connect bottom sheet"
+      },
+      "hcAllowAllSwitch": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/switch_widget\")",
+        "readable": "id matches \".*:id/switch_widget\""
+      },
+      "hcAllow": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/primary_button_outline\")",
+        "readable": "id matches \".*:id/primary_button_outline\""
+      },
+      "hcDontAllow": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*:id/secondary_button\")",
+        "readable": "id matches \".*:id/secondary_button\""
+      }
+    }
+  },
+  {
+    "page": "BottomNav",
+    "screen": "Bottom tab bar",
+    "area": "Navigation",
+    "source": "test/pageobjects/components/BottomNav.js",
+    "captures": [
+      "MainScreen3"
+    ],
+    "screenshots": [
+      "screenshots/BottomNav.png"
+    ],
+    "elements": {
+      "homeTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Home\")",
+        "readable": "desc = \"Home\""
+      },
+      "reportTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Report\")",
+        "readable": "desc = \"Report\""
+      },
+      "settingsTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Settings\")",
+        "readable": "desc = \"Settings\""
+      }
+    }
+  },
+  {
+    "page": "HomePage",
+    "screen": "Home tab",
+    "area": "Home",
+    "source": "test/pageobjects/HomePage.js",
+    "captures": [
+      "MainScreen2",
+      "MainScreen3",
+      "MainScreen4",
+      "MainScreen5",
+      "MainScreen6",
+      "MainScreen7",
+      "MainScreen10",
+      "MainScreen34"
+    ],
+    "screenshots": [
+      "screenshots/HomePage.png",
+      "screenshots/HomePage-2.png",
+      "screenshots/HomePage-3.png",
+      "screenshots/HomePage-4.png",
+      "screenshots/HomePage-5.png",
+      "screenshots/HomePage-6.png",
+      "screenshots/HomePage-7.png",
+      "screenshots/HomePage-8.png"
+    ],
+    "elements": {
+      "profileSwitcher": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\".+, (Self|self), .*\")",
+        "readable": "desc matches \".+, (Self|self), .*\"",
+        "notes": "Header \"John Doe, Self, ...\" - the logged-in account"
+      },
+      "youRightNow": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"You, right now\")",
+        "readable": "text = \"You, right now\"",
+        "notes": "\"You, right now\" vitals"
+      },
+      "weightCard": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", Weight, \")",
+        "readable": "desc contains \", Weight, \""
+      },
+      "bmiCard": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", BMI, \")",
+        "readable": "desc contains \", BMI, \""
+      },
+      "bodyFatCard": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", Body Fat, \")",
+        "readable": "desc contains \", Body Fat, \""
+      },
+      "stepsCard": {
+        "strategy": "Accessibility label (starts with)",
+        "selector": "android=new UiSelector().descriptionStartsWith(\"Steps, \")",
+        "readable": "desc starts with \"Steps, \""
+      },
+      "waterCard": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", Water Goal, \")",
+        "readable": "desc contains \", Water Goal, \""
+      },
+      "paymentBanner": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"ACTION NEEDED\")",
+        "readable": "desc contains \"ACTION NEEDED\"",
+        "notes": "Payment banner"
+      },
+      "completePaymentBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Complete Payment\")",
+        "readable": "desc = \"Complete Payment\""
+      },
+      "dailyRoutine": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Daily Routine\")",
+        "readable": "text = \"Daily Routine\"",
+        "notes": "Daily routine"
+      },
+      "calendarBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uF0E18\")",
+        "readable": "desc = \"\\uF0E18\"",
+        "notes": "calendar icon next to the date -> Monthly Progress · Icon glyph (fragile - ask devs for a testID)"
+      },
+      "dayStreak": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", Day Streak\")",
+        "readable": "desc contains \", Day Streak\""
+      },
+      "tasksDone": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+ of [0-9]+ tasks done today\")",
+        "readable": "text matches \"[0-9]+ of [0-9]+ tasks done today\""
+      },
+      "moreItems": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\"[+][0-9]+ more items\")",
+        "readable": "desc matches \"[+][0-9]+ more items\""
+      },
+      "mealsTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Meals\")",
+        "readable": "desc = \"Meals\""
+      },
+      "exerciseTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Exercise\")",
+        "readable": "desc = \"Exercise\""
+      },
+      "supplementsTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Supplements\")",
+        "readable": "desc = \"Supplements\""
+      },
+      "pathToInsights": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Path To Health Insights\")",
+        "readable": "text = \"Path To Health Insights\"",
+        "notes": "Journey / expert call"
+      },
+      "viewFullJourney": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"View Full Journey\")",
+        "readable": "desc = \"View Full Journey\""
+      },
+      "talkToExpert": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Talk to a Health Expert\")",
+        "readable": "text = \"Talk to a Health Expert\""
+      },
+      "scheduleCall": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Schedule Your Call\")",
+        "readable": "desc = \"Schedule Your Call\""
+      }
+    }
+  },
+  {
+    "page": "SwitchProfileSheet",
+    "screen": "Switch Profile sheet",
+    "area": "Home",
+    "source": "test/pageobjects/SwitchProfileSheet.js",
+    "captures": [
+      "MainScreen9"
+    ],
+    "screenshots": [
+      "screenshots/SwitchProfileSheet.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Switch Profile\")",
+        "readable": "text = \"Switch Profile\""
+      },
+      "subtitle": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Choose which profile\")",
+        "readable": "text starts with \"Choose which profile\""
+      },
+      "closeBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uEB4B\")",
+        "readable": "desc = \"\\uEB4B\"",
+        "notes": "\"x\" icon · Icon glyph (fragile - ask devs for a testID)"
+      },
+      "addProfile": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"Add Profile\")",
+        "readable": "desc contains \"Add Profile\""
+      }
+    }
+  },
+  {
+    "page": "MonthlyProgressPage",
+    "screen": "Monthly Progress (calendar)",
+    "area": "Home",
+    "source": "test/pageobjects/MonthlyProgressPage.js",
+    "captures": [
+      "October2026Screen",
+      "MainScreen11"
+    ],
+    "screenshots": [
+      "screenshots/MonthlyProgressPage.png",
+      "screenshots/MonthlyProgressPage-2.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Monthly Progress\")",
+        "readable": "text = \"Monthly Progress\""
+      },
+      "subtitle": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Track your health journey\")",
+        "readable": "text = \"Track your health journey\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Go back\")",
+        "readable": "desc = \"Go back\""
+      },
+      "monthTitle": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*header[.]title\")",
+        "readable": "id matches \".*header[.]title\""
+      },
+      "prevMonth": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*header[.]leftArrow\")",
+        "readable": "id matches \".*header[.]leftArrow\""
+      },
+      "nextMonth": {
+        "strategy": "Resource ID (regex)",
+        "selector": "android=new UiSelector().resourceIdMatches(\".*header[.]rightArrow\")",
+        "readable": "id matches \".*header[.]rightArrow\""
+      },
+      "completed": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Completed\")",
+        "readable": "text = \"Completed\""
+      },
+      "mealsTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Meals\")",
+        "readable": "desc = \"Meals\""
+      },
+      "exerciseTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Exercise\")",
+        "readable": "desc = \"Exercise\""
+      },
+      "supplementsTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Supplements\")",
+        "readable": "desc = \"Supplements\""
+      }
+    }
+  },
+  {
+    "page": "ReportsPage",
+    "screen": "Report tab",
+    "area": "Reports",
+    "source": "test/pageobjects/ReportsPage.js",
+    "captures": [
+      "MainScreen12"
+    ],
+    "screenshots": [
+      "screenshots/ReportsPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Your Personalized Reports\")",
+        "readable": "text = \"Your Personalized Reports\""
+      },
+      "reportsFound": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+ reports? found\")",
+        "readable": "text matches \"[0-9]+ reports? found\""
+      },
+      "myReportsTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"My Reports\")",
+        "readable": "desc = \"My Reports\""
+      },
+      "sampleReportsTab": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Sample Reports\")",
+        "readable": "desc = \"Sample Reports\""
+      },
+      "samplesAvailable": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+ sample reports? available.*\")",
+        "readable": "text matches \"[0-9]+ sample reports? available.*\""
+      },
+      "paymentPending": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"PAYMENT PENDING\")",
+        "readable": "text = \"PAYMENT PENDING\""
+      },
+      "completed": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"COMPLETED\")",
+        "readable": "text = \"COMPLETED\""
+      },
+      "completePaymentBtn": {
+        "strategy": "Accessibility label (starts with)",
+        "selector": "android=new UiSelector().descriptionStartsWith(\"Complete Payment\")",
+        "readable": "desc starts with \"Complete Payment\""
+      },
+      "reportCards": {
+        "strategy": "Class + index",
+        "selector": "android=new UiSelector().className(\"android.widget.Button\").descriptionContains(\"Report\")",
+        "readable": "class = \"android.widget.Button\" and desc contains \"Report\""
+      }
+    }
+  },
+  {
+    "page": "ReportDetailPage",
+    "screen": "Report details",
+    "area": "Reports",
+    "source": "test/pageobjects/ReportDetailPage.js",
+    "captures": [
+      "MainScreen14",
+      "MainScreen15",
+      "MainScreen16",
+      "MainScreen17"
+    ],
+    "screenshots": [
+      "screenshots/ReportDetailPage.png",
+      "screenshots/ReportDetailPage-2.png",
+      "screenshots/ReportDetailPage-3.png",
+      "screenshots/ReportDetailPage-4.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"Month [0-9]+ Report\")",
+        "readable": "text matches \"Month [0-9]+ Report\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Go back\")",
+        "readable": "desc = \"Go back\""
+      },
+      "downloadBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Download report\")",
+        "readable": "desc = \"Download report\""
+      },
+      "atAGlance": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Your Health at a Glance\")",
+        "readable": "text = \"Your Health at a Glance\"",
+        "notes": "Summary section"
+      },
+      "counter": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\"[0-9]+, {label}\")",
+        "readable": "desc matches \"[0-9]+, {label}\"",
+        "notes": "Bio Markers section counters: \"77, Total\" / \"57, Normal\" / \"10, Warning\" / \"10, Critical\" · Template - fill in {placeholders}"
+      },
+      "dietTitle": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Your Daily Diet Plan\")",
+        "readable": "text starts with \"Your Daily Diet Plan\"",
+        "notes": "Diet Plan section"
+      },
+      "dailyKcal": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+ kcal today\")",
+        "readable": "text matches \"[0-9]+ kcal today\""
+      },
+      "weeklyMenu": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"See My Weekly Menu Plan\")",
+        "readable": "desc contains \"See My Weekly Menu Plan\""
+      },
+      "rcaIntro": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"We've identified\")",
+        "readable": "text starts with \"We've identified\"",
+        "notes": "RCA section"
+      }
+    }
+  },
+  {
+    "page": "PremiumPage",
+    "screen": "eGenome Premium",
+    "area": "Payments",
+    "source": "test/pageobjects/PremiumPage.js",
+    "captures": [
+      "MainScreen13"
+    ],
+    "screenshots": [
+      "screenshots/PremiumPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"eGenome Premium\")",
+        "readable": "text = \"eGenome Premium\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Go back\")",
+        "readable": "desc = \"Go back\""
+      },
+      "oldPrice": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"₹11,988\")",
+        "readable": "text = \"₹11,988\""
+      },
+      "price": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"₹[0-9,]+\")",
+        "readable": "text matches \"₹[0-9,]+\""
+      },
+      "perYear": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"per year\")",
+        "readable": "text starts with \"per year\""
+      },
+      "emiOption": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"EMI Starts\")",
+        "readable": "desc contains \"EMI Starts\""
+      },
+      "oneTimeOption": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"/Year, one-time\")",
+        "readable": "desc contains \"/Year, one-time\""
+      },
+      "noAutoRenewal": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"No Auto Renewal\")",
+        "readable": "text = \"No Auto Renewal\""
+      },
+      "paymentError": {
+        "strategy": "Text (contains)",
+        "selector": "android=new UiSelector().textContains(\"Payment processing failed\")",
+        "readable": "text contains \"Payment processing failed\""
+      },
+      "paymentMethod": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"{name}\")",
+        "readable": "desc = \"{name}\"",
+        "notes": "'mastercard' | 'visa' | 'google pay' | 'phonepe' | 'upi' · Template - fill in {placeholders}"
+      },
+      "payBtn": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\"(?i)^(pay|proceed|continue|subscribe|buy|get premium|upgrade).*\")",
+        "readable": "desc matches \"(?i)^(pay|proceed|continue|subscribe|buy|get premium|upgrade).*\"",
+        "notes": "NOT CAPTURED: the button that opens Razorpay (below the fold). Generic guess - verify on device. · NOT VERIFIED - not captured yet"
+      }
+    }
+  },
+  {
+    "page": "RazorpayCheckoutPage",
+    "screen": "Razorpay checkout",
+    "area": "Payments",
+    "source": "test/pageobjects/RazorpayCheckoutPage.js",
+    "captures": [
+      "CheckoutScreen3"
+    ],
+    "screenshots": [
+      "screenshots/RazorpayCheckoutPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Razorpay Checkout\")",
+        "readable": "text = \"Razorpay Checkout\""
+      },
+      "totalLabel": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Total Amount\")",
+        "readable": "text = \"Total Amount\""
+      },
+      "totalValue": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"Total Amount\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "readable": "//*[starts-with(@text, \"Total Amount\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]"
+      },
+      "planName": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Annual Plan\")",
+        "readable": "text = \"Annual Plan\""
+      },
+      "contactHeading": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Contact details\")",
+        "readable": "text = \"Contact details\""
+      },
+      "mobileInput": {
+        "strategy": "XPath",
+        "selector": "//android.widget.EditText[@hint=\"Mobile number\" or @text=\"Mobile number\"]",
+        "readable": "//android.widget.EditText[@hint=\"Mobile number\" or @text=\"Mobile number\"]"
+      },
+      "mobileInputAny": {
+        "strategy": "Class + index",
+        "selector": "android=new UiSelector().className(\"android.widget.EditText\").instance(0)",
+        "readable": "class = \"android.widget.EditText\" #0",
+        "notes": "Index-based"
+      },
+      "continueBtn": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Continue\")",
+        "readable": "text = \"Continue\""
+      },
+      "backBtn": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Go back\")",
+        "readable": "text = \"Go back\""
+      },
+      "yesExit": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Yes, exit\")",
+        "readable": "text = \"Yes, exit\"",
+        "notes": "\"Are you sure you want to exit?\" dialog"
+      },
+      "continueToPayment": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Continue to payment\")",
+        "readable": "text = \"Continue to payment\""
+      }
+    }
+  },
+  {
+    "page": "SettingsPage",
+    "screen": "Settings tab",
+    "area": "Settings",
+    "source": "test/pageobjects/SettingsPage.js",
+    "captures": [
+      "MainScreen18",
+      "MainScreen19"
+    ],
+    "screenshots": [
+      "screenshots/SettingsPage.png",
+      "screenshots/SettingsPage-2.png"
+    ],
+    "elements": {
+      "profileCard": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"Tap to manage profile\")",
+        "readable": "desc contains \"Tap to manage profile\""
+      },
+      "appearance": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Appearance\")",
+        "readable": "text = \"Appearance\""
+      },
+      "theme": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\".+, {mode}\")",
+        "readable": "desc matches \".+, {mode}\"",
+        "notes": "'Light' | 'Dark' | 'System' · Template - fill in {placeholders}"
+      },
+      "section": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\"(.*, )?[{]name[}], .*\")",
+        "readable": "desc matches \"(.*, )?[{]name[}], .*\"",
+        "notes": "'Account Management' | 'Premium Features' | 'Support & Help' · Template - fill in {placeholders}"
+      },
+      "accountMgmt": {
+        "strategy": "Accessibility label (starts with)",
+        "selector": "android=new UiSelector().descriptionStartsWith(\"Account Management\")",
+        "readable": "desc starts with \"Account Management\"",
+        "notes": "\"Account Management, <chevron>, 2\" (tap to expand/collapse)"
+      },
+      "menu": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\".+, [{]name[}](, .*)?\")",
+        "readable": "desc matches \".+, [{]name[}](, .*)?\"",
+        "notes": "Template - fill in {placeholders}"
+      }
+    }
+  },
+  {
+    "page": "SettingsPage (sign out)",
+    "screen": "Sign Out dialog",
+    "area": "Settings",
+    "source": "test/pageobjects/SettingsPage.js",
+    "captures": [
+      "MainScreen36"
+    ],
+    "screenshots": [
+      "screenshots/SettingsPage-sign-out.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Sign Out\")",
+        "readable": "text = \"Sign Out\""
+      },
+      "message": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Are you sure you want to sign out\")",
+        "readable": "text starts with \"Are you sure you want to sign out\""
+      },
+      "confirmBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Sign Out\")",
+        "readable": "desc = \"Sign Out\""
+      },
+      "cancelBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Cancel\")",
+        "readable": "desc = \"Cancel\""
+      }
+    }
+  },
+  {
+    "page": "ProfilePage",
+    "screen": "Profile",
+    "area": "Settings",
+    "source": "test/pageobjects/ProfilePage.js",
+    "captures": [
+      "MainScreen20"
+    ],
+    "screenshots": [
+      "screenshots/ProfilePage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Profile\")",
+        "readable": "text = \"Profile\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Go back\")",
+        "readable": "desc = \"Go back\""
+      },
+      "editBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uEB94\")",
+        "readable": "desc = \"\\uEB94\"",
+        "notes": "pencil icon, top right -> Edit Profile · Icon glyph (fragile - ask devs for a testID)"
+      },
+      "avatar": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uEDA6, \\uEADC\")",
+        "readable": "desc = \"\\uEDA6, \\uEADC\"",
+        "notes": "Icon glyph (fragile - ask devs for a testID)"
+      },
+      "addPhotoHint": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Tap to add profile pictur\")",
+        "readable": "text starts with \"Tap to add profile pictur\""
+      },
+      "age": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+ yrs\")",
+        "readable": "text matches \"[0-9]+ yrs\""
+      },
+      "height": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+ft [0-9]+in\")",
+        "readable": "text matches \"[0-9]+ft [0-9]+in\""
+      },
+      "weight": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+([.][0-9]+)? kg\")",
+        "readable": "text matches \"[0-9]+([.][0-9]+)? kg\""
+      },
+      "emailRow": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", EMAIL, \")",
+        "readable": "desc contains \", EMAIL, \""
+      },
+      "phoneRow": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", PHONE, \")",
+        "readable": "desc contains \", PHONE, \""
+      },
+      "genderRow": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", GENDER, \")",
+        "readable": "desc contains \", GENDER, \""
+      },
+      "updatedToast": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Profile updated successfu\")",
+        "readable": "text starts with \"Profile updated successfu\""
+      }
+    }
+  },
+  {
+    "page": "EditProfilePage",
+    "screen": "Edit Profile",
+    "area": "Settings",
+    "source": "test/pageobjects/EditProfilePage.js",
+    "captures": [
+      "MainScreen21",
+      "MainScreen22",
+      "MainScreen23"
+    ],
+    "screenshots": [
+      "screenshots/EditProfilePage.png",
+      "screenshots/EditProfilePage-2.png",
+      "screenshots/EditProfilePage-3.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Edit Profile\")",
+        "readable": "text = \"Edit Profile\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Go back\")",
+        "readable": "desc = \"Go back\""
+      },
+      "saveBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Save\")",
+        "readable": "desc = \"Save\""
+      },
+      "changePhoto": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Tap to change photo\")",
+        "readable": "text = \"Tap to change photo\""
+      },
+      "firstName": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"FIRST NAME\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"FIRST NAME\")]/following::android.widget.EditText[1]"
+      },
+      "lastName": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"LAST NAME\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"LAST NAME\")]/following::android.widget.EditText[1]"
+      },
+      "dob": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"DATE OF BIRTH\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "readable": "//*[starts-with(@text, \"DATE OF BIRTH\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]"
+      },
+      "genderField": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"GENDER\")]/following::*[@clickable=\"true\"][1]",
+        "readable": "//*[starts-with(@text, \"GENDER\")]/following::*[@clickable=\"true\"][1]"
+      },
+      "heightFt": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"HEIGHT\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"HEIGHT\")]/following::android.widget.EditText[1]"
+      },
+      "heightIn": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"HEIGHT\")]/following::android.widget.EditText[2]",
+        "readable": "//*[starts-with(@text, \"HEIGHT\")]/following::android.widget.EditText[2]"
+      },
+      "weight": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"WEIGHT\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"WEIGHT\")]/following::android.widget.EditText[1]"
+      },
+      "email": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"Email Address\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"Email Address\")]/following::android.widget.EditText[1]"
+      },
+      "phone": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"PHONE NUMBER\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "readable": "//*[starts-with(@text, \"PHONE NUMBER\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]"
+      },
+      "genderSheet": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Select Gender\")",
+        "readable": "text = \"Select Gender\"",
+        "notes": "Gender bottom sheet"
+      },
+      "genderOption": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\".*, {g}(, .*)?\")",
+        "readable": "desc matches \".*, {g}(, .*)?\"",
+        "notes": "'Male' | 'Female' | 'Other' | 'Prefer not to say' · Template - fill in {placeholders}"
+      },
+      "closeSheet": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uEB4B\")",
+        "readable": "desc = \"\\uEB4B\"",
+        "notes": "Icon glyph (fragile - ask devs for a testID)"
+      }
+    }
+  },
+  {
+    "page": "AddressesPage",
+    "screen": "Manage Addresses",
+    "area": "Settings",
+    "source": "test/pageobjects/AddressesPage.js",
+    "captures": [
+      "MainScreen26"
+    ],
+    "screenshots": [
+      "screenshots/AddressesPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Manage Addresses\")",
+        "readable": "text = \"Manage Addresses\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Go back\")",
+        "readable": "desc = \"Go back\""
+      },
+      "addBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uEA04\")",
+        "readable": "desc = \"\\uEA04\"",
+        "notes": "\"+\" icon, top right · Icon glyph (fragile - ask devs for a testID)"
+      },
+      "cards": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", Home Address, \")",
+        "readable": "desc contains \", Home Address, \""
+      },
+      "anyCard": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\".*, (SERVICEABLE|NOT SERVICEABLE|UNSERVICEABLE), .*\")",
+        "readable": "desc matches \".*, (SERVICEABLE|NOT SERVICEABLE|UNSERVICEABLE), .*\""
+      },
+      "primaryCard": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", PRIMARY, \")",
+        "readable": "desc contains \", PRIMARY, \""
+      },
+      "cardMenu": {
+        "strategy": "XPath",
+        "selector": "(//android.view.ViewGroup[@content-desc=\"\\uEBCF\"])[{i}]",
+        "readable": "(//android.view.ViewGroup[@content-desc=\"\\uEBCF\"])[{i}]",
+        "notes": "\"⋮\" on a card · Template - fill in {placeholders} · Icon glyph (fragile - ask devs for a testID)"
+      },
+      "addedToast": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Address added successfully\")",
+        "readable": "text starts with \"Address added successfully\""
+      }
+    }
+  },
+  {
+    "page": "AddAddressPage",
+    "screen": "Add address (map + form)",
+    "area": "Settings",
+    "source": "test/pageobjects/AddressesPage.js",
+    "captures": [
+      "MainScreen25"
+    ],
+    "screenshots": [
+      "screenshots/AddAddressPage.png"
+    ],
+    "elements": {
+      "map": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Google Map\")",
+        "readable": "desc = \"Google Map\""
+      },
+      "marker": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Map Marker\")",
+        "readable": "desc = \"Map Marker\""
+      },
+      "search": {
+        "strategy": "Resource ID",
+        "selector": "android=new UiSelector().resourceId(\"location-search-input\")",
+        "readable": "id = \"location-search-input\"",
+        "notes": "RN testID"
+      },
+      "searchInput": {
+        "strategy": "Class + index",
+        "selector": "android=new UiSelector().className(\"android.widget.EditText\").instance(0)",
+        "readable": "class = \"android.widget.EditText\" #0",
+        "notes": "Index-based"
+      },
+      "pinHint": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Place the pin at exact collection\")",
+        "readable": "text starts with \"Place the pin at exact collection\""
+      },
+      "collectedFrom": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Sample will be collected from here\")",
+        "readable": "text = \"Sample will be collected from here\""
+      },
+      "confirmBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Confirm & Proceed\")",
+        "readable": "desc = \"Confirm & Proceed\""
+      },
+      "editAddress": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Edit Address\")",
+        "readable": "text = \"Edit Address\""
+      },
+      "formTitle": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Add Address Details\")",
+        "readable": "text = \"Add Address Details\""
+      },
+      "house": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"HOUSE / FLAT\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"HOUSE / FLAT\")]/following::android.widget.EditText[1]"
+      },
+      "area": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"APARTMENT / ROAD\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"APARTMENT / ROAD\")]/following::android.widget.EditText[1]"
+      },
+      "city": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"CITY\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"CITY\")]/following::android.widget.EditText[1]"
+      },
+      "pincode": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"PINCODE\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"PINCODE\")]/following::android.widget.EditText[1]"
+      },
+      "saveAs": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\".+, {type}\")",
+        "readable": "desc matches \".+, {type}\"",
+        "notes": "'Home' | 'Work' | 'Other' (bottom-nav \"Home\" has no prefix) · Template - fill in {placeholders}"
+      },
+      "saveBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Save Address Details\")",
+        "readable": "desc = \"Save Address Details\""
+      }
+    }
+  },
+  {
+    "page": "DependentsPage",
+    "screen": "Family Network",
+    "area": "Settings",
+    "source": "test/pageobjects/DependentsPage.js",
+    "captures": [
+      "MainScreen27"
+    ],
+    "screenshots": [
+      "screenshots/DependentsPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Family Network\")",
+        "readable": "text = \"Family Network\""
+      },
+      "backBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Go back\")",
+        "readable": "desc = \"Go back\""
+      },
+      "addBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"\\uEA04\")",
+        "readable": "desc = \"\\uEA04\"",
+        "notes": "\"+\" icon, top right · Icon glyph (fragile - ask devs for a testID)"
+      },
+      "stat": {
+        "strategy": "XPath",
+        "selector": "//*[@text=\"{label}\"]/preceding-sibling::android.widget.TextView[1]",
+        "readable": "//*[@text=\"{label}\"]/preceding-sibling::android.widget.TextView[1]",
+        "notes": "number above \"Members\" · Template - fill in {placeholders}"
+      },
+      "member": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", {name}, \")",
+        "readable": "desc contains \", {name}, \"",
+        "notes": "Template - fill in {placeholders}"
+      },
+      "memberAction": {
+        "strategy": "XPath",
+        "selector": "//*[contains(@content-desc, \", {name}, \")]/following::*[contains(@content-desc, \", {action}\")][1]",
+        "readable": "//*[contains(@content-desc, \", {name}, \")]/following::*[contains(@content-desc, \", {action}\")][1]",
+        "notes": "Template - fill in {placeholders}"
+      }
+    }
+  },
+  {
+    "page": "EditDependentPage",
+    "screen": "Edit Dependent",
+    "area": "Settings",
+    "source": "test/pageobjects/DependentsPage.js",
+    "captures": [
+      "MainScreen28"
+    ],
+    "screenshots": [
+      "screenshots/EditDependentPage.png"
+    ],
+    "elements": {
+      "editTitle": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Edit Dependent\")",
+        "readable": "text = \"Edit Dependent\""
+      },
+      "firstName": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"First Name\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"First Name\")]/following::android.widget.EditText[1]"
+      },
+      "lastName": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"Last Name\")]/following::android.widget.EditText[1]",
+        "readable": "//*[starts-with(@text, \"Last Name\")]/following::android.widget.EditText[1]"
+      },
+      "dob": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"Date of Birth\")]/following::*[@clickable=\"true\"][1]",
+        "readable": "//*[starts-with(@text, \"Date of Birth\")]/following::*[@clickable=\"true\"][1]"
+      },
+      "gender": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"Gender\")]/following::*[@clickable=\"true\"][1]",
+        "readable": "//*[starts-with(@text, \"Gender\")]/following::*[@clickable=\"true\"][1]"
+      },
+      "genderOption": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\".*, {g}(, .*)?\")",
+        "readable": "desc matches \".*, {g}(, .*)?\"",
+        "notes": "Template - fill in {placeholders}"
+      },
+      "updateBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Update Dependent\")",
+        "readable": "desc = \"Update Dependent\""
+      },
+      "submitBtn": {
+        "strategy": "Accessibility label (regex)",
+        "selector": "android=new UiSelector().descriptionMatches(\"(Update|Add|Save) Dependent\")",
+        "readable": "desc matches \"(Update|Add|Save) Dependent\""
+      }
+    }
+  },
+  {
+    "page": "TransactionHistoryPage",
+    "screen": "Transaction History",
+    "area": "Settings",
+    "source": "test/pageobjects/AccountPages.js",
+    "captures": [
+      "MainScreen29"
+    ],
+    "screenshots": [
+      "screenshots/TransactionHistoryPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Transaction History\")",
+        "readable": "text = \"Transaction History\""
+      },
+      "subtitle": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Your transaction history\")",
+        "readable": "text starts with \"Your transaction history\""
+      },
+      "filter": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"{name}\")",
+        "readable": "desc = \"{name}\"",
+        "notes": "All | Captured | Refunded | Failed | Authorized | Created · Template - fill in {placeholders}"
+      },
+      "empty": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"No Transactions Yet\")",
+        "readable": "text = \"No Transactions Yet\""
+      }
+    }
+  },
+  {
+    "page": "BookingHistoryPage",
+    "screen": "Booking History",
+    "area": "Settings",
+    "source": "test/pageobjects/AccountPages.js",
+    "captures": [
+      "MainScreen20"
+    ],
+    "screenshots": [
+      "screenshots/BookingHistoryPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Booking History\")",
+        "readable": "text = \"Booking History\""
+      },
+      "count": {
+        "strategy": "Text (regex)",
+        "selector": "android=new UiSelector().textMatches(\"[0-9]+ bookings? found\")",
+        "readable": "text matches \"[0-9]+ bookings? found\""
+      },
+      "bookingCard": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\", {service}, \")",
+        "readable": "desc contains \", {service}, \"",
+        "notes": "e.g. 'Sample Collection' · Template - fill in {placeholders}"
+      },
+      "detailsTitle": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Booking Details\")",
+        "readable": "text = \"Booking Details\""
+      },
+      "value": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"{label}\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "readable": "//*[starts-with(@text, \"{label}\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "notes": "'Service:' | 'Date:' | 'Time:' | 'Duration:' | 'Reference:' ... · Template - fill in {placeholders}"
+      }
+    }
+  },
+  {
+    "page": "SubscriptionPage",
+    "screen": "Subscription Management",
+    "area": "Settings",
+    "source": "test/pageobjects/AccountPages.js",
+    "captures": [
+      "MainScreen20"
+    ],
+    "screenshots": [
+      "screenshots/SubscriptionPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Subscription Management\")",
+        "readable": "text = \"Subscription Management\""
+      },
+      "subtitle": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Manage your plan\")",
+        "readable": "text starts with \"Manage your plan\""
+      },
+      "planName": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"Current Subscription\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "readable": "//*[starts-with(@text, \"Current Subscription\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]"
+      },
+      "value": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"{label}\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "readable": "//*[starts-with(@text, \"{label}\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "notes": "'Price' | 'Active Since' | 'Next Billing' · Template - fill in {placeholders}"
+      },
+      "noPaymentMethods": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"No payment methods\")",
+        "readable": "text starts with \"No payment methods\""
+      },
+      "noInvoices": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"No invoice history\")",
+        "readable": "text starts with \"No invoice history\""
+      },
+      "cancelBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Cancel Subscription\")",
+        "readable": "desc = \"Cancel Subscription\""
+      }
+    }
+  },
+  {
+    "page": "CancelSubscriptionPage",
+    "screen": "Cancel Subscription",
+    "area": "Settings",
+    "source": "test/pageobjects/AccountPages.js",
+    "captures": [
+      "MainScreen32",
+      "MainScreen33"
+    ],
+    "screenshots": [
+      "screenshots/CancelSubscriptionPage.png",
+      "screenshots/CancelSubscriptionPage-2.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Cancel Subscription\")",
+        "readable": "text = \"Cancel Subscription\""
+      },
+      "currentPlan": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Current Plan\")",
+        "readable": "text = \"Current Plan\""
+      },
+      "value": {
+        "strategy": "XPath",
+        "selector": "//*[starts-with(@text, \"{label}\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "readable": "//*[starts-with(@text, \"{label}\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+        "notes": "'Status:' | 'Price:' | 'Active Until:' · Template - fill in {placeholders}"
+      },
+      "reasonPrompt": {
+        "strategy": "Text (starts with)",
+        "selector": "android=new UiSelector().textStartsWith(\"Please select a reason\")",
+        "readable": "text starts with \"Please select a reason\""
+      },
+      "reason": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"{text}\")",
+        "readable": "desc = \"{text}\"",
+        "notes": "Template - fill in {placeholders}"
+      },
+      "confirmBtn": {
+        "strategy": "Accessibility label (exact)",
+        "selector": "android=new UiSelector().description(\"Cancel Subscription\")",
+        "readable": "desc = \"Cancel Subscription\""
+      }
+    }
+  },
+  {
+    "page": "HelpSupportPage",
+    "screen": "Priority Support",
+    "area": "Settings",
+    "source": "test/pageobjects/AccountPages.js",
+    "captures": [
+      "MainScreen20"
+    ],
+    "screenshots": [
+      "screenshots/HelpSupportPage.png"
+    ],
+    "elements": {
+      "title": {
+        "strategy": "Text (exact)",
+        "selector": "android=new UiSelector().text(\"Priority Support\")",
+        "readable": "text = \"Priority Support\""
+      },
+      "call": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"Call Priority Support\")",
+        "readable": "desc contains \"Call Priority Support\""
+      },
+      "email": {
+        "strategy": "Accessibility label (contains)",
+        "selector": "android=new UiSelector().descriptionContains(\"Email Priority Support\")",
+        "readable": "desc contains \"Email Priority Support\""
+      }
+    }
+  }
+]

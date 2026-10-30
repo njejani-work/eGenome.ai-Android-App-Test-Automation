@@ -1,0 +1,457 @@
+{
+  "spec": "MonthlyProgress",
+  "page": "MonthlyProgressPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:01:52.629Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Monthly Progress\")",
+      "text": "Monthly Progress",
+      "box": {
+        "x": 0.275,
+        "y": 0.0531,
+        "w": 0.4486,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "subtitle": {
+      "selector": "android=new UiSelector().text(\"Track your health journey\")",
+      "text": "Track your health journey",
+      "box": {
+        "x": 0.2486,
+        "y": 0.0922,
+        "w": 0.5028,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0556,
+        "y": 0.0547,
+        "w": 0.1222,
+        "h": 0.0688
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "monthTitle": {
+      "selector": "android=new UiSelector().resourceIdMatches(\".*header\\\\.title\")",
+      "box": {
+        "x": 0.3389,
+        "y": 0.2133,
+        "w": 0.3222,
+        "h": 0.0344
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "prevMonth": {
+      "selector": "android=new UiSelector().resourceIdMatches(\".*header\\\\.leftArrow\")",
+      "box": {
+        "x": 0.1014,
+        "y": 0.1961,
+        "w": 0.1222,
+        "h": 0.0688
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "nextMonth": {
+      "selector": "android=new UiSelector().resourceIdMatches(\".*header\\\\.rightArrow\")",
+      "box": {
+        "x": 0.7764,
+        "y": 0.1961,
+        "w": 0.1222,
+        "h": 0.0688
+      },
+      "clickable": false,
+      "enabled": false,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "completed": {
+      "selector": "android=new UiSelector().text(\"Completed\")",
+      "text": "Completed",
+      "box": {
+        "x": 0.1264,
+        "y": 0.9281,
+        "w": 0.1417,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameMonText": {
+      "match": {
+        "rid": "undefined.header.dayName_Mon"
+      },
+      "text": "Mon",
+      "box": {
+        "x": 0.0889,
+        "y": 0.2789,
+        "w": 0.0889,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameTueText": {
+      "match": {
+        "rid": "undefined.header.dayName_Tue"
+      },
+      "text": "Tue",
+      "box": {
+        "x": 0.2111,
+        "y": 0.2789,
+        "w": 0.0889,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameWedText": {
+      "match": {
+        "rid": "undefined.header.dayName_Wed"
+      },
+      "text": "Wed",
+      "box": {
+        "x": 0.3333,
+        "y": 0.2789,
+        "w": 0.0889,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameThuText": {
+      "match": {
+        "rid": "undefined.header.dayName_Thu"
+      },
+      "text": "Thu",
+      "box": {
+        "x": 0.4556,
+        "y": 0.2789,
+        "w": 0.0889,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameFriText": {
+      "match": {
+        "rid": "undefined.header.dayName_Fri"
+      },
+      "text": "Fri",
+      "box": {
+        "x": 0.5764,
+        "y": 0.2789,
+        "w": 0.0889,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameSatText": {
+      "match": {
+        "rid": "undefined.header.dayName_Sat"
+      },
+      "text": "Sat",
+      "box": {
+        "x": 0.6986,
+        "y": 0.2789,
+        "w": 0.0889,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameSunText": {
+      "match": {
+        "rid": "undefined.header.dayName_Sun"
+      },
+      "text": "Sun",
+      "box": {
+        "x": 0.8208,
+        "y": 0.2789,
+        "w": 0.0889,
+        "h": 0.025
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "mealsText": {
+      "match": {
+        "text": "Meals",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Meals",
+      "box": {
+        "x": 0.4153,
+        "y": 0.9492,
+        "w": 0.0722,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "exerciseText": {
+      "match": {
+        "text": "Exercise",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Exercise",
+      "box": {
+        "x": 0.5972,
+        "y": 0.9492,
+        "w": 0.1056,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "supplementsText": {
+      "match": {
+        "text": "Supplements",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Supplements",
+      "box": {
+        "x": 0.7639,
+        "y": 0.9492,
+        "w": 0.1653,
+        "h": 0.0219
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "sameRow",
+      "els": [
+        "title",
+        "backBtn"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "prevMonth",
+        "nextMonth",
+        "monthTitle"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "dayNameMonText",
+        "dayNameTueText",
+        "dayNameWedText",
+        "dayNameThuText",
+        "dayNameFriText",
+        "dayNameSatText",
+        "dayNameSunText"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "mealsText",
+        "exerciseText",
+        "supplementsText"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "title",
+        "subtitle",
+        "prevMonth",
+        "dayNameMonText",
+        "completed",
+        "mealsText"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "subtitle",
+      "value": 0.0111
+    },
+    {
+      "type": "gap",
+      "above": "subtitle",
+      "below": "prevMonth",
+      "value": 0.1264
+    },
+    {
+      "type": "gap",
+      "above": "prevMonth",
+      "below": "dayNameMonText",
+      "value": 0.025
+    },
+    {
+      "type": "gap",
+      "above": "dayNameMonText",
+      "below": "completed",
+      "value": 1.1097
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "backBtn",
+        "dayNameMonText"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "subtitle"
+    },
+    {
+      "type": "centerX",
+      "el": "monthTitle"
+    },
+    {
+      "type": "centerX",
+      "el": "dayNameThuText"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "backBtn",
+          "prevMonth"
+        ]
+      ]
+    }
+  ]
+}

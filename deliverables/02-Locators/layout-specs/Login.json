@@ -1,0 +1,270 @@
+{
+  "spec": "Login",
+  "page": "LoginPage",
+  "source": "device",
+  "generatedAt": "2026-10-28T11:00:41.103Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 720,
+    "h": 1280
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "headline": {
+      "selector": "android=new UiSelector().textStartsWith(\"Start your health\")",
+      "text": "Start your health\njourney today",
+      "box": {
+        "x": 0.1764,
+        "y": 0.2031,
+        "w": 0.6458,
+        "h": 0.1844
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "title": {
+      "selector": "android=new UiSelector().text(\"Log in or Sign up\")",
+      "text": "Log in or Sign up",
+      "box": {
+        "x": 0.0444,
+        "y": 0.3875,
+        "w": 0.9111,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "countryCodeBtn": {
+      "selector": "android=new UiSelector().description(\"󰅀\")",
+      "box": {
+        "x": 0.0889,
+        "y": 0.4844,
+        "w": 0.2056,
+        "h": 0.0344
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "countryCode": {
+      "selector": "android=new UiSelector().text(\"+91\")",
+      "text": "+91",
+      "box": {
+        "x": 0.2972,
+        "y": 0.4844,
+        "w": 0.0958,
+        "h": 0.0328
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "phoneInput": {
+      "selector": "android=new UiSelector().className(\"android.widget.EditText\").instance(0)",
+      "box": {
+        "x": 0.3931,
+        "y": 0.4703,
+        "w": 0.5181,
+        "h": 0.0617
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "sendOtpBtn": {
+      "selector": "android=new UiSelector().description(\"Send OTP\")",
+      "box": {
+        "x": 0.0444,
+        "y": 0.6008,
+        "w": 0.9111,
+        "h": 0.0875
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "consent": {
+      "selector": "android=new UiSelector().textStartsWith(\"By submitting\")",
+      "text": "By submitting, you authorize eGenome.ai to contact you via SMS or WhatsApp for OTPs and service-related updates. Message & data rates may apply.",
+      "box": {
+        "x": 0.1,
+        "y": 0.7133,
+        "w": 0.8,
+        "h": 0.0938
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "sendOtpText": {
+      "match": {
+        "text": "Send OTP",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Send OTP",
+      "box": {
+        "x": 0.3806,
+        "y": 0.6234,
+        "w": 0.2375,
+        "h": 0.0422
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "sendOtpText",
+      "parent": "sendOtpBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "phoneInput",
+        "countryCodeBtn",
+        "countryCode"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "headline",
+        "title",
+        "phoneInput",
+        "sendOtpBtn",
+        "consent"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "headline",
+      "below": "title",
+      "value": 0
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "phoneInput",
+      "value": 0.0889
+    },
+    {
+      "type": "gap",
+      "above": "phoneInput",
+      "below": "sendOtpBtn",
+      "value": 0.1222
+    },
+    {
+      "type": "gap",
+      "above": "sendOtpBtn",
+      "below": "consent",
+      "value": 0.0444
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "title",
+        "sendOtpBtn"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "title",
+        "sendOtpBtn"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "headline"
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "sendOtpBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "consent"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "phoneInput",
+          "countryCodeBtn"
+        ],
+        [
+          "phoneInput",
+          "sendOtpBtn"
+        ],
+        [
+          "countryCodeBtn",
+          "sendOtpBtn"
+        ]
+      ]
+    }
+  ]
+}

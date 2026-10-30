@@ -1,0 +1,39 @@
+{
+  "name": "egenome.ai",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^10.1.0",
+    "@wdio/appium-service": "^10.1.0",
+    "@wdio/cli": "^10.1.0",
+    "@wdio/local-runner": "^10.1.0",
+    "@wdio/mocha-framework": "^10.1.0",
+    "@wdio/spec-reporter": "^10.1.0",
+    "@xmldom/xmldom": "^0.9.12",
+    "appium": "^3.9.0",
+    "appium-uiautomator2-driver": "^8.7.2",
+    "dotenv": "^18.0.9",
+    "webdriverio": "^10.1.0",
+    "xpath": "^0.0.36"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js",
+    "appium": "appium",
+    "appium:setup": "appium driver install uiautomator2",
+    "locators:watch": "node scripts/locator-capture/capture.mjs watch",
+    "locators:attach": "node scripts/locator-capture/capture.mjs watch --attach",
+    "locators:crawl": "node scripts/locator-capture/capture.mjs crawl",
+    "locators:list": "node scripts/locator-capture/capture.mjs list",
+    "locators:pages": "node scripts/locator-capture/capture.mjs pages",
+    "test:login": "wdio run ./wdio.conf.js --spec ./test/specs/regression/01-login.e2e.js",
+    "dashboard": "node test/support/dashboard/cli.mjs --open",
+    "dashboard:build": "node test/support/dashboard/cli.mjs",
+    "deliverables": "node scripts/deliverables/build.mjs",
+    "test:smoke": "wdio run ./wdio.conf.js --suite smoke",
+    "test:regression": "wdio run ./wdio.conf.js --suite regression",
+    "test:layout": "wdio run ./wdio.conf.js --suite layout",
+    "test:extended": "wdio run ./wdio.conf.js --suite extended",
+    "layout:generate": "node scripts/layout/generate.mjs",
+    "layout:baseline": "node scripts/run-with-env.mjs LAYOUT_UPDATE=true -- wdio run ./wdio.conf.js --suite layout",
+    "layout:accept": "node scripts/layout/accept.mjs"
+  }
+}

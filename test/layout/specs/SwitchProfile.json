@@ -1,0 +1,1045 @@
+{
+  "spec": "SwitchProfile",
+  "page": "SwitchProfileSheet",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:15:21.617Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Switch Profile\")",
+      "text": "Switch Profile",
+      "box": {
+        "x": 0.1347,
+        "y": 0.3822,
+        "w": 0.6347,
+        "h": 0.0361
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "subtitle": {
+      "selector": "android=new UiSelector().textStartsWith(\"Choose which profile\")",
+      "text": "Choose which profile to use",
+      "box": {
+        "x": 0.1347,
+        "y": 0.4192,
+        "w": 0.6347,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "closeBtn": {
+      "selector": "android=new UiSelector().description(\"\")",
+      "box": {
+        "x": 0.7986,
+        "y": 0.3965,
+        "w": 0.0681,
+        "h": 0.0305
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "addProfile": {
+      "selector": "android=new UiSelector().descriptionContains(\"Add Profile\")",
+      "box": {
+        "x": 0.6444,
+        "y": 0.4708,
+        "w": 0.2042,
+        "h": 0.1197
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "shape": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0861,
+        "y": 0.3794,
+        "w": 0.8292,
+        "h": 0.2416
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0861,
+        "y": 0.3794,
+        "w": 0.8292,
+        "h": 0.0653
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "bar2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0861,
+        "y": 0.3794,
+        "w": 0.8292,
+        "h": 0.0641
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.7986,
+        "y": 0.3965,
+        "w": 0.0681,
+        "h": 0.0305
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8104,
+        "y": 0.4014,
+        "w": 0.0438,
+        "h": 0.0202
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "johnDoeSelfBtn": {
+      "match": {
+        "desc": ", , {{TEST_USER_NAME}}, Self, "
+      },
+      "box": {
+        "x": 0.1389,
+        "y": 0.4708,
+        "w": 0.2042,
+        "h": 0.1197
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "shape2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1389,
+        "y": 0.4708,
+        "w": 0.2042,
+        "h": 0.1197
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "shape3": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1438,
+        "y": 0.4729,
+        "w": 0.1944,
+        "h": 0.1154
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1875,
+        "y": 0.4795,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.2014,
+        "y": 0.4854,
+        "w": 0.0792,
+        "h": 0.0361
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "circle3": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2215,
+        "y": 0.4708,
+        "w": 0.0389,
+        "h": 0.0174
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText3": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.2264,
+        "y": 0.4726,
+        "w": 0.0292,
+        "h": 0.0137
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "circle4": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2604,
+        "y": 0.4773,
+        "w": 0.0389,
+        "h": 0.0174
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText4": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.2701,
+        "y": 0.4813,
+        "w": 0.0194,
+        "h": 0.0093
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "johnDoeText": {
+      "match": {
+        "text": "{{TEST_USER_NAME}}",
+        "cls": "android.widget.TextView"
+      },
+      "text": "{{TEST_USER_NAME}}",
+      "box": {
+        "x": 0.1764,
+        "y": 0.5348,
+        "w": 0.1299,
+        "h": 0.0152
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "shape4": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1979,
+        "y": 0.56,
+        "w": 0.0861,
+        "h": 0.0283
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "selfText": {
+      "match": {
+        "text": "Self",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Self",
+      "box": {
+        "x": 0.2174,
+        "y": 0.5631,
+        "w": 0.0472,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "johnyMarkSpouseBtn": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "descPattern": "(.*, )?spouse(, .*)?"
+      },
+      "near": true,
+      "box": {
+        "x": 0.3917,
+        "y": 0.4708,
+        "w": 0.2042,
+        "h": 0.1197
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "shape5": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3917,
+        "y": 0.4708,
+        "w": 0.2042,
+        "h": 0.1197
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "shape6": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3965,
+        "y": 0.4729,
+        "w": 0.1944,
+        "h": 0.1154
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle5": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.4403,
+        "y": 0.4795,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText5": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.4542,
+        "y": 0.4854,
+        "w": 0.0792,
+        "h": 0.0361
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "johnyMarkText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "Johny\\s+Mark"
+      },
+      "near": true,
+      "box": {
+        "x": 0.4146,
+        "y": 0.5348,
+        "w": 0.1583,
+        "h": 0.0152
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "shape7": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.4319,
+        "y": 0.56,
+        "w": 0.1243,
+        "h": 0.0283
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "spouseText": {
+      "match": {
+        "text": "spouse",
+        "cls": "android.widget.TextView"
+      },
+      "text": "spouse",
+      "box": {
+        "x": 0.4514,
+        "y": 0.5631,
+        "w": 0.0854,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "shape8": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.6444,
+        "y": 0.4708,
+        "w": 0.2042,
+        "h": 0.1197
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "shape9": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.6493,
+        "y": 0.4729,
+        "w": 0.1944,
+        "h": 0.1154
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle6": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.6931,
+        "y": 0.4925,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle7": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.6979,
+        "y": 0.4947,
+        "w": 0.0972,
+        "h": 0.0435
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText6": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.7285,
+        "y": 0.5081,
+        "w": 0.0354,
+        "h": 0.0165
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "addProfileText": {
+      "match": {
+        "text": "Add Profile",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Add Profile",
+      "box": {
+        "x": 0.6715,
+        "y": 0.5479,
+        "w": 0.15,
+        "h": 0.0152
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "title",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "subtitle",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "closeBtn",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "addProfile",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "bar",
+      "parent": "shape",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "bar2",
+      "parent": "bar",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "closeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "johnDoeSelfBtn",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape2",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape3",
+      "parent": "johnDoeSelfBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle2",
+      "parent": "shape3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText2",
+      "parent": "circle2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle3",
+      "parent": "johnDoeSelfBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText3",
+      "parent": "circle3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle4",
+      "parent": "shape3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText4",
+      "parent": "circle4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "johnDoeText",
+      "parent": "shape3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "shape4",
+      "parent": "shape3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "selfText",
+      "parent": "shape4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "johnyMarkSpouseBtn",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape5",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape6",
+      "parent": "johnyMarkSpouseBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle5",
+      "parent": "shape6",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText5",
+      "parent": "circle5",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "johnyMarkText",
+      "parent": "shape6",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape7",
+      "parent": "shape6",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "spouseText",
+      "parent": "shape7",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "shape8",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape9",
+      "parent": "addProfile",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle6",
+      "parent": "shape9",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle7",
+      "parent": "circle6",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText6",
+      "parent": "circle7",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "addProfileText",
+      "parent": "shape9",
+      "centered": true
+    },
+    {
+      "type": "centerX",
+      "el": "shape"
+    }
+  ]
+}

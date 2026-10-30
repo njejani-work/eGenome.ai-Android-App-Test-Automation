@@ -1,0 +1,40 @@
+{
+  "screen": "CheckoutScreen",
+  "package": "com.egenome.app",
+  "activity": "com.razorpay.CheckoutActivity",
+  "title": "",
+  "firstCaptured": "2026-10-28T07:44:56.652Z",
+  "elements": {
+    "primaryWebviewBtn": {
+      "key": "android.webkit.WebView|id:|desc:primary_webview",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~primary_webview",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.webkit.WebView[@content-desc=\"primary_webview\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.webkit.WebView",
+        "contentDesc": "primary_webview",
+        "clickable": true,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:44:56.652Z",
+      "lastSeen": "2026-10-28T08:20:11.357Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T08:20:11.357Z",
+  "captures": 2
+}

@@ -1,0 +1,40 @@
+{
+  "screen": "CheckoutScreen2",
+  "package": "com.egenome.app",
+  "activity": "com.razorpay.CheckoutActivity",
+  "title": "",
+  "firstCaptured": "2026-10-28T07:45:01.451Z",
+  "elements": {
+    "razorpayCheckoutView": {
+      "key": "android.webkit.WebView|text:Razorpay Checkout",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Razorpay Checkout\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.webkit.WebView[@text=\"Razorpay Checkout\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.webkit.WebView",
+        "text": "Razorpay Checkout",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:01.451Z",
+      "lastSeen": "2026-10-28T07:45:01.451Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T07:45:01.451Z",
+  "captures": 1
+}

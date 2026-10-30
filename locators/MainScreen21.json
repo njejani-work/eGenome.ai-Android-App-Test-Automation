@@ -1,0 +1,921 @@
+{
+  "screen": "MainScreen21",
+  "package": "com.egenome.app",
+  "activity": ".MainActivity",
+  "title": "",
+  "firstCaptured": "2026-10-28T07:50:48.618Z",
+  "elements": {
+    "actionBarRootView": {
+      "key": "android.widget.LinearLayout|id:com.egenome.app:id/action_bar_root|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.egenome.app:id/action_bar_root",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.egenome.app:id/action_bar_root\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.egenome.app:id/action_bar_root",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "goBackBtn": {
+      "key": "android.view.ViewGroup|id:|desc:Go back",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Go back",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@content-desc=\"Go back\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "contentDesc": "Go back",
+        "clickable": true,
+        "bounds": "[49,80][137,168]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "text": {
+      "key": "android.widget.TextView|text:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "",
+        "clickable": false,
+        "bounds": "[69,99][117,149]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "editProfileText": {
+      "key": "android.widget.TextView|text:Edit Profile",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Edit Profile\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Edit Profile\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Edit Profile",
+        "clickable": false,
+        "bounds": "[136,94][512,154]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "saveBtn": {
+      "key": "android.view.ViewGroup|id:|desc:Save",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Save",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@content-desc=\"Save\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "contentDesc": "Save",
+        "clickable": true,
+        "bounds": "[512,87][671,162]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "saveText": {
+      "key": "android.widget.TextView|text:Save",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Save\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Save\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Save",
+        "clickable": false,
+        "bounds": "[560,103][622,145]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "list": {
+      "key": "android.widget.ScrollView|xpath:/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.ScrollView",
+        "clickable": false,
+        "scrollable": true,
+        "bounds": "[0,201][720,1064]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "btn": {
+      "key": "android.view.ViewGroup|id:|desc:, ",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~, ",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@content-desc=\", \"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "contentDesc": ", ",
+        "clickable": true,
+        "bounds": "[267,266][453,452]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "text2": {
+      "key": "android.widget.TextView|text:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "",
+        "clickable": false,
+        "bounds": "[280,278][440,440]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "text3": {
+      "key": "android.widget.TextView|text:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "",
+        "clickable": false,
+        "bounds": "[405,403][445,445]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "tapToChangePhotoText": {
+      "key": "android.widget.TextView|text:Tap to change photo",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Tap to change photo\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Tap to change photo\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Tap to change photo",
+        "clickable": false,
+        "bounds": "[249,468][470,506]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "maxSize10MbText": {
+      "key": "android.widget.TextView|text:Max size: 10MB • JPEG, PNG, WebP",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Max size: 10MB • JPEG, PNG, WebP\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Max size: 10MB • JPEG, PNG, WebP\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Max size: 10MB • JPEG, PNG, WebP",
+        "clickable": false,
+        "bounds": "[248,514][471,542]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "personalInformationText": {
+      "key": "android.widget.TextView|text:Personal Information",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Personal Information\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Personal Information\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Personal Information",
+        "clickable": false,
+        "bounds": "[49,607][673,657]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "firstNameText": {
+      "key": "android.widget.TextView|text:FIRST NAME *",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"FIRST NAME *\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"FIRST NAME *\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[4]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "FIRST NAME *",
+        "clickable": false,
+        "bounds": "[49,689][673,717]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "johnInput": {
+      "key": "android.widget.EditText|text:John",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"John\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.EditText[@text=\"John\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.EditText",
+        "text": "John",
+        "hint": "Enter first name",
+        "clickable": true,
+        "input": true,
+        "bounds": "[49,733][673,866]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "lastNameText": {
+      "key": "android.widget.TextView|text:LAST NAME *",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"LAST NAME *\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"LAST NAME *\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[5]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "LAST NAME *",
+        "clickable": false,
+        "bounds": "[49,898][673,926]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "doeInput": {
+      "key": "android.widget.EditText|text:Doe",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Doe\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.EditText[@text=\"Doe\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.EditText[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.EditText",
+        "text": "Doe",
+        "hint": "Enter last name",
+        "clickable": true,
+        "input": true,
+        "bounds": "[49,942][673,1064]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "homeBtn": {
+      "key": "android.view.View|id:|desc:Home",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Home",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@content-desc=\"Home\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "contentDesc": "Home",
+        "clickable": true,
+        "bounds": "[0,1112][240,1242]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "homeText": {
+      "key": "android.widget.TextView|text:Home",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Home\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Home\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.View[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Home",
+        "clickable": false,
+        "bounds": "[92,1186][147,1210]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "reportBtn": {
+      "key": "android.view.View|id:|desc:Report",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Report",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@content-desc=\"Report\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.View[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "contentDesc": "Report",
+        "clickable": true,
+        "bounds": "[240,1112][480,1242]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "reportText": {
+      "key": "android.widget.TextView|text:Report",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Report\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Report\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.View[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Report",
+        "clickable": false,
+        "bounds": "[328,1186][391,1210]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "settingsBtn": {
+      "key": "android.view.View|id:|desc:Settings",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Settings",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@content-desc=\"Settings\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.View[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "contentDesc": "Settings",
+        "clickable": true,
+        "bounds": "[480,1112][720,1242]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "settingsText": {
+      "key": "android.widget.TextView|text:Settings",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Settings\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Settings\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.View[3]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Settings",
+        "clickable": false,
+        "bounds": "[562,1186][638,1210]"
+      },
+      "firstSeen": "2026-10-28T07:50:48.618Z",
+      "lastSeen": "2026-10-28T07:52:00.309Z"
+    },
+    "dateOfBirthText": {
+      "key": "android.widget.TextView|text:DATE OF BIRTH",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"DATE OF BIRTH \")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"DATE OF BIRTH \"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "DATE OF BIRTH ",
+        "clickable": false,
+        "bounds": "[49,494][673,522]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "september21992Text": {
+      "key": "android.widget.TextView|text:September 2, 1992",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"September 2, 1992\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"September 2, 1992\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "September 2, 1992",
+        "clickable": false,
+        "bounds": "[99,588][589,630]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "text4": {
+      "key": "android.widget.TextView|text:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[4]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "",
+        "clickable": false,
+        "bounds": "[588,592][620,626]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "dateOfBirthCannotText": {
+      "key": "android.widget.TextView|text:Date of birth cannot be changed for security reasons, please",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[5]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Date of birth cannot be changed for security reasons, please contact support.",
+        "clickable": false,
+        "bounds": "[49,689][673,717]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "genderText": {
+      "key": "android.widget.TextView|text:GENDER",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"GENDER\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"GENDER\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[6]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "GENDER",
+        "clickable": false,
+        "bounds": "[49,750][673,778]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "maleBtn": {
+      "key": "android.view.ViewGroup|id:|desc:Male, ",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Male, ",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@content-desc=\"Male, \"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "contentDesc": "Male, ",
+        "clickable": true,
+        "bounds": "[49,794][671,937]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "maleText": {
+      "key": "android.widget.TextView|text:Male",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Male\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Male\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Male",
+        "clickable": false,
+        "bounds": "[100,845][159,887]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "text5": {
+      "key": "android.widget.TextView|text:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "",
+        "clickable": false,
+        "bounds": "[581,845][621,887]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    },
+    "healthInformationText": {
+      "key": "android.widget.TextView|text:Health Information",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Health Information\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Health Information\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ScrollView[1]/android.view.ViewGroup[1]/android.widget.TextView[7]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Health Information",
+        "clickable": false,
+        "bounds": "[49,1035][673,1064]"
+      },
+      "firstSeen": "2026-10-28T07:50:58.038Z",
+      "lastSeen": "2026-10-28T07:51:05.555Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T07:52:00.309Z",
+  "captures": 7
+}

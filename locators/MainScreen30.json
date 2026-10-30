@@ -1,0 +1,2621 @@
+{
+  "screen": "MainScreen30",
+  "package": "com.google.android.dialer",
+  "activity": "com.android.dialer.main.impl.MainActivity",
+  "title": "",
+  "firstCaptured": "2026-10-28T07:54:56.960Z",
+  "elements": {
+    "actionBarRootView": {
+      "key": "android.widget.LinearLayout|id:com.google.android.dialer:id/action_bar_root|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/action_bar_root",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.google.android.dialer:id/action_bar_root\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.dialer:id/action_bar_root",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "mainFragmentContainerView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/main_fragment_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/main_fragment_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/main_fragment_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/main_fragment_container",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "mainFragmentRootView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/main_fragment_root|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/main_fragment_root",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/main_fragment_root\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/main_fragment_root",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "mainScreenContainerView": {
+      "key": "androidx.drawerlayout.widget.DrawerLayout|id:com.google.android.dialer:id/main_screen_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/main_screen_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//androidx.drawerlayout.widget.DrawerLayout[@resource-id=\"com.google.android.dialer:id/main_screen_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "androidx.drawerlayout.widget.DrawerLayout",
+        "resourceId": "com.google.android.dialer:id/main_screen_container",
+        "clickable": false,
+        "bounds": "[0,0][720,1280]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "mainScreenWithoutNavigationView": {
+      "key": "android.view.ViewGroup|id:com.google.android.dialer:id/main_screen_without_navigation_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/main_screen_without_navigation_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@resource-id=\"com.google.android.dialer:id/main_screen_without_navigation_view\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.google.android.dialer:id/main_screen_without_navigation_view",
+        "clickable": false,
+        "bounds": "[0,0][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "mainScreenCoordinatorLayoutView": {
+      "key": "android.view.ViewGroup|id:com.google.android.dialer:id/main_screen_coordinator_layout|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/main_screen_coordinator_layout",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@resource-id=\"com.google.android.dialer:id/main_screen_coordinator_layout\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.google.android.dialer:id/main_screen_coordinator_layout",
+        "clickable": false,
+        "bounds": "[0,0][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "tabFragmentContainerView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/tab_fragment_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/tab_fragment_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/tab_fragment_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/tab_fragment_container",
+        "clickable": false,
+        "bounds": "[0,48][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadSearchRootView": {
+      "key": "android.view.ViewGroup|id:com.google.android.dialer:id/dialpad_search_root|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_search_root",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@resource-id=\"com.google.android.dialer:id/dialpad_search_root\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.google.android.dialer:id/dialpad_search_root",
+        "clickable": false,
+        "bounds": "[0,48][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadSearchSearchFragmentView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/dialpad_search_search_fragment_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_search_search_fragment_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/dialpad_search_search_fragment_view\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/dialpad_search_search_fragment_view",
+        "clickable": false,
+        "bounds": "[0,48][720,248]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "resultContainerList": {
+      "key": "android.widget.ScrollView|id:com.google.android.dialer:id/result_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/result_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.ScrollView[@resource-id=\"com.google.android.dialer:id/result_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ScrollView",
+        "resourceId": "com.google.android.dialer:id/result_container",
+        "clickable": false,
+        "scrollable": true,
+        "bounds": "[0,48][720,248]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "searchRecyclerList": {
+      "key": "android.support.v7.widget.RecyclerView|id:com.google.android.dialer:id/search_recycler_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/search_recycler_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.support.v7.widget.RecyclerView[@resource-id=\"com.google.android.dialer:id/search_recycler_view\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.support.v7.widget.RecyclerView",
+        "resourceId": "com.google.android.dialer:id/search_recycler_view",
+        "clickable": false,
+        "bounds": "[0,48][720,248]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "btn": {
+      "key": "android.widget.FrameLayout|xpath:/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[1]",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[1]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": "[0,48][720,144]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "searchActionImage": {
+      "key": "android.widget.ImageView|id:com.google.android.dialer:id/search_action_image|desc:",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.ImageView[@resource-id=\"com.google.android.dialer:id/search_action_image\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/search_action_image\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.ImageView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/search_action_image",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageView",
+        "resourceId": "com.google.android.dialer:id/search_action_image",
+        "clickable": false,
+        "bounds": "[32,48][128,144]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "searchActionText": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/search_action_text|desc:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/search_action_text\").text(\"Create new contact\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Create new contact\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/search_action_text\" and @text=\"Create new contact\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/search_action_text\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/search_action_text",
+        "text": "Create new contact",
+        "clickable": false,
+        "bounds": "[160,71][443,120]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "btn2": {
+      "key": "android.widget.FrameLayout|xpath:/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[2]",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[2]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": "[0,144][720,240]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "searchActionText2": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/search_action_text|desc:|text:Add to a contact",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/search_action_text\").text(\"Add to a contact\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Add to a contact\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/search_action_text\" and @text=\"Add to a contact\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/search_action_text\").instance(1)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/search_action_text",
+        "text": "Add to a contact",
+        "clickable": false,
+        "bounds": "[160,167][400,216]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "btn3": {
+      "key": "android.widget.FrameLayout|xpath:/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[3]",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.FrameLayout[3]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "clickable": true,
+        "bounds": "[0,240][720,248]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadSearchDialpadView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/dialpad_search_dialpad_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_search_dialpad_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/dialpad_search_dialpad_view\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/dialpad_search_dialpad_view",
+        "clickable": false,
+        "bounds": "[0,228][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadVerticalView": {
+      "key": "android.widget.LinearLayout|id:com.google.android.dialer:id/dialpad_view_vertical|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_view_vertical",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.google.android.dialer:id/dialpad_view_vertical\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.dialer:id/dialpad_view_vertical",
+        "clickable": false,
+        "bounds": "[0,228][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadBtn": {
+      "key": "android.widget.LinearLayout|id:com.google.android.dialer:id/dialpad_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.LinearLayout[@resource-id=\"com.google.android.dialer:id/dialpad_view\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.dialer:id/dialpad_view",
+        "clickable": true,
+        "bounds": "[0,228][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "digitsContainerView": {
+      "key": "android.view.ViewGroup|id:com.google.android.dialer:id/digits_container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/digits_container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@resource-id=\"com.google.android.dialer:id/digits_container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.google.android.dialer:id/digits_container",
+        "clickable": false,
+        "bounds": "[0,228][720,338]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadOverflowBtn": {
+      "key": "android.widget.ImageButton|id:com.google.android.dialer:id/dialpad_overflow|desc:More options",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~More options",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/dialpad_overflow",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.ImageButton[@resource-id=\"com.google.android.dialer:id/dialpad_overflow\" and @content-desc=\"More options\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ImageButton[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageButton",
+        "resourceId": "com.google.android.dialer:id/dialpad_overflow",
+        "contentDesc": "More options",
+        "clickable": true,
+        "bounds": "[0,228][112,338]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "digitsInput": {
+      "key": "android.widget.EditText|id:com.google.android.dialer:id/digits|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/digits",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"08047180026\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.EditText[@resource-id=\"com.google.android.dialer:id/digits\" and @text=\"08047180026\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.EditText[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.EditText",
+        "resourceId": "com.google.android.dialer:id/digits",
+        "text": "08047180026",
+        "hint": "Phone Number",
+        "clickable": true,
+        "input": true,
+        "bounds": "[112,228][608,338]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "deleteBtn": {
+      "key": "android.widget.ImageButton|id:com.google.android.dialer:id/deleteButton|desc:backspace",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~backspace",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/deleteButton",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.ImageButton[@resource-id=\"com.google.android.dialer:id/deleteButton\" and @content-desc=\"backspace\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.ImageButton[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageButton",
+        "resourceId": "com.google.android.dialer:id/deleteButton",
+        "contentDesc": "backspace",
+        "clickable": true,
+        "bounds": "[608,228][720,338]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/dialpad|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/dialpad\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/dialpad",
+        "clickable": false,
+        "bounds": "[0,354][720,954]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadScalableContentsView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/dialpad_scalable_contents|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_scalable_contents",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/dialpad_scalable_contents\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/dialpad_scalable_contents",
+        "clickable": false,
+        "bounds": "[0,354][720,954]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "oneBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/one|desc:1,",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~1,",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/one",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/one\" and @content-desc=\"1,\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/one",
+        "contentDesc": "1,",
+        "clickable": true,
+        "bounds": "[16,370][234,500]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"1\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"1\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"1\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "1",
+        "clickable": false,
+        "bounds": "[112,375][138,454]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyIconImage": {
+      "key": "android.widget.ImageView|id:com.google.android.dialer:id/dialpad_key_icon|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_key_icon",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.ImageView[@resource-id=\"com.google.android.dialer:id/dialpad_key_icon\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_icon",
+        "clickable": false,
+        "bounds": "[101,454][149,494]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "twoBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/two|desc:2,ABC",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~2,ABC",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/two",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/two\" and @content-desc=\"2,ABC\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/two",
+        "contentDesc": "2,ABC",
+        "clickable": true,
+        "bounds": "[250,370][469,500]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText2": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:2",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"2\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"2\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"2\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(1)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "2",
+        "clickable": false,
+        "bounds": "[343,378][376,457]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"ABC\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"ABC\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"ABC\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "ABC",
+        "clickable": false,
+        "bounds": "[334,457][385,491]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "threeBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/three|desc:3,DEF",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~3,DEF",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/three",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/three\" and @content-desc=\"3,DEF\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/three",
+        "contentDesc": "3,DEF",
+        "clickable": true,
+        "bounds": "[485,370][704,500]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText3": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:3",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"3\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"3\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"3\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(2)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "3",
+        "clickable": false,
+        "bounds": "[578,378][611,457]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText2": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:DEF",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"DEF\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"DEF\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"DEF\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(1)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "DEF",
+        "clickable": false,
+        "bounds": "[571,457][618,491]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "fourBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/four|desc:4,GHI",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~4,GHI",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/four",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/four\" and @content-desc=\"4,GHI\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/four",
+        "contentDesc": "4,GHI",
+        "clickable": true,
+        "bounds": "[16,516][234,646]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText4": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:4",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"4\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"4\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"4\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(3)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "4",
+        "clickable": false,
+        "bounds": "[107,524][143,603]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText3": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:GHI",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"GHI\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"GHI\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"GHI\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(2)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "GHI",
+        "clickable": false,
+        "bounds": "[103,603][147,637]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.960Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "fiveBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/five|desc:5,JKL",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~5,JKL",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/five",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/five\" and @content-desc=\"5,JKL\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/five",
+        "contentDesc": "5,JKL",
+        "clickable": true,
+        "bounds": "[250,516][469,646]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText5": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:5",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"5\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"5\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"5\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(4)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "5",
+        "clickable": false,
+        "bounds": "[342,524][376,603]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText4": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:JKL",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"JKL\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"JKL\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"JKL\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(3)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "JKL",
+        "clickable": false,
+        "bounds": "[337,603][381,637]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "sixBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/six|desc:6,MNO",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~6,MNO",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/six",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/six\" and @content-desc=\"6,MNO\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/six",
+        "contentDesc": "6,MNO",
+        "clickable": true,
+        "bounds": "[485,516][704,646]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText6": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:6",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"6\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"6\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"6\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(5)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "6",
+        "clickable": false,
+        "bounds": "[576,524][611,603]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText5": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:MNO",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"MNO\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"MNO\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"MNO\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(4)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "MNO",
+        "clickable": false,
+        "bounds": "[564,603][624,637]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "sevenBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/seven|desc:7,PQRS",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~7,PQRS",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/seven",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/seven\" and @content-desc=\"7,PQRS\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/seven",
+        "contentDesc": "7,PQRS",
+        "clickable": true,
+        "bounds": "[16,662][234,792]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText7": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:7",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"7\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"7\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"7\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(6)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "7",
+        "clickable": false,
+        "bounds": "[108,670][140,749]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText6": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:PQRS",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"PQRS\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"PQRS\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"PQRS\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(5)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "PQRS",
+        "clickable": false,
+        "bounds": "[91,749][158,783]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "eightBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/eight|desc:8,TUV",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~8,TUV",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/eight",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/eight\" and @content-desc=\"8,TUV\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/eight",
+        "contentDesc": "8,TUV",
+        "clickable": true,
+        "bounds": "[250,662][469,792]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText8": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:8",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"8\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"8\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"8\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(7)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "8",
+        "clickable": false,
+        "bounds": "[342,670][376,749]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText7": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:TUV",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"TUV\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"TUV\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"TUV\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(6)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "TUV",
+        "clickable": false,
+        "bounds": "[335,749][384,783]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "nineBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/nine|desc:9,WXYZ",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~9,WXYZ",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/nine",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/nine\" and @content-desc=\"9,WXYZ\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/nine",
+        "contentDesc": "9,WXYZ",
+        "clickable": true,
+        "bounds": "[485,662][704,792]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText9": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:9",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"9\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"9\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"9\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(8)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "9",
+        "clickable": false,
+        "bounds": "[576,670][611,749]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText8": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:WXYZ",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"WXYZ\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"WXYZ\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"WXYZ\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(7)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[3]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "WXYZ",
+        "clickable": false,
+        "bounds": "[559,749][629,783]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "starBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/star|desc:*",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~*",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/star",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/star\" and @content-desc=\"*\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/star",
+        "contentDesc": "*",
+        "clickable": true,
+        "bounds": "[16,808][234,938]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText10": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:∗",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"∗\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"∗\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"∗\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(9)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "∗",
+        "clickable": false,
+        "bounds": "[110,814][139,898]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "zeroBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/zero|desc:0",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~0",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/zero",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/zero\" and @content-desc=\"0\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/zero",
+        "contentDesc": "0",
+        "clickable": true,
+        "bounds": "[250,808][469,938]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText11": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:0",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"0\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"0\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"0\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(10)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "0",
+        "clickable": false,
+        "bounds": "[339,816][380,895]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyLettersText9": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_letters|desc:|text:+",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").text(\"+\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"+\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_letters\" and @text=\"+\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_letters\").instance(8)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_letters",
+        "text": "+",
+        "clickable": false,
+        "bounds": "[352,895][367,929]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "poundBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/pound|desc:#",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~#",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/pound",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/pound\" and @content-desc=\"#\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/pound",
+        "contentDesc": "#",
+        "clickable": true,
+        "bounds": "[485,808][704,938]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadKeyNumberText12": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/dialpad_key_number|desc:|text:#",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").text(\"#\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"#\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/dialpad_key_number\" and @text=\"#\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/dialpad_key_number\").instance(11)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/dialpad_key_number",
+        "text": "#",
+        "clickable": false,
+        "bounds": "[573,816][615,895]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadCallButtonsView": {
+      "key": "android.view.ViewGroup|id:com.google.android.dialer:id/dialpad_call_buttons|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/dialpad_call_buttons",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@resource-id=\"com.google.android.dialer:id/dialpad_call_buttons\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.google.android.dialer:id/dialpad_call_buttons",
+        "clickable": false,
+        "bounds": "[0,968][720,1104]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "dialpadVoiceCallBtn": {
+      "key": "android.widget.Button|id:com.google.android.dialer:id/dialpad_voice_call_button|desc:dial",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~dial",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/dialpad_voice_call_button",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Call\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@resource-id=\"com.google.android.dialer:id/dialpad_voice_call_button\" and @content-desc=\"dial\" and @text=\"Call\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "resourceId": "com.google.android.dialer:id/dialpad_voice_call_button",
+        "text": "Call",
+        "contentDesc": "dial",
+        "clickable": true,
+        "bounds": "[265,968][456,1080]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarLayoutView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/navigation_bar_layout|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/navigation_bar_layout",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/navigation_bar_layout\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_layout",
+        "clickable": false,
+        "bounds": "[0,1104][720,1280]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "tabCallHistoryBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/tab_call_history|desc:Home",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Home",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/tab_call_history",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/tab_call_history\" and @content-desc=\"Home\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/tab_call_history",
+        "contentDesc": "Home",
+        "clickable": true,
+        "bounds": "[0,1104][240,1232]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemContentContainerView": {
+      "key": "android.widget.LinearLayout|id:com.google.android.dialer:id/navigation_bar_item_content_container|desc:",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.LinearLayout[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_content_container\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_content_container\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/navigation_bar_item_content_container",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_content_container",
+        "clickable": false,
+        "bounds": "[64,1116][176,1232]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemIconContainerView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/navigation_bar_item_icon_container|desc:",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_icon_container\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_icon_container\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/navigation_bar_item_icon_container",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_icon_container",
+        "clickable": false,
+        "bounds": "[64,1116][176,1180]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemInnerContentContainerView": {
+      "key": "android.widget.LinearLayout|id:com.google.android.dialer:id/navigation_bar_item_inner_content_container|desc:",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.LinearLayout[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_inner_content_container\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_inner_content_container\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/navigation_bar_item_inner_content_container",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.LinearLayout",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_inner_content_container",
+        "clickable": false,
+        "bounds": "[96,1124][144,1172]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemIconImage": {
+      "key": "android.widget.ImageView|id:com.google.android.dialer:id/navigation_bar_item_icon_view|desc:",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.ImageView[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_icon_view\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_icon_view\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.ImageView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/navigation_bar_item_icon_view",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.ImageView",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_icon_view",
+        "clickable": false,
+        "bounds": "[96,1124][144,1172]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemLabelsGroupView": {
+      "key": "android.view.ViewGroup|id:com.google.android.dialer:id/navigation_bar_item_labels_group|desc:",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.view.ViewGroup[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_labels_group\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_labels_group\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/navigation_bar_item_labels_group",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_labels_group",
+        "clickable": false,
+        "bounds": "[86,1188][153,1232]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemSmallLabelText": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/navigation_bar_item_small_label_view|desc:",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_small_label_view\").text(\"Home\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Home\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_small_label_view\" and @text=\"Home\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_small_label_view\").instance(0)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_small_label_view",
+        "text": "Home",
+        "clickable": false,
+        "bounds": "[86,1188][153,1220]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "tabDialpadView": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/tab_dialpad|desc:Keypad",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Keypad",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/tab_dialpad",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/tab_dialpad\" and @content-desc=\"Keypad\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/tab_dialpad",
+        "contentDesc": "Keypad",
+        "clickable": false,
+        "bounds": "[240,1104][480,1232]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemActiveIndicatorView": {
+      "key": "android.view.View|id:com.google.android.dialer:id/navigation_bar_item_active_indicator_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/navigation_bar_item_active_indicator_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_active_indicator_view\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_active_indicator_view",
+        "clickable": false,
+        "bounds": "[304,1116][416,1180]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemLargeLabelText": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/navigation_bar_item_large_label_view|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=com.google.android.dialer:id/navigation_bar_item_large_label_view",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Keypad\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_large_label_view\" and @text=\"Keypad\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[2]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_large_label_view",
+        "text": "Keypad",
+        "clickable": false,
+        "bounds": "[316,1188][403,1220]"
+      },
+      "firstSeen": "2026-10-28T07:54:56.961Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "tabVoicemailBtn": {
+      "key": "android.widget.FrameLayout|id:com.google.android.dialer:id/tab_voicemail|desc:Voicemail",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Voicemail",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "id",
+          "selector": "id=com.google.android.dialer:id/tab_voicemail",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.FrameLayout[@resource-id=\"com.google.android.dialer:id/tab_voicemail\" and @content-desc=\"Voicemail\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.FrameLayout",
+        "resourceId": "com.google.android.dialer:id/tab_voicemail",
+        "contentDesc": "Voicemail",
+        "clickable": true,
+        "bounds": "[480,1104][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:54:59.875Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    },
+    "navigationBarItemSmallLabelText2": {
+      "key": "android.widget.TextView|id:com.google.android.dialer:id/navigation_bar_item_small_label_view|desc:|text:Voicemail",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_small_label_view\").text(\"Voicemail\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Voicemail\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"com.google.android.dialer:id/navigation_bar_item_small_label_view\" and @text=\"Voicemail\"]",
+          "unique": true
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().resourceId(\"com.google.android.dialer:id/navigation_bar_item_small_label_view\").instance(1)",
+          "unique": true,
+          "note": "index-based: may break if list order changes"
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/androidx.drawerlayout.widget.DrawerLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.FrameLayout[3]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "com.google.android.dialer:id/navigation_bar_item_small_label_view",
+        "text": "Voicemail",
+        "clickable": false,
+        "bounds": "[545,1188][654,1220]"
+      },
+      "firstSeen": "2026-10-28T07:54:59.875Z",
+      "lastSeen": "2026-10-28T07:54:59.875Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T07:54:59.875Z",
+  "captures": 2
+}

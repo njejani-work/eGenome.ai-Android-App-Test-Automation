@@ -1,0 +1,1218 @@
+{
+  "spec": "Profile",
+  "page": "ProfilePage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:16:50.846Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Profile\")",
+      "text": "Profile",
+      "box": {
+        "x": 0.1701,
+        "y": 0.0712,
+        "w": 0.6694,
+        "h": 0.0426
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0632,
+        "y": 0.0687,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "editBtn": {
+      "selector": "android=new UiSelector().description(\"\")",
+      "box": {
+        "x": 0.8396,
+        "y": 0.0709,
+        "w": 0.0972,
+        "h": 0.0435
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "avatar": {
+      "selector": "android=new UiSelector().description(\", \")",
+      "box": {
+        "x": 0.3528,
+        "y": 0.1545,
+        "w": 0.2944,
+        "h": 0.1315
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "addPhotoHint": {
+      "selector": "android=new UiSelector().textStartsWith(\"Tap to add profile pictur\")",
+      "text": "Tap to add profile picture",
+      "box": {
+        "x": 0.2965,
+        "y": 0.3336,
+        "w": 0.4069,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "age": {
+      "selector": "android=new UiSelector().textMatches(\"[0-9]+ yrs\")",
+      "box": {
+        "x": 0.1194,
+        "y": 0.4002,
+        "w": 0.15,
+        "h": 0.0326
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "height": {
+      "selector": "android=new UiSelector().textMatches(\"[0-9]+ft [0-9]+in\")",
+      "box": {
+        "x": 0.4181,
+        "y": 0.4002,
+        "w": 0.1625,
+        "h": 0.0326
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "weight": {
+      "selector": "android=new UiSelector().textMatches(\"[0-9]+([.][0-9]+)? kg\")",
+      "box": {
+        "x": 0.7382,
+        "y": 0.4002,
+        "w": 0.134,
+        "h": 0.0326
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "emailRow": {
+      "selector": "android=new UiSelector().descriptionContains(\", EMAIL, \")",
+      "box": {
+        "x": 0.0424,
+        "y": 0.4972,
+        "w": 0.9153,
+        "h": 0.1325
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "phoneRow": {
+      "selector": "android=new UiSelector().descriptionContains(\", PHONE, \")",
+      "box": {
+        "x": 0.0424,
+        "y": 0.6393,
+        "w": 0.9153,
+        "h": 0.0945
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": false,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "genderRow": {
+      "selector": "android=new UiSelector().descriptionContains(\", GENDER, \")",
+      "box": {
+        "x": 0.0424,
+        "y": 0.7435,
+        "w": 0.9153,
+        "h": 0.0945
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.0875,
+        "y": 0.0793,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.859,
+        "y": 0.0793,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText3": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.4264,
+        "y": 0.1869,
+        "w": 0.1458,
+        "h": 0.0665
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText4": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.5521,
+        "y": 0.2432,
+        "w": 0.0778,
+        "h": 0.0354
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "johnDoeText": {
+      "match": {
+        "text": "{{TEST_USER_NAME}}",
+        "cls": "android.widget.TextView"
+      },
+      "text": "{{TEST_USER_NAME}}",
+      "box": {
+        "x": 0.3639,
+        "y": 0.2954,
+        "w": 0.2722,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "ageText": {
+      "match": {
+        "text": "Age",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Age",
+      "box": {
+        "x": 0.1611,
+        "y": 0.4375,
+        "w": 0.0667,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "heightText": {
+      "match": {
+        "text": "Height",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Height",
+      "box": {
+        "x": 0.4431,
+        "y": 0.4375,
+        "w": 0.1125,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "weightText": {
+      "match": {
+        "text": "Weight",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Weight",
+      "box": {
+        "x": 0.7458,
+        "y": 0.4375,
+        "w": 0.1188,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "emailText": {
+      "match": {
+        "text": "EMAIL",
+        "cls": "android.widget.TextView"
+      },
+      "text": "EMAIL",
+      "box": {
+        "x": 0.2576,
+        "y": 0.5171,
+        "w": 0.6563,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "circle": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0868,
+        "y": 0.5395,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText5": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.116,
+        "y": 0.5522,
+        "w": 0.0486,
+        "h": 0.0224
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "addVerifyEmailText": {
+      "match": {
+        "text": "Add & verify email",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Add & verify email",
+      "box": {
+        "x": 0.2576,
+        "y": 0.5432,
+        "w": 0.5979,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "weLlUseThisText": {
+      "match": {
+        "text": "We'll use this to send your health reports and other updates.",
+        "cls": "android.widget.TextView"
+      },
+      "text": "We'll use this to send your health reports and other updates.",
+      "box": {
+        "x": 0.2576,
+        "y": 0.5737,
+        "w": 0.5979,
+        "h": 0.0361
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText6": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8542,
+        "y": 0.5631,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "circle2": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0868,
+        "y": 0.6626,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText7": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.116,
+        "y": 0.6754,
+        "w": 0.0486,
+        "h": 0.0224
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "phoneText": {
+      "match": {
+        "text": "PHONE",
+        "cls": "android.widget.TextView"
+      },
+      "text": "PHONE",
+      "box": {
+        "x": 0.2576,
+        "y": 0.6592,
+        "w": 0.6563,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "valueText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[+][0-9][0-9,.]*"
+      },
+      "near": true,
+      "box": {
+        "x": 0.2576,
+        "y": 0.6853,
+        "w": 0.3118,
+        "h": 0.0283
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "iconText8": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8542,
+        "y": 0.6859,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "circle3": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0868,
+        "y": 0.7668,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText9": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.116,
+        "y": 0.7795,
+        "w": 0.0486,
+        "h": 0.0224
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "genderText": {
+      "match": {
+        "text": "GENDER",
+        "cls": "android.widget.TextView"
+      },
+      "text": "GENDER",
+      "box": {
+        "x": 0.2576,
+        "y": 0.7634,
+        "w": 0.6563,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "maleText": {
+      "match": {
+        "text": "Male",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Male",
+      "box": {
+        "x": 0.2576,
+        "y": 0.7895,
+        "w": 0.0917,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText10": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8542,
+        "y": 0.7901,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 1,
+        "h": 0.0827
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9574,
+        "w": 0.0778,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4563,
+        "y": 0.9574,
+        "w": 0.0875,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7792,
+        "y": 0.9574,
+        "w": 0.1076,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "backBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText2",
+      "parent": "editBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText3",
+      "parent": "avatar",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText4",
+      "parent": "avatar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "emailText",
+      "parent": "emailRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle",
+      "parent": "emailRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText5",
+      "parent": "circle",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "addVerifyEmailText",
+      "parent": "emailRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "weLlUseThisText",
+      "parent": "emailRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText6",
+      "parent": "emailRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle2",
+      "parent": "phoneRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText7",
+      "parent": "circle2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "phoneText",
+      "parent": "phoneRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "valueText",
+      "parent": "phoneRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText8",
+      "parent": "phoneRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle3",
+      "parent": "genderRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText9",
+      "parent": "circle3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "genderText",
+      "parent": "genderRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "maleText",
+      "parent": "genderRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText10",
+      "parent": "genderRow",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeBtn",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "homeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportBtn",
+      "parent": "bar",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsBtn",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "backBtn",
+        "editBtn",
+        "title"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "age",
+        "height",
+        "weight"
+      ]
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "ageText",
+        "heightText",
+        "weightText"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "backBtn",
+        "avatar",
+        "johnDoeText",
+        "addPhotoHint",
+        "age",
+        "ageText",
+        "emailRow",
+        "phoneRow",
+        "genderRow",
+        "bar"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "backBtn",
+      "below": "avatar",
+      "value": 0.0847
+    },
+    {
+      "type": "gap",
+      "above": "avatar",
+      "below": "johnDoeText",
+      "value": 0.0208
+    },
+    {
+      "type": "gap",
+      "above": "johnDoeText",
+      "below": "addPhotoHint",
+      "value": 0
+    },
+    {
+      "type": "gap",
+      "above": "ageText",
+      "below": "emailRow",
+      "value": 0.0847
+    },
+    {
+      "type": "gap",
+      "above": "genderRow",
+      "below": "bar",
+      "value": 0.1771
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "emailRow",
+        "genderRow"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "emailRow",
+        "genderRow"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "avatar"
+    },
+    {
+      "type": "centerX",
+      "el": "johnDoeText"
+    },
+    {
+      "type": "centerX",
+      "el": "addPhotoHint"
+    },
+    {
+      "type": "centerX",
+      "el": "height"
+    },
+    {
+      "type": "centerX",
+      "el": "heightText"
+    },
+    {
+      "type": "centerX",
+      "el": "emailRow"
+    },
+    {
+      "type": "centerX",
+      "el": "phoneRow"
+    },
+    {
+      "type": "centerX",
+      "el": "genderRow"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "backBtn",
+          "editBtn"
+        ],
+        [
+          "backBtn",
+          "avatar"
+        ],
+        [
+          "backBtn",
+          "emailRow"
+        ],
+        [
+          "editBtn",
+          "avatar"
+        ],
+        [
+          "editBtn",
+          "emailRow"
+        ],
+        [
+          "avatar",
+          "emailRow"
+        ]
+      ]
+    }
+  ]
+}

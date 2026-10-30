@@ -1,0 +1,452 @@
+{
+  "spec": "Login",
+  "page": "LoginPage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:14:11.340Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "headline": {
+      "selector": "android=new UiSelector().textStartsWith(\"Start your health\")",
+      "text": "Start your health\njourney today",
+      "box": {
+        "x": 0.2014,
+        "y": 0.1651,
+        "w": 0.5972,
+        "h": 0.1549
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "title": {
+      "selector": "android=new UiSelector().text(\"Log in or Sign up\")",
+      "text": "Log in or Sign up",
+      "box": {
+        "x": 0.0389,
+        "y": 0.32,
+        "w": 0.9222,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "countryCodeBtn": {
+      "selector": "android=new UiSelector().description(\"󰅀\")",
+      "box": {
+        "x": 0.0778,
+        "y": 0.3965,
+        "w": 0.1944,
+        "h": 0.0267
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "countryCode": {
+      "selector": "android=new UiSelector().text(\"+91\")",
+      "text": "+91",
+      "box": {
+        "x": 0.2743,
+        "y": 0.3943,
+        "w": 0.1076,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "phoneInput": {
+      "selector": "android=new UiSelector().className(\"android.widget.EditText\").instance(0)",
+      "box": {
+        "x": 0.3819,
+        "y": 0.3859,
+        "w": 0.5403,
+        "h": 0.0479
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "sendOtpBtn": {
+      "selector": "android=new UiSelector().description(\"Send OTP\")",
+      "box": {
+        "x": 0.0389,
+        "y": 0.4817,
+        "w": 0.9222,
+        "h": 0.0609
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "consent": {
+      "selector": "android=new UiSelector().textStartsWith(\"By submitting\")",
+      "text": "By submitting, you authorize eGenome.ai to contact you via SMS or WhatsApp for OTPs and service-related updates. Message & data rates may apply.",
+      "box": {
+        "x": 0.0875,
+        "y": 0.56,
+        "w": 0.825,
+        "h": 0.0833
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "image": {
+      "match": {
+        "cls": "android.widget.ImageView",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3299,
+        "y": 0.0998,
+        "w": 0.3403,
+        "h": 0.0435
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0389,
+        "y": 0.3772,
+        "w": 0.9222,
+        "h": 0.0653
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "image2": {
+      "match": {
+        "cls": "android.widget.ImageView",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0778,
+        "y": 0.4005,
+        "w": 0.0632,
+        "h": 0.0187
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "󰅀",
+        "cls": "android.widget.TextView"
+      },
+      "text": "󰅀",
+      "icon": true,
+      "box": {
+        "x": 0.1701,
+        "y": 0.3965,
+        "w": 0.0729,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "shape": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2722,
+        "y": 0.3937,
+        "w": 0.0028,
+        "h": 0.0326
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "bar2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0389,
+        "y": 0.4817,
+        "w": 0.9222,
+        "h": 0.0609
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "sendOtpText": {
+      "match": {
+        "text": "Send OTP",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Send OTP",
+      "box": {
+        "x": 0.3576,
+        "y": 0.4928,
+        "w": 0.284,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "countryCodeBtn",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "countryCode",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "phoneInput",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "image2",
+      "parent": "countryCodeBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "countryCodeBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "sendOtpText",
+      "parent": "sendOtpBtn",
+      "centered": true
+    },
+    {
+      "type": "order",
+      "els": [
+        "image",
+        "headline",
+        "title",
+        "bar",
+        "sendOtpBtn",
+        "bar2",
+        "consent"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "image",
+      "below": "headline",
+      "value": 0.0486
+    },
+    {
+      "type": "gap",
+      "above": "headline",
+      "below": "title",
+      "value": 0
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "bar",
+      "value": 0.0583
+    },
+    {
+      "type": "gap",
+      "above": "bar",
+      "below": "sendOtpBtn",
+      "value": 0.0875
+    },
+    {
+      "type": "gap",
+      "above": "bar2",
+      "below": "consent",
+      "value": 0.0389
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "title",
+        "bar",
+        "sendOtpBtn",
+        "bar2"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "title",
+        "bar",
+        "sendOtpBtn",
+        "bar2"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "image"
+    },
+    {
+      "type": "centerX",
+      "el": "headline"
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "bar"
+    },
+    {
+      "type": "centerX",
+      "el": "sendOtpBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "bar2"
+    },
+    {
+      "type": "centerX",
+      "el": "consent"
+    }
+  ]
+}

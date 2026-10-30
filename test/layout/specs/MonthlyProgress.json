@@ -1,0 +1,2282 @@
+{
+  "spec": "MonthlyProgress",
+  "page": "MonthlyProgressPage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:15:35.540Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Monthly Progress\")",
+      "text": "Monthly Progress",
+      "box": {
+        "x": 0.284,
+        "y": 0.0606,
+        "w": 0.4313,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "subtitle": {
+      "selector": "android=new UiSelector().text(\"Track your health journey\")",
+      "text": "Track your health journey",
+      "box": {
+        "x": 0.2486,
+        "y": 0.0961,
+        "w": 0.5028,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0486,
+        "y": 0.07,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "monthTitle": {
+      "selector": "android=new UiSelector().resourceIdMatches(\".*header[.]title\")",
+      "box": {
+        "x": 0.3597,
+        "y": 0.1894,
+        "w": 0.2806,
+        "h": 0.0236
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "prevMonth": {
+      "selector": "android=new UiSelector().resourceIdMatches(\".*header[.]leftArrow\")",
+      "box": {
+        "x": 0.0889,
+        "y": 0.1772,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "nextMonth": {
+      "selector": "android=new UiSelector().resourceIdMatches(\".*header[.]rightArrow\")",
+      "box": {
+        "x": 0.8049,
+        "y": 0.1772,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "clickable": false,
+      "enabled": false,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "completed": {
+      "selector": "android=new UiSelector().text(\"Completed\")",
+      "text": "Completed",
+      "box": {
+        "x": 0.1014,
+        "y": 0.7432,
+        "w": 0.1847,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "mealsTab": {
+      "selector": "android=new UiSelector().description(\"Meals\")",
+      "box": {
+        "x": 0.0542,
+        "y": 0.828,
+        "w": 0.291,
+        "h": 0.0501
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "exerciseTab": {
+      "selector": "android=new UiSelector().description(\"Exercise\")",
+      "box": {
+        "x": 0.3549,
+        "y": 0.828,
+        "w": 0.2917,
+        "h": 0.0501
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "supplementsTab": {
+      "selector": "android=new UiSelector().description(\"Supplements\")",
+      "box": {
+        "x": 0.6563,
+        "y": 0.828,
+        "w": 0.291,
+        "h": 0.0501
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.0729,
+        "y": 0.0805,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "containerText": {
+      "match": {
+        "rid": "undefined.container"
+      },
+      "box": {
+        "x": 0.0521,
+        "y": 0.1707,
+        "w": 0.8958,
+        "h": 0.3933
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width"
+      ]
+    },
+    "image": {
+      "match": {
+        "cls": "android.widget.ImageView",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1132,
+        "y": 0.1881,
+        "w": 0.0583,
+        "h": 0.0261
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "image2": {
+      "match": {
+        "cls": "android.widget.ImageView",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.8292,
+        "y": 0.1881,
+        "w": 0.0583,
+        "h": 0.0261
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "dayNameMonText": {
+      "match": {
+        "rid": "undefined.header.dayName_Mon"
+      },
+      "text": "Mon",
+      "box": {
+        "x": 0.0875,
+        "y": 0.2351,
+        "w": 0.0778,
+        "h": 0.0174
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameTueText": {
+      "match": {
+        "rid": "undefined.header.dayName_Tue"
+      },
+      "text": "Tue",
+      "box": {
+        "x": 0.2118,
+        "y": 0.2351,
+        "w": 0.0778,
+        "h": 0.0174
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameWedText": {
+      "match": {
+        "rid": "undefined.header.dayName_Wed"
+      },
+      "text": "Wed",
+      "box": {
+        "x": 0.3368,
+        "y": 0.2351,
+        "w": 0.0778,
+        "h": 0.0174
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameThuText": {
+      "match": {
+        "rid": "undefined.header.dayName_Thu"
+      },
+      "text": "Thu",
+      "box": {
+        "x": 0.4611,
+        "y": 0.2351,
+        "w": 0.0778,
+        "h": 0.0174
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameFriText": {
+      "match": {
+        "rid": "undefined.header.dayName_Fri"
+      },
+      "text": "Fri",
+      "box": {
+        "x": 0.5854,
+        "y": 0.2351,
+        "w": 0.0778,
+        "h": 0.0174
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameSatText": {
+      "match": {
+        "rid": "undefined.header.dayName_Sat"
+      },
+      "text": "Sat",
+      "box": {
+        "x": 0.7097,
+        "y": 0.2351,
+        "w": 0.0778,
+        "h": 0.0174
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dayNameSunText": {
+      "match": {
+        "rid": "undefined.header.dayName_Sun"
+      },
+      "text": "Sun",
+      "box": {
+        "x": 0.834,
+        "y": 0.2351,
+        "w": 0.0778,
+        "h": 0.0174
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "circle": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.4514,
+        "y": 0.2677,
+        "w": 0.0986,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle2": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.5757,
+        "y": 0.2677,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle3": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.7,
+        "y": 0.2677,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle4": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.8243,
+        "y": 0.2677,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle5": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0778,
+        "y": 0.3268,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle6": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2021,
+        "y": 0.3268,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle7": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3264,
+        "y": 0.3268,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle8": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.4514,
+        "y": 0.3268,
+        "w": 0.0986,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle9": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.5757,
+        "y": 0.3268,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle10": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.7,
+        "y": 0.3268,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle11": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.8243,
+        "y": 0.3268,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle12": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0778,
+        "y": 0.3859,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle13": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2021,
+        "y": 0.3859,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle14": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3264,
+        "y": 0.3859,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle15": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.4514,
+        "y": 0.3859,
+        "w": 0.0986,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle16": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.5757,
+        "y": 0.3859,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle17": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.7,
+        "y": 0.3859,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle18": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.8243,
+        "y": 0.3859,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle19": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0778,
+        "y": 0.445,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle20": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2021,
+        "y": 0.445,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle21": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3264,
+        "y": 0.445,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle22": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.4514,
+        "y": 0.445,
+        "w": 0.0986,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle23": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.5757,
+        "y": 0.445,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle24": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.7,
+        "y": 0.445,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle25": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.8243,
+        "y": 0.445,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle26": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0778,
+        "y": 0.504,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle27": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2021,
+        "y": 0.504,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle28": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3264,
+        "y": 0.504,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle29": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.4514,
+        "y": 0.504,
+        "w": 0.0986,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle30": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.5757,
+        "y": 0.504,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle31": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.7,
+        "y": 0.504,
+        "w": 0.0979,
+        "h": 0.0438
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "shape": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0222,
+        "y": 0.607,
+        "w": 0.9563,
+        "h": 0.393
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "todayText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "Today,\\s+[A-Z][a-z]+\\s+[0-9][0-9,.]*\\s+[0-9][0-9,.]*"
+      },
+      "near": true,
+      "box": {
+        "x": 0.0465,
+        "y": 0.62,
+        "w": 0.9076,
+        "h": 0.0283
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "valueText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[0-9][0-9,.]*%"
+      },
+      "near": true,
+      "box": {
+        "x": 0.1465,
+        "y": 0.6981,
+        "w": 0.0944,
+        "h": 0.0429
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "valueText2": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[0-9][0-9,.]*[/][0-9][0-9,.]*"
+      },
+      "near": true,
+      "box": {
+        "x": 0.6181,
+        "y": 0.695,
+        "w": 0.0694,
+        "h": 0.0252
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "valueText3": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[0-9][0-9,.]*[/][0-9][0-9,.]*"
+      },
+      "near": true,
+      "box": {
+        "x": 0.4167,
+        "y": 0.695,
+        "w": 0.0694,
+        "h": 0.0252
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "valueText4": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[0-9][0-9,.]*[/][0-9][0-9,.]*"
+      },
+      "near": true,
+      "box": {
+        "x": 0.8194,
+        "y": 0.695,
+        "w": 0.0694,
+        "h": 0.0252
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "mealsText": {
+      "match": {
+        "text": "Meals",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "Meals",
+      "box": {
+        "x": 0.4028,
+        "y": 0.7494,
+        "w": 0.0958,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "exerciseText": {
+      "match": {
+        "text": "Exercise",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "Exercise",
+      "box": {
+        "x": 0.5826,
+        "y": 0.7494,
+        "w": 0.1396,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "supplementsText": {
+      "match": {
+        "text": "Supplements",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "Supplements",
+      "box": {
+        "x": 0.7583,
+        "y": 0.7494,
+        "w": 0.191,
+        "h": 0.0435
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0757,
+        "y": 0.815,
+        "w": 0.8493,
+        "h": 0.0012
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "bar2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0493,
+        "y": 0.8259,
+        "w": 0.9028,
+        "h": 0.0544
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "shape2": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0542,
+        "y": 0.828,
+        "w": 0.291,
+        "h": 0.0501
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "mealsText2": {
+      "match": {
+        "text": "Meals",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "Meals",
+      "box": {
+        "x": 0.1361,
+        "y": 0.8389,
+        "w": 0.1264,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "exerciseText2": {
+      "match": {
+        "text": "Exercise",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "Exercise",
+      "box": {
+        "x": 0.409,
+        "y": 0.8389,
+        "w": 0.1826,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "supplementsText2": {
+      "match": {
+        "text": "Supplements",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "Supplements",
+      "box": {
+        "x": 0.6854,
+        "y": 0.8389,
+        "w": 0.2326,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "earlyMorningAmHydrationBtn": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "descPattern": "(.*, )?Early\\s+Morning(, .*)?"
+      },
+      "near": true,
+      "box": {
+        "x": 0.0465,
+        "y": 0.903,
+        "w": 0.9076,
+        "h": 0.0827
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "circle32": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0757,
+        "y": 0.9226,
+        "w": 0.0972,
+        "h": 0.0435
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "󰖜",
+        "cls": "android.widget.TextView"
+      },
+      "text": "󰖜",
+      "icon": true,
+      "box": {
+        "x": 0.0951,
+        "y": 0.931,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "earlyMorningText": {
+      "match": {
+        "text": "Early Morning",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Early Morning",
+      "box": {
+        "x": 0.2021,
+        "y": 0.916,
+        "w": 0.3,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "amText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[0-9][0-9,.]*:[0-9][0-9,.]*\\s+AM"
+      },
+      "near": true,
+      "box": {
+        "x": 0.2021,
+        "y": 0.9487,
+        "w": 0.166,
+        "h": 0.0218
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "bar3": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3875,
+        "y": 0.9465,
+        "w": 0.3847,
+        "h": 0.0261
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "hydrationAntiInflammatoryText": {
+      "match": {
+        "text": "🌟 Hydration, anti-inflammatory",
+        "cls": "android.widget.TextView"
+      },
+      "text": "🌟 Hydration, anti-inflammatory",
+      "box": {
+        "x": 0.3924,
+        "y": 0.9487,
+        "w": 0.375,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText3": {
+      "match": {
+        "text": "󰅀",
+        "cls": "android.widget.TextView"
+      },
+      "text": "󰅀",
+      "icon": true,
+      "box": {
+        "x": 0.8764,
+        "y": 0.9335,
+        "w": 0.0486,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bar4": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0465,
+        "y": 0.9857,
+        "w": 0.9076,
+        "h": 0.0131
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "calendarGrid",
+      "cells": {
+        "descPattern": "[0-9]{1,2}",
+        "clickable": true
+      },
+      "columns": [
+        "dayNameMonText",
+        "dayNameTueText",
+        "dayNameWedText",
+        "dayNameThuText",
+        "dayNameFriText",
+        "dayNameSatText",
+        "dayNameSunText"
+      ],
+      "weekdays": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        0
+      ],
+      "title": "monthTitle"
+    },
+    {
+      "type": "inside",
+      "el": "monthTitle",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "prevMonth",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "nextMonth",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "completed",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "mealsTab",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "exerciseTab",
+      "parent": "bar2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "supplementsTab",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "backBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "image",
+      "parent": "prevMonth",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "image2",
+      "parent": "nextMonth",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "dayNameMonText",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "dayNameTueText",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "dayNameWedText",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "dayNameThuText",
+      "parent": "containerText",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "dayNameFriText",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "dayNameSatText",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "dayNameSunText",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle",
+      "parent": "containerText",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle2",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle3",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle4",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle5",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle6",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle7",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle8",
+      "parent": "containerText",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle9",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle10",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle11",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle12",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle13",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle14",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle15",
+      "parent": "containerText",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle16",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle17",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle18",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle19",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle20",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle21",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle22",
+      "parent": "containerText",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle23",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle24",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle25",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle26",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle27",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle28",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle29",
+      "parent": "containerText",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle30",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle31",
+      "parent": "containerText",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "todayText",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "valueText",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "valueText2",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "valueText3",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "valueText4",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "mealsText",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "exerciseText",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "supplementsText",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "bar",
+      "parent": "shape",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "bar2",
+      "parent": "shape",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "shape2",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "mealsText2",
+      "parent": "mealsTab",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "exerciseText2",
+      "parent": "exerciseTab",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "supplementsText2",
+      "parent": "supplementsTab",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "earlyMorningAmHydrationBtn",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle32",
+      "parent": "earlyMorningAmHydrationBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText2",
+      "parent": "circle32",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "earlyMorningText",
+      "parent": "earlyMorningAmHydrationBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "amText",
+      "parent": "earlyMorningAmHydrationBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "bar3",
+      "parent": "earlyMorningAmHydrationBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "hydrationAntiInflammatoryText",
+      "parent": "bar3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText3",
+      "parent": "earlyMorningAmHydrationBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "bar4",
+      "parent": "shape",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "title",
+        "backBtn"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "title",
+        "subtitle",
+        "containerText",
+        "shape"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "title",
+      "below": "subtitle",
+      "value": 0.0097
+    },
+    {
+      "type": "gap",
+      "above": "subtitle",
+      "below": "containerText",
+      "value": 0.0972
+    },
+    {
+      "type": "gap",
+      "above": "containerText",
+      "below": "shape",
+      "value": 0.0958
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "subtitle"
+    },
+    {
+      "type": "centerX",
+      "el": "containerText"
+    }
+  ]
+}

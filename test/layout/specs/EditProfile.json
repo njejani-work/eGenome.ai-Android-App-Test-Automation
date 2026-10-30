@@ -1,0 +1,940 @@
+{
+  "spec": "EditProfile",
+  "page": "EditProfilePage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:17:01.585Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Edit Profile\")",
+      "text": "Edit Profile",
+      "box": {
+        "x": 0.1701,
+        "y": 0.0721,
+        "w": 0.5313,
+        "h": 0.0426
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"Go back\")",
+      "box": {
+        "x": 0.0632,
+        "y": 0.0697,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "saveBtn": {
+      "selector": "android=new UiSelector().description(\"Save\")",
+      "box": {
+        "x": 0.7014,
+        "y": 0.0687,
+        "w": 0.2354,
+        "h": 0.0501
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "changePhoto": {
+      "selector": "android=new UiSelector().text(\"Tap to change photo\")",
+      "text": "Tap to change photo",
+      "box": {
+        "x": 0.3042,
+        "y": 0.3265,
+        "w": 0.3917,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "firstName": {
+      "selector": "//*[starts-with(@text, \"FIRST NAME\")]/following::android.widget.EditText[1]",
+      "box": {
+        "x": 0.0632,
+        "y": 0.5053,
+        "w": 0.8736,
+        "h": 0.079
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "lastName": {
+      "selector": "//*[starts-with(@text, \"LAST NAME\")]/following::android.widget.EditText[1]",
+      "box": {
+        "x": 0.0632,
+        "y": 0.634,
+        "w": 0.8736,
+        "h": 0.079
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "dob": {
+      "selector": "//*[starts-with(@text, \"DATE OF BIRTH\")]/following::android.widget.TextView[normalize-space(@text) != ''][1]",
+      "box": {
+        "x": 0.1285,
+        "y": 0.792,
+        "w": 0.7028,
+        "h": 0.0311
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "genderField": {
+      "selector": "//*[starts-with(@text, \"GENDER\")]/following::*[@clickable=\"true\"][1]",
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.0875,
+        "y": 0.0802,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "saveText": {
+      "match": {
+        "text": "Save",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Save",
+      "box": {
+        "x": 0.7646,
+        "y": 0.078,
+        "w": 0.1083,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconBtn": {
+      "match": {
+        "desc": ", "
+      },
+      "box": {
+        "x": 0.3424,
+        "y": 0.1757,
+        "w": 0.316,
+        "h": 0.1415
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "circle": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3424,
+        "y": 0.1757,
+        "w": 0.316,
+        "h": 0.1415
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.4028,
+        "y": 0.2021,
+        "w": 0.1944,
+        "h": 0.0883
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText3": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.6,
+        "y": 0.2907,
+        "w": 0.0486,
+        "h": 0.0224
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "maxSizeMbJpegText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "Max\\s+size:\\s+[0-9][0-9,.]*MB\\s+•\\s+JPEG,\\s+PNG,\\s+WebP"
+      },
+      "near": true,
+      "box": {
+        "x": 0.2736,
+        "y": 0.3595,
+        "w": 0.4528,
+        "h": 0.0218
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "personalInformationText": {
+      "match": {
+        "text": "Personal Information",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Personal Information",
+      "box": {
+        "x": 0.0632,
+        "y": 0.4192,
+        "w": 0.8736,
+        "h": 0.0361
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "firstNameText": {
+      "match": {
+        "text": "FIRST NAME *",
+        "cls": "android.widget.TextView"
+      },
+      "text": "FIRST NAME *",
+      "box": {
+        "x": 0.0632,
+        "y": 0.4742,
+        "w": 0.8736,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "lastNameText": {
+      "match": {
+        "text": "LAST NAME *",
+        "cls": "android.widget.TextView"
+      },
+      "text": "LAST NAME *",
+      "box": {
+        "x": 0.0632,
+        "y": 0.6029,
+        "w": 0.8736,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "dateOfBirthText": {
+      "match": {
+        "text": "DATE OF BIRTH ",
+        "cls": "android.widget.TextView"
+      },
+      "text": "DATE OF BIRTH ",
+      "box": {
+        "x": 0.0632,
+        "y": 0.7317,
+        "w": 0.8736,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0632,
+        "y": 0.7627,
+        "w": 0.8736,
+        "h": 0.0899
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText4": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8313,
+        "y": 0.7985,
+        "w": 0.0389,
+        "h": 0.018
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "dateOfBirthCannotText": {
+      "match": {
+        "text": "Date of birth cannot be changed for security reasons, please contact support.",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Date of birth cannot be changed for security reasons, please contact support.",
+      "box": {
+        "x": 0.0632,
+        "y": 0.8576,
+        "w": 0.8736,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "genderText": {
+      "match": {
+        "text": "GENDER",
+        "cls": "android.widget.TextView"
+      },
+      "text": "GENDER",
+      "box": {
+        "x": 0.0632,
+        "y": 0.8983,
+        "w": 0.8736,
+        "h": 0.0016
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "bar2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 1,
+        "h": 0.0827
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9574,
+        "w": 0.0778,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4563,
+        "y": 0.9574,
+        "w": 0.0875,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7792,
+        "y": 0.9574,
+        "w": 0.1076,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "dob",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "genderField",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "backBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "saveText",
+      "parent": "saveBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText2",
+      "parent": "iconBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText3",
+      "parent": "iconBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText4",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "genderField",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportBtn",
+      "parent": "bar2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsBtn",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "saveBtn",
+        "backBtn",
+        "title"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "saveBtn",
+        "iconBtn",
+        "circle",
+        "changePhoto",
+        "maxSizeMbJpegText",
+        "personalInformationText",
+        "firstNameText",
+        "firstName",
+        "lastNameText",
+        "lastName",
+        "dateOfBirthText",
+        "bar",
+        "dateOfBirthCannotText",
+        "genderText",
+        "bar2"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "saveBtn",
+      "below": "iconBtn",
+      "value": 0.1271
+    },
+    {
+      "type": "gap",
+      "above": "circle",
+      "below": "changePhoto",
+      "value": 0.0208
+    },
+    {
+      "type": "gap",
+      "above": "personalInformationText",
+      "below": "firstNameText",
+      "value": 0.0424
+    },
+    {
+      "type": "gap",
+      "above": "firstNameText",
+      "below": "firstName",
+      "value": 0.0208
+    },
+    {
+      "type": "gap",
+      "above": "firstName",
+      "below": "lastNameText",
+      "value": 0.0417
+    },
+    {
+      "type": "gap",
+      "above": "lastNameText",
+      "below": "lastName",
+      "value": 0.0208
+    },
+    {
+      "type": "gap",
+      "above": "lastName",
+      "below": "dateOfBirthText",
+      "value": 0.0417
+    },
+    {
+      "type": "gap",
+      "above": "dateOfBirthText",
+      "below": "bar",
+      "value": 0.0208
+    },
+    {
+      "type": "gap",
+      "above": "bar",
+      "below": "dateOfBirthCannotText",
+      "value": 0.0111
+    },
+    {
+      "type": "gap",
+      "above": "dateOfBirthCannotText",
+      "below": "genderText",
+      "value": 0.0424
+    },
+    {
+      "type": "gap",
+      "above": "genderText",
+      "below": "bar2",
+      "value": 0.0389
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "backBtn",
+        "personalInformationText",
+        "firstNameText",
+        "firstName",
+        "lastNameText",
+        "lastName",
+        "dateOfBirthText",
+        "bar",
+        "dateOfBirthCannotText",
+        "genderText"
+      ]
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "iconBtn",
+        "circle"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "saveBtn",
+        "personalInformationText",
+        "firstNameText",
+        "firstName",
+        "lastNameText",
+        "lastName",
+        "dateOfBirthText",
+        "bar",
+        "dateOfBirthCannotText",
+        "genderText"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "iconBtn",
+        "circle"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "iconBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "circle"
+    },
+    {
+      "type": "centerX",
+      "el": "changePhoto"
+    },
+    {
+      "type": "centerX",
+      "el": "maxSizeMbJpegText"
+    },
+    {
+      "type": "centerX",
+      "el": "personalInformationText"
+    },
+    {
+      "type": "centerX",
+      "el": "firstNameText"
+    },
+    {
+      "type": "centerX",
+      "el": "firstName"
+    },
+    {
+      "type": "centerX",
+      "el": "lastNameText"
+    },
+    {
+      "type": "centerX",
+      "el": "lastName"
+    },
+    {
+      "type": "centerX",
+      "el": "dateOfBirthText"
+    },
+    {
+      "type": "centerX",
+      "el": "bar"
+    },
+    {
+      "type": "centerX",
+      "el": "dateOfBirthCannotText"
+    },
+    {
+      "type": "centerX",
+      "el": "genderText"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "saveBtn",
+          "backBtn"
+        ],
+        [
+          "saveBtn",
+          "iconBtn"
+        ],
+        [
+          "saveBtn",
+          "firstName"
+        ],
+        [
+          "saveBtn",
+          "lastName"
+        ],
+        [
+          "backBtn",
+          "iconBtn"
+        ],
+        [
+          "backBtn",
+          "firstName"
+        ],
+        [
+          "backBtn",
+          "lastName"
+        ],
+        [
+          "iconBtn",
+          "firstName"
+        ],
+        [
+          "iconBtn",
+          "lastName"
+        ],
+        [
+          "firstName",
+          "lastName"
+        ]
+      ]
+    }
+  ]
+}

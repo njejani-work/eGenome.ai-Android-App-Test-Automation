@@ -1,0 +1,611 @@
+{
+  "spec": "Otp",
+  "page": "OtpPage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:14:33.096Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"OTP, please\")",
+      "text": "OTP, please",
+      "box": {
+        "x": 0.2868,
+        "y": 0.1598,
+        "w": 0.4257,
+        "h": 0.0557
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "sentTo": {
+      "selector": "android=new UiSelector().textStartsWith(\"Please enter the code we just sent to\")",
+      "box": {
+        "x": 0.0583,
+        "y": 0.2329,
+        "w": 0.8833,
+        "h": 0.0933
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "continueBtn": {
+      "selector": "android=new UiSelector().description(\"Continue\")",
+      "box": {
+        "x": 0.0583,
+        "y": 0.8007,
+        "w": 0.8833,
+        "h": 0.0675
+      },
+      "clickable": false,
+      "enabled": false,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width"
+      ]
+    },
+    "resendTimer": {
+      "selector": "android=new UiSelector().descriptionMatches(\"Resend OTP in [0-9]+s\")",
+      "box": {
+        "x": 0.0583,
+        "y": 0.5734,
+        "w": 0.4861,
+        "h": 0.0435
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": false,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "whatsapp": {
+      "selector": "android=new UiSelector().description(\"Send OTP via WhatsApp\")",
+      "box": {
+        "x": 0.0583,
+        "y": 0.4885,
+        "w": 0.4861,
+        "h": 0.0718
+      },
+      "clickable": false,
+      "enabled": false,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "backBtn": {
+      "selector": "android=new UiSelector().description(\"\")",
+      "box": {
+        "x": 0.0292,
+        "y": 0.0326,
+        "w": 0.9125,
+        "h": 0.0572
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.0583,
+        "y": 0.0457,
+        "w": 0.8542,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "otpDigit1Input": {
+      "match": {
+        "desc": "OTP digit 1"
+      },
+      "box": {
+        "x": 0.1257,
+        "y": 0.3961,
+        "w": 0.1118,
+        "h": 0.0544
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "otpDigit2Input": {
+      "match": {
+        "desc": "OTP digit 2"
+      },
+      "box": {
+        "x": 0.2528,
+        "y": 0.3961,
+        "w": 0.1118,
+        "h": 0.0544
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "otpDigit3Input": {
+      "match": {
+        "desc": "OTP digit 3"
+      },
+      "box": {
+        "x": 0.3799,
+        "y": 0.3961,
+        "w": 0.1118,
+        "h": 0.0544
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "otpDigit4Input": {
+      "match": {
+        "desc": "OTP digit 4"
+      },
+      "box": {
+        "x": 0.5076,
+        "y": 0.3961,
+        "w": 0.1118,
+        "h": 0.0544
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "otpDigit5Input": {
+      "match": {
+        "desc": "OTP digit 5"
+      },
+      "box": {
+        "x": 0.6347,
+        "y": 0.3961,
+        "w": 0.1118,
+        "h": 0.0544
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "otpDigit6Input": {
+      "match": {
+        "desc": "OTP digit 6"
+      },
+      "box": {
+        "x": 0.7618,
+        "y": 0.3961,
+        "w": 0.1118,
+        "h": 0.0544
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "image": {
+      "match": {
+        "cls": "android.widget.ImageView",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0903,
+        "y": 0.4963,
+        "w": 0.0389,
+        "h": 0.0174
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "sendOtpViaWhatsText": {
+      "match": {
+        "text": "Send OTP via WhatsApp",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Send OTP via WhatsApp",
+      "box": {
+        "x": 0.1431,
+        "y": 0.496,
+        "w": 0.4014,
+        "h": 0.0566
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "image2": {
+      "match": {
+        "cls": "android.widget.ImageView",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0903,
+        "y": 0.5812,
+        "w": 0.0389,
+        "h": 0.0174
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "resendOtpInText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "Resend\\s+OTP\\s+in\\s+[0-9][0-9,.]*s"
+      },
+      "near": true,
+      "box": {
+        "x": 0.1431,
+        "y": 0.5808,
+        "w": 0.3556,
+        "h": 0.0283
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "continueText": {
+      "match": {
+        "text": "Continue",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Continue",
+      "box": {
+        "x": 0.3882,
+        "y": 0.8181,
+        "w": 0.2229,
+        "h": 0.0326
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "byTappingOnSendText": {
+      "match": {
+        "text": "By tapping on \"Send OTP via WhatsApp\", you agree to receive important communications such as OTP and payment details, over WhatsApp.",
+        "cls": "android.widget.TextView"
+      },
+      "text": "By tapping on \"Send OTP via WhatsApp\", you agree to receive important communications such as OTP and payment details, over WhatsApp.",
+      "box": {
+        "x": 0.1069,
+        "y": 0.8856,
+        "w": 0.7861,
+        "h": 0.0796
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "backBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "image",
+      "parent": "whatsapp",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "sendOtpViaWhatsText",
+      "parent": "whatsapp",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "image2",
+      "parent": "resendTimer",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "resendOtpInText",
+      "parent": "resendTimer",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "continueText",
+      "parent": "continueBtn",
+      "centered": true
+    },
+    {
+      "type": "sameRow",
+      "els": [
+        "otpDigit1Input",
+        "otpDigit2Input",
+        "otpDigit3Input",
+        "otpDigit4Input",
+        "otpDigit5Input",
+        "otpDigit6Input"
+      ]
+    },
+    {
+      "type": "order",
+      "els": [
+        "backBtn",
+        "title",
+        "sentTo",
+        "otpDigit1Input",
+        "whatsapp",
+        "resendTimer",
+        "continueBtn",
+        "byTappingOnSendText"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "backBtn",
+      "below": "title",
+      "value": 0.1563
+    },
+    {
+      "type": "gap",
+      "above": "otpDigit1Input",
+      "below": "whatsapp",
+      "value": 0.0847
+    },
+    {
+      "type": "gap",
+      "above": "continueBtn",
+      "below": "byTappingOnSendText",
+      "value": 0.0389
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "whatsapp",
+        "continueBtn"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "backBtn",
+        "continueBtn"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "title"
+    },
+    {
+      "type": "centerX",
+      "el": "sentTo"
+    },
+    {
+      "type": "centerX",
+      "el": "continueBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "byTappingOnSendText"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "backBtn",
+          "otpDigit1Input"
+        ],
+        [
+          "backBtn",
+          "otpDigit2Input"
+        ],
+        [
+          "backBtn",
+          "otpDigit3Input"
+        ],
+        [
+          "backBtn",
+          "otpDigit4Input"
+        ],
+        [
+          "backBtn",
+          "otpDigit5Input"
+        ],
+        [
+          "backBtn",
+          "otpDigit6Input"
+        ],
+        [
+          "otpDigit1Input",
+          "otpDigit2Input"
+        ],
+        [
+          "otpDigit1Input",
+          "otpDigit3Input"
+        ],
+        [
+          "otpDigit1Input",
+          "otpDigit4Input"
+        ],
+        [
+          "otpDigit1Input",
+          "otpDigit5Input"
+        ],
+        [
+          "otpDigit1Input",
+          "otpDigit6Input"
+        ],
+        [
+          "otpDigit2Input",
+          "otpDigit3Input"
+        ],
+        [
+          "otpDigit2Input",
+          "otpDigit4Input"
+        ],
+        [
+          "otpDigit2Input",
+          "otpDigit5Input"
+        ],
+        [
+          "otpDigit2Input",
+          "otpDigit6Input"
+        ],
+        [
+          "otpDigit3Input",
+          "otpDigit4Input"
+        ],
+        [
+          "otpDigit3Input",
+          "otpDigit5Input"
+        ],
+        [
+          "otpDigit3Input",
+          "otpDigit6Input"
+        ],
+        [
+          "otpDigit4Input",
+          "otpDigit5Input"
+        ],
+        [
+          "otpDigit4Input",
+          "otpDigit6Input"
+        ],
+        [
+          "otpDigit5Input",
+          "otpDigit6Input"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "screen": "MainScreen36",
+  "package": "com.egenome.app",
+  "activity": ".MainActivity",
+  "title": "",
+  "firstCaptured": "2026-10-28T08:32:43.376Z",
+  "elements": {
+    "signOutText": {
+      "key": "android.widget.TextView|text:Sign Out",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.TextView[@text=\"Sign Out\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Sign Out\")",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Sign Out",
+        "clickable": false,
+        "bounds": "[288,486][431,536]"
+      },
+      "firstSeen": "2026-10-28T08:32:43.376Z",
+      "lastSeen": "2026-10-28T08:32:43.376Z"
+    },
+    "areYouSureYouText": {
+      "key": "android.widget.TextView|text:Are you sure you want to sign out of your account?",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Are you sure you want to sign out of your account?\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Are you sure you want to sign out of your account?\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Are you sure you want to sign out of your account?",
+        "clickable": false,
+        "bounds": "[113,552][605,626]"
+      },
+      "firstSeen": "2026-10-28T08:32:43.376Z",
+      "lastSeen": "2026-10-28T08:32:43.376Z"
+    },
+    "cancelBtn": {
+      "key": "android.view.ViewGroup|id:|desc:Cancel",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Cancel",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@content-desc=\"Cancel\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "contentDesc": "Cancel",
+        "clickable": true,
+        "bounds": "[122,708][354,793]"
+      },
+      "firstSeen": "2026-10-28T08:32:43.376Z",
+      "lastSeen": "2026-10-28T08:32:43.376Z"
+    },
+    "cancelText": {
+      "key": "android.widget.TextView|text:Cancel",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Cancel\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Cancel\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Cancel",
+        "clickable": false,
+        "bounds": "[199,734][275,766]"
+      },
+      "firstSeen": "2026-10-28T08:32:43.376Z",
+      "lastSeen": "2026-10-28T08:32:43.376Z"
+    },
+    "signOutBtn": {
+      "key": "android.view.ViewGroup|id:|desc:Sign Out",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Sign Out",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.ViewGroup[@content-desc=\"Sign Out\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.ViewGroup",
+        "contentDesc": "Sign Out",
+        "clickable": true,
+        "bounds": "[370,708][598,793]"
+      },
+      "firstSeen": "2026-10-28T08:32:43.376Z",
+      "lastSeen": "2026-10-28T08:32:43.376Z"
+    },
+    "signOutText2": {
+      "key": "android.widget.TextView|text:Sign Out|text:Sign Out",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.TextView[@text=\"Sign Out\"])[2]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.view.ViewGroup[1]/android.view.ViewGroup[2]/android.view.ViewGroup[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"Sign Out\")",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Sign Out",
+        "clickable": false,
+        "bounds": "[435,734][532,766]"
+      },
+      "firstSeen": "2026-10-28T08:32:43.376Z",
+      "lastSeen": "2026-10-28T08:32:43.376Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T08:32:43.376Z",
+  "captures": 1
+}

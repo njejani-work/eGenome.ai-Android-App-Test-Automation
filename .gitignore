@@ -1,0 +1,34 @@
+# ---- Dependencies
+node_modules/
+
+# ---- Secrets and local settings (copy .env.example to .env)
+.env
+.env.*
+!.env.example
+Claude outputs/
+
+# ---- Generated test output
+# dashboard runs, screenshots and page sources
+reports/
+allure-results/
+allure-report/
+# rebuilt with: npm run deliverables
+deliverables/
+locators/raw/
+*.log
+logs/
+
+# ---- Temporary files
+*.tmp
+.ev-tmp.mjs
+tmp/
+
+# ---- Editors and OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

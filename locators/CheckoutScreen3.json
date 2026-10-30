@@ -1,0 +1,1129 @@
+{
+  "screen": "CheckoutScreen3",
+  "package": "com.egenome.app",
+  "activity": "com.razorpay.CheckoutActivity",
+  "title": "",
+  "firstCaptured": "2026-10-28T07:45:10.869Z",
+  "elements": {
+    "razorpayCheckoutView": {
+      "key": "android.webkit.WebView|text:Razorpay Checkout",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Razorpay Checkout\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.webkit.WebView[@text=\"Razorpay Checkout\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.webkit.WebView",
+        "text": "Razorpay Checkout",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "razorpayCheckoutV2ContainerView": {
+      "key": "android.view.View|id:razorpay-checkout-v2-container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=razorpay-checkout-v2-container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"razorpay-checkout-v2-container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "razorpay-checkout-v2-container",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "scrollContainerView": {
+      "key": "android.view.View|id:scroll-container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=scroll-container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"scroll-container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "scroll-container",
+        "clickable": false,
+        "scrollable": true,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "merchantIdentityView": {
+      "key": "android.view.View|id:merchant-identity|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=merchant-identity",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"merchant-identity\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "merchant-identity",
+        "clickable": false,
+        "bounds": "[0,48][720,698]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "goBackBtn": {
+      "key": "android.widget.Button|text:Go back",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Go back\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@text=\"Go back\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "text": "Go back",
+        "clickable": true,
+        "bounds": "[56,96][112,152]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "logoImage": {
+      "key": "android.widget.Image|id:|desc:Logo",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Logo",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"QofVAmQHuPXfwt_medium\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Image[@content-desc=\"Logo\" and @text=\"QofVAmQHuPXfwt_medium\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Image[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Image",
+        "text": "QofVAmQHuPXfwt_medium",
+        "contentDesc": "Logo",
+        "clickable": false,
+        "bounds": "[304,170][432,300]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "annualPlanText": {
+      "key": "android.widget.TextView|text:Annual Plan",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Annual Plan\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Annual Plan\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Annual Plan",
+        "clickable": false,
+        "bounds": "[266,330][470,388]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "btn": {
+      "key": "android.widget.Button|xpath:/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Button[1]",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Button[1]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": "[608,96][672,160]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "totalAmountText": {
+      "key": "android.widget.TextView|text:Total Amount",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Total Amount\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Total Amount\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Total Amount",
+        "clickable": false,
+        "bounds": "[272,480][448,516]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "el9999Text": {
+      "key": "android.widget.TextView|text:₹9,999",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"₹9,999\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"₹9,999\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "₹9,999",
+        "clickable": false,
+        "bounds": "[32,518][688,600]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "notificationLogoImage": {
+      "key": "android.widget.Image|id:|desc:notification-logo",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~notification-logo",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"AMEX\")",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Image[@content-desc=\"notification-logo\" and @text=\"AMEX\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Image[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Image",
+        "text": "AMEX",
+        "contentDesc": "notification-logo",
+        "clickable": false,
+        "bounds": "[68,712][110,754]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "yourAmexCardIsText": {
+      "key": "android.widget.TextView|text:Your Amex card is welcomed at 1M+ locations",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Your Amex card is welcomed at 1M+ locations\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Your Amex card is welcomed at 1M+ locations\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Your Amex card is welcomed at 1M+ locations",
+        "clickable": false,
+        "bounds": "[124,712][652,754]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "popThemeWrapperView": {
+      "key": "android.view.View|id:pop-theme-wrapper|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=pop-theme-wrapper",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"pop-theme-wrapper\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "pop-theme-wrapper",
+        "clickable": false,
+        "bounds": "[0,768][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "mainContainerView": {
+      "key": "android.view.View|id:main-container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=main-container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"main-container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "main-container",
+        "clickable": false,
+        "bounds": "[0,768][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "mainStackContainerView": {
+      "key": "android.view.View|id:main-stack-container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=main-stack-container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"main-stack-container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "main-stack-container",
+        "clickable": false,
+        "bounds": "[0,770][720,1116]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "contactDetailsText": {
+      "key": "android.widget.TextView|text:Contact details",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Contact details\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Contact details\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Contact details",
+        "clickable": false,
+        "bounds": "[48,818][308,876]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "enterMobileNumberToText": {
+      "key": "android.widget.TextView|text:Enter mobile number to continue",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Enter mobile number to continue\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Enter mobile number to continue\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Enter mobile number to continue",
+        "clickable": false,
+        "bounds": "[48,882][672,924]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "mobileNumberBtn": {
+      "key": "android.widget.Button|text:Mobile number",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Mobile number\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@text=\"Mobile number\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "text": "Mobile number",
+        "clickable": true,
+        "bounds": "[80,990][208,1040]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "mobileNumberInput": {
+      "key": "android.widget.EditText|hint:Mobile number",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "//android.widget.EditText[@hint=\"Mobile number\"]",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.EditText[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.EditText",
+        "hint": "Mobile number",
+        "clickable": true,
+        "input": true,
+        "bounds": "[48,970][672,1060]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "accountStripView": {
+      "key": "android.view.View|id:account-strip|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=account-strip",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"account-strip\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "account-strip",
+        "clickable": false,
+        "bounds": "[0,1116][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "securedByText": {
+      "key": "android.widget.TextView|text:Secured by",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Secured by\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Secured by\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[3]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Secured by",
+        "clickable": false,
+        "bounds": "[204,1144][334,1174]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "razorpayText": {
+      "key": "android.widget.TextView|text:Razorpay",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Razorpay\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Razorpay\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[3]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Razorpay",
+        "clickable": false,
+        "bounds": "[352,1102][478,1138]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T07:45:10.869Z"
+    },
+    "text": {
+      "key": "android.widget.TextView|text:•",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.TextView[@text=\"•\"])[1]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[3]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"•\")",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "•",
+        "clickable": false,
+        "bounds": "[506,1142][518,1178]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "accountTermsBtn": {
+      "key": "android.widget.Button|text:Account & Terms",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Account & Terms\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@text=\"Account & Terms\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[3]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "text": "Account & Terms",
+        "clickable": true,
+        "bounds": "[96,1200][292,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "text2": {
+      "key": "android.widget.TextView|text:•|text:•",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "(//android.widget.TextView[@text=\"•\"])[2]",
+        "unique": true,
+        "note": "index-based: may break if list order changes"
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[3]/android.widget.TextView[3]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        },
+        {
+          "strategy": "-android uiautomator",
+          "selector": "android=new UiSelector().text(\"•\")",
+          "unique": false
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "•",
+        "clickable": false,
+        "bounds": "[302,1198][312,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "aboutEpigenomeAiFuBtn": {
+      "key": "android.widget.Button|text:About EPIGENOME.AI FU…",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"About EPIGENOME.AI FU…\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@text=\"About EPIGENOME.AI FU…\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[1]/android.view.View[3]/android.widget.Button[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "text": "About EPIGENOME.AI FU…",
+        "clickable": true,
+        "bounds": "[322,1200][624,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "bottomContainerView": {
+      "key": "android.view.View|id:bottom-container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=bottom-container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"bottom-container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "bottom-container",
+        "clickable": false,
+        "bounds": "[0,1000][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "contactSubmitView": {
+      "key": "android.view.View|id:contact-submit|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=contact-submit",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"contact-submit\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "contact-submit",
+        "clickable": false,
+        "bounds": "[0,1000][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "continueBtn": {
+      "key": "android.widget.Button|text:Continue",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Continue\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@text=\"Continue\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]/android.view.View[1]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "text": "Continue",
+        "clickable": true,
+        "bounds": "[32,1032][688,1120]"
+      },
+      "firstSeen": "2026-10-28T07:45:10.869Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "byProceedingIAgreeText": {
+      "key": "android.widget.TextView|text:By proceeding, I agree to Razorpay’s",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"By proceeding, I agree to Razorpay’s \")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"By proceeding, I agree to Razorpay’s \"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "By proceeding, I agree to Razorpay’s ",
+        "clickable": false,
+        "bounds": "[56,1136][480,1166]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "privacyNoticeBtn": {
+      "key": "android.widget.Button|id:|desc:Privacy Notice",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Privacy Notice",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@content-desc=\"Privacy Notice\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "contentDesc": "Privacy Notice",
+        "clickable": true,
+        "bounds": "[478,1136][648,1168]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "editPreferencesBtn": {
+      "key": "android.widget.Button|id:|desc:Edit Preferences",
+      "primary": {
+        "strategy": "accessibility id",
+        "selector": "~Edit Preferences",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@content-desc=\"Edit Preferences\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[3]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.widget.Button[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "contentDesc": "Edit Preferences",
+        "clickable": true,
+        "bounds": "[264,1168][456,1200]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "overlayBackdropView": {
+      "key": "android.view.View|id:overlay-backdrop|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=overlay-backdrop",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.view.View[@resource-id=\"overlay-backdrop\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.view.View",
+        "resourceId": "overlay-backdrop",
+        "clickable": false,
+        "bounds": "[0,48][720,1232]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "btn2": {
+      "key": "android.widget.Button|xpath:/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]",
+      "primary": {
+        "strategy": "xpath",
+        "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.Button[1]",
+        "unique": true,
+        "note": "absolute: brittle, last resort"
+      },
+      "fallbacks": [],
+      "attributes": {
+        "class": "android.widget.Button",
+        "clickable": true,
+        "bounds": "[640,520][720,600]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "areYouSureYouText": {
+      "key": "android.widget.TextView|text:Are you sure you want to exit?",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Are you sure you want to exit?\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"Are you sure you want to exit?\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "Are you sure you want to exit?",
+        "clickable": false,
+        "bounds": "[40,784][680,840]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "youWillBeTakenText": {
+      "key": "android.widget.TextView|text:You will be taken back to Annual Plan app",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"You will be taken back to Annual Plan app\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@text=\"You will be taken back to Annual Plan app\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "text": "You will be taken back to Annual Plan app",
+        "clickable": false,
+        "bounds": "[40,856][680,896]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "continueToPaymentBtn": {
+      "key": "android.widget.Button|text:Continue to payment",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Continue to payment\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@text=\"Continue to payment\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Button[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "text": "Continue to payment",
+        "clickable": true,
+        "bounds": "[40,992][680,1080]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "yesExitBtn": {
+      "key": "android.widget.Button|text:Yes, exit",
+      "primary": {
+        "strategy": "-android uiautomator",
+        "selector": "android=new UiSelector().text(\"Yes, exit\")",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.Button[@text=\"Yes, exit\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.widget.Button[2]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.Button",
+        "text": "Yes, exit",
+        "clickable": true,
+        "bounds": "[40,1104][680,1192]"
+      },
+      "firstSeen": "2026-10-28T07:45:16.587Z",
+      "lastSeen": "2026-10-28T08:20:43.145Z"
+    },
+    "mainStackContainerText": {
+      "key": "android.widget.TextView|id:main-stack-container|desc:",
+      "primary": {
+        "strategy": "id",
+        "selector": "id=main-stack-container",
+        "unique": true
+      },
+      "fallbacks": [
+        {
+          "strategy": "xpath",
+          "selector": "//android.widget.TextView[@resource-id=\"main-stack-container\"]",
+          "unique": true
+        },
+        {
+          "strategy": "xpath",
+          "selector": "/hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.webkit.WebView[1]/android.webkit.WebView[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.view.View[1]/android.widget.TextView[1]",
+          "unique": true,
+          "note": "absolute: brittle, last resort"
+        }
+      ],
+      "attributes": {
+        "class": "android.widget.TextView",
+        "resourceId": "main-stack-container",
+        "clickable": false,
+        "bounds": "[0,246][720,1232]"
+      },
+      "firstSeen": "2026-10-28T08:20:33.062Z",
+      "lastSeen": "2026-10-28T08:20:33.062Z"
+    }
+  },
+  "lastCaptured": "2026-10-28T08:20:43.145Z",
+  "captures": 7
+}

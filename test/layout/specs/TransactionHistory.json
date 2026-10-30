@@ -1,0 +1,735 @@
+{
+  "spec": "TransactionHistory",
+  "page": "TransactionHistoryPage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:17:36.710Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": false,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Transaction History\")",
+      "text": "Transaction History",
+      "box": {
+        "x": 0.2299,
+        "y": 0.0544,
+        "w": 0.5632,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "subtitle": {
+      "selector": "android=new UiSelector().textStartsWith(\"Your transaction history\")",
+      "text": "Your transaction history",
+      "box": {
+        "x": 0.2861,
+        "y": 0.0973,
+        "w": 0.45,
+        "h": 0.0283
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "empty": {
+      "selector": "android=new UiSelector().text(\"No Transactions Yet\")",
+      "text": "No Transactions Yet",
+      "box": {
+        "x": 0.2118,
+        "y": 0.3744,
+        "w": 0.5757,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.0498,
+        "w": 1,
+        "h": 0.0818
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "goBackBtn": {
+      "match": {
+        "desc": "Go back"
+      },
+      "box": {
+        "x": 0.0424,
+        "y": 0.0662,
+        "w": 0.1069,
+        "h": 0.0479
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.0667,
+        "y": 0.0768,
+        "w": 0.0583,
+        "h": 0.0267
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bar2": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.1315,
+        "w": 1,
+        "h": 0.0588
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "allBtn": {
+      "match": {
+        "desc": "All"
+      },
+      "box": {
+        "x": 0.0424,
+        "y": 0.1409,
+        "w": 0.1333,
+        "h": 0.0386
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "allText": {
+      "match": {
+        "text": "All",
+        "cls": "android.widget.TextView"
+      },
+      "text": "All",
+      "box": {
+        "x": 0.0868,
+        "y": 0.1489,
+        "w": 0.0438,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "capturedBtn": {
+      "match": {
+        "desc": "Captured"
+      },
+      "box": {
+        "x": 0.1965,
+        "y": 0.1409,
+        "w": 0.2458,
+        "h": 0.0386
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "capturedText": {
+      "match": {
+        "text": "Captured",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Captured",
+      "box": {
+        "x": 0.241,
+        "y": 0.1489,
+        "w": 0.1563,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "refundedBtn": {
+      "match": {
+        "desc": "Refunded"
+      },
+      "box": {
+        "x": 0.4632,
+        "y": 0.1409,
+        "w": 0.2514,
+        "h": 0.0386
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "refundedText": {
+      "match": {
+        "text": "Refunded",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Refunded",
+      "box": {
+        "x": 0.5076,
+        "y": 0.1489,
+        "w": 0.1618,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "failedBtn": {
+      "match": {
+        "desc": "Failed"
+      },
+      "box": {
+        "x": 0.7361,
+        "y": 0.1409,
+        "w": 0.1875,
+        "h": 0.0386
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "failedText": {
+      "match": {
+        "text": "Failed",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Failed",
+      "box": {
+        "x": 0.7806,
+        "y": 0.1489,
+        "w": 0.0979,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "authorizedBtn": {
+      "match": {
+        "desc": "Authorized"
+      },
+      "box": {
+        "x": 0.9444,
+        "y": 0.1409,
+        "w": 0.0556,
+        "h": 0.0386
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "authorizedText": {
+      "match": {
+        "text": "Authorized",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Authorized",
+      "box": {
+        "x": 0.9889,
+        "y": 0.1489,
+        "w": 0.0111,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.4222,
+        "y": 0.2752,
+        "w": 0.1556,
+        "h": 0.0709
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "whenYouMakePaymentsText": {
+      "match": {
+        "text": "When you make payments or receive money, they'll appear here.",
+        "cls": "android.widget.TextView"
+      },
+      "text": "When you make payments or receive money, they'll appear here.",
+      "box": {
+        "x": 0.1056,
+        "y": 0.4223,
+        "w": 0.7882,
+        "h": 0.083
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "bar3": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 1,
+        "h": 0.0827
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9574,
+        "w": 0.0778,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4563,
+        "y": 0.9574,
+        "w": 0.0875,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7792,
+        "y": 0.9574,
+        "w": 0.1076,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "title",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "subtitle",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "goBackBtn",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "goBackBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "allBtn",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "allText",
+      "parent": "allBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "capturedBtn",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "capturedText",
+      "parent": "capturedBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "refundedBtn",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "refundedText",
+      "parent": "refundedBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "failedBtn",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "failedText",
+      "parent": "failedBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "authorizedBtn",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "authorizedText",
+      "parent": "authorizedBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeBtn",
+      "parent": "bar3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "homeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportBtn",
+      "parent": "bar3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsBtn",
+      "parent": "bar3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "order",
+      "els": [
+        "bar",
+        "bar2",
+        "iconText2",
+        "empty",
+        "whenYouMakePaymentsText",
+        "bar3"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "bar",
+      "below": "bar2",
+      "value": 0
+    },
+    {
+      "type": "gap",
+      "above": "bar2",
+      "below": "iconText2",
+      "value": 0.1896
+    },
+    {
+      "type": "gap",
+      "above": "iconText2",
+      "below": "empty",
+      "value": 0.0632
+    },
+    {
+      "type": "gap",
+      "above": "empty",
+      "below": "whenYouMakePaymentsText",
+      "value": 0.0215
+    },
+    {
+      "type": "gap",
+      "above": "whenYouMakePaymentsText",
+      "below": "bar3",
+      "value": 0.9201
+    },
+    {
+      "type": "centerX",
+      "el": "iconText2"
+    },
+    {
+      "type": "centerX",
+      "el": "empty"
+    },
+    {
+      "type": "centerX",
+      "el": "whenYouMakePaymentsText"
+    }
+  ]
+}

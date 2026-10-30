@@ -1,0 +1,1122 @@
+{
+  "spec": "Reports",
+  "page": "ReportsPage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:16:03.778Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "title": {
+      "selector": "android=new UiSelector().text(\"Your Personalized Reports\")",
+      "text": "Your Personalized Reports",
+      "box": {
+        "x": 0.125,
+        "y": 0.0544,
+        "w": 0.75,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "reportsFound": {
+      "selector": "android=new UiSelector().textMatches(\"[0-9]+ reports? found\")",
+      "box": {
+        "x": 0.3528,
+        "y": 0.0973,
+        "w": 0.2938,
+        "h": 0.0283
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "myReportsTab": {
+      "selector": "android=new UiSelector().description(\"My Reports\")",
+      "box": {
+        "x": 0.0479,
+        "y": 0.1471,
+        "w": 0.4521,
+        "h": 0.0429
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "sampleReportsTab": {
+      "selector": "android=new UiSelector().description(\"Sample Reports\")",
+      "box": {
+        "x": 0.5,
+        "y": 0.1471,
+        "w": 0.4521,
+        "h": 0.0429
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "paymentPending": {
+      "selector": "android=new UiSelector().text(\"PAYMENT PENDING\")",
+      "text": "PAYMENT PENDING",
+      "box": {
+        "x": 0.2049,
+        "y": 0.4254,
+        "w": 0.3076,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "completed": {
+      "selector": "android=new UiSelector().text(\"COMPLETED\")",
+      "text": "COMPLETED",
+      "box": {
+        "x": 0.2049,
+        "y": 0.7512,
+        "w": 0.1951,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "completePaymentBtn": {
+      "selector": "android=new UiSelector().descriptionStartsWith(\"Complete Payment\")",
+      "box": {
+        "x": 0.0847,
+        "y": 0.4661,
+        "w": 0.8306,
+        "h": 0.0429
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "shape": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.0498,
+        "w": 1,
+        "h": 0.153
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0424,
+        "y": 0.1446,
+        "w": 0.9153,
+        "h": 0.0479
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "myReportsText": {
+      "match": {
+        "text": "My Reports",
+        "cls": "android.widget.TextView"
+      },
+      "text": "My Reports",
+      "box": {
+        "x": 0.1632,
+        "y": 0.1564,
+        "w": 0.2215,
+        "h": 0.0239
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "sampleReportsText": {
+      "match": {
+        "text": "Sample Reports",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Sample Reports",
+      "box": {
+        "x": 0.5757,
+        "y": 0.1564,
+        "w": 0.3,
+        "h": 0.0239
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "month2Text": {
+      "match": {
+        "text": "MONTH 2",
+        "cls": "android.widget.TextView"
+      },
+      "text": "MONTH 2",
+      "box": {
+        "x": 0.0632,
+        "y": 0.231,
+        "w": 0.8736,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "diabetesRiskAssessmentHealthBtn": {
+      "match": {
+        "desc": "Diabetes Risk Assessment Health Report. Comprehensive evaluation of Glucose control, insulin sensitivity, and metabolic risk insights."
+      },
+      "box": {
+        "x": 0.0424,
+        "y": 0.2789,
+        "w": 0.9153,
+        "h": 0.25
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "diabetesRiskAssessmentHealthText": {
+      "match": {
+        "text": "Diabetes Risk Assessment Health Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Diabetes Risk Assessment Health Report",
+      "box": {
+        "x": 0.2049,
+        "y": 0.2985,
+        "w": 0.7118,
+        "h": 0.0326
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "circle": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0847,
+        "y": 0.3554,
+        "w": 0.0778,
+        "h": 0.0348
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1014,
+        "y": 0.3626,
+        "w": 0.0438,
+        "h": 0.0202
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "comprehensiveEvaluationOfGlucoseText": {
+      "match": {
+        "text": "Comprehensive evaluation of Glucose control, insulin sensitivity, and metabolic risk insights.",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Comprehensive evaluation of Glucose control, insulin sensitivity, and metabolic risk insights.",
+      "box": {
+        "x": 0.2049,
+        "y": 0.3358,
+        "w": 0.7118,
+        "h": 0.0849
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "·",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "·",
+      "box": {
+        "x": 0.5229,
+        "y": 0.4254,
+        "w": 0.009,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "generated9MonthsAgoText": {
+      "match": {
+        "text": "GENERATED 9 MONTHS AGO",
+        "cls": "android.widget.TextView"
+      },
+      "text": "GENERATED 9 MONTHS AGO",
+      "box": {
+        "x": 0.5424,
+        "y": 0.4254,
+        "w": 0.4153,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bar2": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0847,
+        "y": 0.4661,
+        "w": 0.8306,
+        "h": 0.0429
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "completePaymentText": {
+      "match": {
+        "text": "Complete Payment",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Complete Payment",
+      "box": {
+        "x": 0.2917,
+        "y": 0.4754,
+        "w": 0.3715,
+        "h": 0.0239
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText3": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.6736,
+        "y": 0.4795,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "month1Text": {
+      "match": {
+        "text": "MONTH 1",
+        "cls": "android.widget.TextView"
+      },
+      "text": "MONTH 1",
+      "box": {
+        "x": 0.0632,
+        "y": 0.5569,
+        "w": 0.8736,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "cvdAssessmentHealthReportBtn": {
+      "match": {
+        "desc": "CVD Assessment Health Report. Comprehensive cardiovascular health evaluation with biological age assessment (Month 1)"
+      },
+      "box": {
+        "x": 0.0424,
+        "y": 0.6048,
+        "w": 0.9153,
+        "h": 0.1881
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "cvdAssessmentHealthReportText": {
+      "match": {
+        "text": "CVD Assessment Health Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "CVD Assessment Health Report",
+      "box": {
+        "x": 0.2049,
+        "y": 0.6244,
+        "w": 0.6514,
+        "h": 0.0326
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "circle2": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0847,
+        "y": 0.6813,
+        "w": 0.0778,
+        "h": 0.0348
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText4": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1014,
+        "y": 0.6884,
+        "w": 0.0438,
+        "h": 0.0202
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "comprehensiveCardiovascularHealthEvaluationText": {
+      "match": {
+        "text": "Comprehensive cardiovascular health evaluation with biological age assessment (Month 1)",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Comprehensive cardiovascular health evaluation with biological age assessment (Month 1)",
+      "box": {
+        "x": 0.2049,
+        "y": 0.6617,
+        "w": 0.6514,
+        "h": 0.0849
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText5": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8764,
+        "y": 0.6897,
+        "w": 0.0389,
+        "h": 0.018
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText6": {
+      "match": {
+        "text": "·",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "·",
+      "box": {
+        "x": 0.4104,
+        "y": 0.7512,
+        "w": 0.009,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "generatedAbout1YearText": {
+      "match": {
+        "text": "GENERATED ABOUT 1 YEAR AGO",
+        "cls": "android.widget.TextView"
+      },
+      "text": "GENERATED ABOUT 1 YEAR AGO",
+      "box": {
+        "x": 0.4299,
+        "y": 0.7512,
+        "w": 0.5278,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "bar3": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 1,
+        "h": 0.0827
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9574,
+        "w": 0.0778,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4563,
+        "y": 0.9574,
+        "w": 0.0875,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7792,
+        "y": 0.9574,
+        "w": 0.1076,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "title",
+      "parent": "shape",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportsFound",
+      "parent": "shape",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "myReportsTab",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "sampleReportsTab",
+      "parent": "bar",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "paymentPending",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "completed",
+      "parent": "cvdAssessmentHealthReportBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "completePaymentBtn",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "bar",
+      "parent": "shape",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "myReportsText",
+      "parent": "myReportsTab",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "sampleReportsText",
+      "parent": "sampleReportsTab",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "diabetesRiskAssessmentHealthText",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "circle",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "comprehensiveEvaluationOfGlucoseText",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText2",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "generated9MonthsAgoText",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "bar2",
+      "parent": "diabetesRiskAssessmentHealthBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "completePaymentText",
+      "parent": "completePaymentBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText3",
+      "parent": "completePaymentBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "cvdAssessmentHealthReportText",
+      "parent": "cvdAssessmentHealthReportBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle2",
+      "parent": "cvdAssessmentHealthReportBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText4",
+      "parent": "circle2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "comprehensiveCardiovascularHealthEvaluationText",
+      "parent": "cvdAssessmentHealthReportBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText5",
+      "parent": "cvdAssessmentHealthReportBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText6",
+      "parent": "cvdAssessmentHealthReportBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "generatedAbout1YearText",
+      "parent": "cvdAssessmentHealthReportBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeBtn",
+      "parent": "bar3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "homeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportBtn",
+      "parent": "bar3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsBtn",
+      "parent": "bar3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "order",
+      "els": [
+        "shape",
+        "month2Text",
+        "diabetesRiskAssessmentHealthBtn",
+        "month1Text",
+        "cvdAssessmentHealthReportBtn",
+        "bar3"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "shape",
+      "below": "month2Text",
+      "value": 0.0632
+    },
+    {
+      "type": "gap",
+      "above": "month2Text",
+      "below": "diabetesRiskAssessmentHealthBtn",
+      "value": 0.0215
+    },
+    {
+      "type": "gap",
+      "above": "diabetesRiskAssessmentHealthBtn",
+      "below": "month1Text",
+      "value": 0.0625
+    },
+    {
+      "type": "gap",
+      "above": "month1Text",
+      "below": "cvdAssessmentHealthReportBtn",
+      "value": 0.0215
+    },
+    {
+      "type": "gap",
+      "above": "cvdAssessmentHealthReportBtn",
+      "below": "bar3",
+      "value": 0.2778
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "month2Text",
+        "month1Text"
+      ]
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "diabetesRiskAssessmentHealthBtn",
+        "cvdAssessmentHealthReportBtn"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "month2Text",
+        "month1Text"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "diabetesRiskAssessmentHealthBtn",
+        "cvdAssessmentHealthReportBtn"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "month2Text"
+    },
+    {
+      "type": "centerX",
+      "el": "diabetesRiskAssessmentHealthBtn"
+    },
+    {
+      "type": "centerX",
+      "el": "month1Text"
+    },
+    {
+      "type": "centerX",
+      "el": "cvdAssessmentHealthReportBtn"
+    },
+    {
+      "type": "noOverlap",
+      "pairs": [
+        [
+          "diabetesRiskAssessmentHealthBtn",
+          "cvdAssessmentHealthReportBtn"
+        ]
+      ]
+    }
+  ]
+}

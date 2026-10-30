@@ -1,0 +1,2072 @@
+{
+  "spec": "Settings",
+  "page": "SettingsPage",
+  "source": "device",
+  "generatedAt": "2026-10-30T05:16:26.442Z",
+  "reviewed": false,
+  "note": "Generated - review each value against the design, then set \"reviewed\": true. Remove a check by deleting it from an element's \"checks\", or list element names in \"ignore\".",
+  "baseline": {
+    "w": 1440,
+    "h": 3216
+  },
+  "scrollTop": true,
+  "tolerance": {
+    "position": 0.02,
+    "size": 0.03,
+    "align": 0.012,
+    "center": 0.015,
+    "gap": 0.025,
+    "aspect": 0.03
+  },
+  "ignore": [],
+  "elements": {
+    "profileCard": {
+      "selector": "android=new UiSelector().descriptionContains(\"Tap to manage profile\")",
+      "box": {
+        "x": 0.0451,
+        "y": 0.0889,
+        "w": 0.9111,
+        "h": 0.1629
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "appearance": {
+      "selector": "android=new UiSelector().text(\"Appearance\")",
+      "text": "Appearance",
+      "box": {
+        "x": 0.0972,
+        "y": 0.3007,
+        "w": 0.816,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "shape": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0451,
+        "y": 0.0889,
+        "w": 0.9111,
+        "h": 0.1629
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "circle": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.116,
+        "y": 0.1365,
+        "w": 0.1507,
+        "h": 0.0675
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "jdText": {
+      "match": {
+        "text": "JD",
+        "cls": "android.widget.TextView"
+      },
+      "text": "JD",
+      "box": {
+        "x": 0.1632,
+        "y": 0.1545,
+        "w": 0.0556,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "johnDoeText": {
+      "match": {
+        "text": "{{TEST_USER_NAME}}",
+        "cls": "android.widget.TextView"
+      },
+      "text": "{{TEST_USER_NAME}}",
+      "box": {
+        "x": 0.3347,
+        "y": 0.1185,
+        "w": 0.3,
+        "h": 0.0414
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "circle2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.2354,
+        "y": 0.19,
+        "w": 0.0313,
+        "h": 0.014
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.241,
+        "y": 0.1922,
+        "w": 0.0194,
+        "h": 0.0093
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bar": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.3347,
+        "y": 0.1645,
+        "w": 0.2646,
+        "h": 0.0311
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "accountHolderText": {
+      "match": {
+        "text": "Account Holder",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Account Holder",
+      "box": {
+        "x": 0.3556,
+        "y": 0.1645,
+        "w": 0.2222,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "iconText2": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.841,
+        "y": 0.1589,
+        "w": 0.0486,
+        "h": 0.0224
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "tapToManageProfileText": {
+      "match": {
+        "text": "Tap to manage profile",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Tap to manage profile",
+      "box": {
+        "x": 0.3347,
+        "y": 0.2002,
+        "w": 0.5069,
+        "h": 0.0218
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "bar2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0451,
+        "y": 0.282,
+        "w": 0.9111,
+        "h": 0.135
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "bar3": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0868,
+        "y": 0.3414,
+        "w": 0.8264,
+        "h": 0.0566
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "lightBtn": {
+      "match": {
+        "desc": ", Light"
+      },
+      "box": {
+        "x": 0.0944,
+        "y": 0.3448,
+        "w": 0.2701,
+        "h": 0.0501
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "iconText3": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1653,
+        "y": 0.3616,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "lightText": {
+      "match": {
+        "text": "Light",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Light",
+      "box": {
+        "x": 0.209,
+        "y": 0.3542,
+        "w": 0.084,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "darkBtn": {
+      "match": {
+        "desc": ", Dark"
+      },
+      "box": {
+        "x": 0.3646,
+        "y": 0.3448,
+        "w": 0.2708,
+        "h": 0.0501
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "iconText4": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.4389,
+        "y": 0.3616,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "darkText": {
+      "match": {
+        "text": "Dark",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Dark",
+      "box": {
+        "x": 0.4826,
+        "y": 0.3542,
+        "w": 0.0771,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "systemBtn": {
+      "match": {
+        "desc": ", System"
+      },
+      "box": {
+        "x": 0.6347,
+        "y": 0.3448,
+        "w": 0.2701,
+        "h": 0.0501
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "iconText5": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.6854,
+        "y": 0.3616,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "systemText": {
+      "match": {
+        "text": "System",
+        "cls": "android.widget.TextView"
+      },
+      "text": "System",
+      "box": {
+        "x": 0.7292,
+        "y": 0.3542,
+        "w": 0.125,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "shape2": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0451,
+        "y": 0.4571,
+        "w": 0.9111,
+        "h": 0.2074
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "accountManagement2Text": {
+      "match": {
+        "desc": ", Account Management, 2"
+      },
+      "box": {
+        "x": 0.0451,
+        "y": 0.4571,
+        "w": 0.9111,
+        "h": 0.0762
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width"
+      ]
+    },
+    "circle3": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0875,
+        "y": 0.4789,
+        "w": 0.0729,
+        "h": 0.0326
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText6": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1021,
+        "y": 0.4851,
+        "w": 0.0438,
+        "h": 0.0202
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "accountManagementText": {
+      "match": {
+        "text": "Account Management",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Account Management",
+      "box": {
+        "x": 0.2028,
+        "y": 0.4761,
+        "w": 0.5583,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconBtn": {
+      "match": {
+        "desc": ""
+      },
+      "box": {
+        "x": 0.7819,
+        "y": 0.4832,
+        "w": 0.0535,
+        "h": 0.0239
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "iconText7": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.7924,
+        "y": 0.4876,
+        "w": 0.0319,
+        "h": 0.0149
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "shape3": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.8569,
+        "y": 0.481,
+        "w": 0.0569,
+        "h": 0.0283
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "valueText": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[0-9][0-9,.]*"
+      },
+      "near": true,
+      "box": {
+        "x": 0.8778,
+        "y": 0.4841,
+        "w": 0.0146,
+        "h": 0.0218
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "manageAddressesBtn": {
+      "match": {
+        "desc": ", Manage Addresses, "
+      },
+      "box": {
+        "x": 0.0875,
+        "y": 0.533,
+        "w": 0.8264,
+        "h": 0.0538
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "circle4": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1299,
+        "y": 0.5423,
+        "w": 0.0778,
+        "h": 0.0348
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText8": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1493,
+        "y": 0.5507,
+        "w": 0.0389,
+        "h": 0.018
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "manageAddressesText": {
+      "match": {
+        "text": "Manage Addresses",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Manage Addresses",
+      "box": {
+        "x": 0.25,
+        "y": 0.5442,
+        "w": 0.5667,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText9": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8368,
+        "y": 0.5519,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "manageDependentsBtn": {
+      "match": {
+        "desc": ", Manage Dependents, "
+      },
+      "box": {
+        "x": 0.0875,
+        "y": 0.5914,
+        "w": 0.8264,
+        "h": 0.0538
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "circle5": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1299,
+        "y": 0.6007,
+        "w": 0.0778,
+        "h": 0.0348
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText10": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1493,
+        "y": 0.6091,
+        "w": 0.0389,
+        "h": 0.018
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "manageDependentsText": {
+      "match": {
+        "text": "Manage Dependents",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Manage Dependents",
+      "box": {
+        "x": 0.25,
+        "y": 0.6026,
+        "w": 0.5667,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText11": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8368,
+        "y": 0.6104,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "shape4": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0451,
+        "y": 0.6856,
+        "w": 0.9111,
+        "h": 0.2317
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "premiumFeatures3Text": {
+      "match": {
+        "desc": ", Premium Features, 3"
+      },
+      "box": {
+        "x": 0.0451,
+        "y": 0.6856,
+        "w": 0.9111,
+        "h": 0.0759
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width"
+      ]
+    },
+    "circle6": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.0875,
+        "y": 0.7074,
+        "w": 0.0729,
+        "h": 0.0326
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText12": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1021,
+        "y": 0.7136,
+        "w": 0.0438,
+        "h": 0.0202
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "premiumFeaturesText": {
+      "match": {
+        "text": "Premium Features",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Premium Features",
+      "box": {
+        "x": 0.2028,
+        "y": 0.7046,
+        "w": 0.634,
+        "h": 0.0382
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "shape5": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.8576,
+        "y": 0.7096,
+        "w": 0.0563,
+        "h": 0.0283
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "valueText2": {
+      "match": {
+        "cls": "android.widget.TextView",
+        "textPattern": "[0-9][0-9,.]*"
+      },
+      "near": true,
+      "box": {
+        "x": 0.8785,
+        "y": 0.7127,
+        "w": 0.0139,
+        "h": 0.0218
+      },
+      "dynamic": true,
+      "boxKeys": [
+        "x",
+        "y"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "format",
+        "box"
+      ]
+    },
+    "transactionHistoryBtn": {
+      "match": {
+        "desc": ", Transaction History, "
+      },
+      "box": {
+        "x": 0.0875,
+        "y": 0.7615,
+        "w": 0.8264,
+        "h": 0.0538
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "circle7": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1299,
+        "y": 0.7708,
+        "w": 0.0778,
+        "h": 0.0348
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText13": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1493,
+        "y": 0.7792,
+        "w": 0.0389,
+        "h": 0.018
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "transactionHistoryText": {
+      "match": {
+        "text": "Transaction History",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Transaction History",
+      "box": {
+        "x": 0.25,
+        "y": 0.7727,
+        "w": 0.5667,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText14": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8368,
+        "y": 0.7805,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bookingHistoryBtn": {
+      "match": {
+        "desc": ", Booking History, "
+      },
+      "box": {
+        "x": 0.0875,
+        "y": 0.82,
+        "w": 0.8264,
+        "h": 0.0538
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "circle8": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1299,
+        "y": 0.8293,
+        "w": 0.0778,
+        "h": 0.0348
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText15": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1493,
+        "y": 0.8377,
+        "w": 0.0389,
+        "h": 0.018
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bookingHistoryText": {
+      "match": {
+        "text": "Booking History",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Booking History",
+      "box": {
+        "x": 0.25,
+        "y": 0.8312,
+        "w": 0.5667,
+        "h": 0.0311
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText16": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8368,
+        "y": 0.8389,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "subscriptionManagementBtn": {
+      "match": {
+        "desc": ", Subscription Management, "
+      },
+      "box": {
+        "x": 0.0875,
+        "y": 0.8784,
+        "w": 0.8264,
+        "h": 0.0389
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "width",
+        "minTap"
+      ]
+    },
+    "shape6": {
+      "match": {
+        "cls": "android.view.ViewGroup",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0.1299,
+        "y": 0.8877,
+        "w": 0.0778,
+        "h": 0.0295
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "iconText17": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.1493,
+        "y": 0.8961,
+        "w": 0.0389,
+        "h": 0.018
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "subscriptionManagementText": {
+      "match": {
+        "text": "Subscription Management",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Subscription Management",
+      "box": {
+        "x": 0.25,
+        "y": 0.8896,
+        "w": 0.5667,
+        "h": 0.0277
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box",
+        "width"
+      ]
+    },
+    "iconText18": {
+      "match": {
+        "text": "",
+        "cls": "android.widget.TextView"
+      },
+      "near": true,
+      "text": "",
+      "icon": true,
+      "box": {
+        "x": 0.8368,
+        "y": 0.8974,
+        "w": 0.034,
+        "h": 0.0159
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "bar4": {
+      "match": {
+        "cls": "android.view.View",
+        "leaf": true
+      },
+      "near": true,
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 1,
+        "h": 0.0827
+      },
+      "boxKeys": [
+        "x",
+        "y",
+        "h"
+      ],
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box"
+      ]
+    },
+    "homeBtn": {
+      "match": {
+        "desc": "Home"
+      },
+      "box": {
+        "x": 0,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "homeText": {
+      "match": {
+        "text": "Home",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Home",
+      "box": {
+        "x": 0.1278,
+        "y": 0.9574,
+        "w": 0.0778,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "reportBtn": {
+      "match": {
+        "desc": "Report"
+      },
+      "box": {
+        "x": 0.3333,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "reportText": {
+      "match": {
+        "text": "Report",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Report",
+      "box": {
+        "x": 0.4563,
+        "y": 0.9574,
+        "w": 0.0875,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    },
+    "settingsBtn": {
+      "match": {
+        "desc": "Settings"
+      },
+      "box": {
+        "x": 0.6667,
+        "y": 0.9173,
+        "w": 0.3333,
+        "h": 0.0709
+      },
+      "clickable": true,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "box",
+        "minTap"
+      ]
+    },
+    "settingsText": {
+      "match": {
+        "text": "Settings",
+        "cls": "android.widget.TextView"
+      },
+      "text": "Settings",
+      "box": {
+        "x": 0.7792,
+        "y": 0.9574,
+        "w": 0.1076,
+        "h": 0.0155
+      },
+      "clickable": false,
+      "enabled": true,
+      "checks": [
+        "presence",
+        "state",
+        "text",
+        "box"
+      ]
+    }
+  },
+  "rules": [
+    {
+      "type": "inside",
+      "el": "appearance",
+      "parent": "bar2",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle",
+      "parent": "profileCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "jdText",
+      "parent": "circle",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "johnDoeText",
+      "parent": "profileCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "circle2",
+      "parent": "circle",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText",
+      "parent": "circle2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "bar",
+      "parent": "profileCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "accountHolderText",
+      "parent": "bar",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText2",
+      "parent": "profileCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "tapToManageProfileText",
+      "parent": "profileCard",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "bar3",
+      "parent": "bar2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "lightBtn",
+      "parent": "bar3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText3",
+      "parent": "lightBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "lightText",
+      "parent": "lightBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "darkBtn",
+      "parent": "bar3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "iconText4",
+      "parent": "darkBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "darkText",
+      "parent": "darkBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "systemBtn",
+      "parent": "bar3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText5",
+      "parent": "systemBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "systemText",
+      "parent": "systemBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "accountManagement2Text",
+      "parent": "shape2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle3",
+      "parent": "accountManagement2Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText6",
+      "parent": "circle3",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "accountManagementText",
+      "parent": "accountManagement2Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconBtn",
+      "parent": "accountManagement2Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText7",
+      "parent": "iconBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "shape3",
+      "parent": "accountManagement2Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "valueText",
+      "parent": "shape3",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "manageAddressesBtn",
+      "parent": "shape2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle4",
+      "parent": "manageAddressesBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText8",
+      "parent": "circle4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "manageAddressesText",
+      "parent": "manageAddressesBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText9",
+      "parent": "manageAddressesBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "manageDependentsBtn",
+      "parent": "shape2",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle5",
+      "parent": "manageDependentsBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText10",
+      "parent": "circle5",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "manageDependentsText",
+      "parent": "manageDependentsBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText11",
+      "parent": "manageDependentsBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "premiumFeatures3Text",
+      "parent": "shape4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle6",
+      "parent": "premiumFeatures3Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText12",
+      "parent": "circle6",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "premiumFeaturesText",
+      "parent": "premiumFeatures3Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "shape5",
+      "parent": "premiumFeatures3Text",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "valueText2",
+      "parent": "shape5",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "transactionHistoryBtn",
+      "parent": "shape4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle7",
+      "parent": "transactionHistoryBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText13",
+      "parent": "circle7",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "transactionHistoryText",
+      "parent": "transactionHistoryBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText14",
+      "parent": "transactionHistoryBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "bookingHistoryBtn",
+      "parent": "shape4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "circle8",
+      "parent": "bookingHistoryBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText15",
+      "parent": "circle8",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "bookingHistoryText",
+      "parent": "bookingHistoryBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText16",
+      "parent": "bookingHistoryBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "subscriptionManagementBtn",
+      "parent": "shape4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "shape6",
+      "parent": "subscriptionManagementBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText17",
+      "parent": "shape6",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "subscriptionManagementText",
+      "parent": "subscriptionManagementBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "iconText18",
+      "parent": "subscriptionManagementBtn",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeBtn",
+      "parent": "bar4",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "homeText",
+      "parent": "homeBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportBtn",
+      "parent": "bar4",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "reportText",
+      "parent": "reportBtn",
+      "centered": true
+    },
+    {
+      "type": "inside",
+      "el": "settingsBtn",
+      "parent": "bar4",
+      "centered": false
+    },
+    {
+      "type": "inside",
+      "el": "settingsText",
+      "parent": "settingsBtn",
+      "centered": true
+    },
+    {
+      "type": "order",
+      "els": [
+        "profileCard",
+        "shape",
+        "bar2",
+        "shape2",
+        "shape4",
+        "bar4"
+      ]
+    },
+    {
+      "type": "gap",
+      "above": "shape",
+      "below": "bar2",
+      "value": 0.0674
+    },
+    {
+      "type": "gap",
+      "above": "bar2",
+      "below": "shape2",
+      "value": 0.0896
+    },
+    {
+      "type": "gap",
+      "above": "shape2",
+      "below": "shape4",
+      "value": 0.0472
+    },
+    {
+      "type": "gap",
+      "above": "shape4",
+      "below": "bar4",
+      "value": 0
+    },
+    {
+      "type": "alignLeft",
+      "els": [
+        "shape",
+        "bar2",
+        "shape2",
+        "shape4"
+      ]
+    },
+    {
+      "type": "alignRight",
+      "els": [
+        "shape",
+        "bar2",
+        "shape2",
+        "shape4"
+      ]
+    },
+    {
+      "type": "centerX",
+      "el": "profileCard"
+    },
+    {
+      "type": "centerX",
+      "el": "shape"
+    },
+    {
+      "type": "centerX",
+      "el": "bar2"
+    },
+    {
+      "type": "centerX",
+      "el": "shape2"
+    },
+    {
+      "type": "centerX",
+      "el": "shape4"
+    }
+  ]
+}

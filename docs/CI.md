@@ -12,6 +12,37 @@ Each run borrows a fresh Linux computer from GitHub, installs everything, starts
 
 ---
 
+## Before you start: put the project on GitHub
+
+GitHub Actions only runs for projects stored on GitHub. Do this once.
+
+**a. Install Git** from [git-scm.com](https://git-scm.com/download/win) (accept the defaults). Open a new terminal and check: `git --version`.
+
+**b. Tell Git who you are** (shown on every commit):
+
+```bash
+git config --global user.name "Nishant"
+git config --global user.email "nishant@egenome.ai"
+```
+
+**c. Create an empty repository on GitHub:** sign in → **+** (top right) → **New repository** → name it e.g. `egenome-app-tests` → choose **Private** → leave "Add a README" **unticked** → **Create repository**. If eGenome has a GitHub organisation, create it there (ask whoever manages it).
+
+**d. Turn the project folder into a Git repository and upload it.** In a terminal opened in the project folder:
+
+```bash
+git init                      # start tracking this folder
+git branch -M main            # call the main version "main"
+git status                    # check: .env, node_modules and reports must NOT be listed
+git add .                     # stage every file .gitignore allows
+git commit -m "Initial commit: eGenome app test automation"
+git remote add origin https://github.com/<you>/egenome-app-tests.git   # the link GitHub showed you
+git push -u origin main       # upload; a browser window asks you to sign in the first time
+```
+
+Refresh the GitHub page: your files are there. From now on, after changing files: `git add .` → `git commit -m "what changed"` → `git push`.
+
+> If `git status` lists `.env`, stop: don't commit. Check that `.gitignore` is in the project folder.
+
 ## One-time setup
 
 ### 1. Check the repository is private
@@ -36,15 +67,23 @@ Secrets are hidden: nobody can read them back, and they're masked as `***` in lo
 
 Optional, on the **Variables** tab (visible, not secret): `TEST_USER_NAME`, `TEST_DEPENDENT_NAME`, if they differ from `.env.example`.
 
-### 4. Upload the workflow file
+### 4. Add the workflow file
 
-The file is already in your project folder. Commit and push it (in the project folder, in a terminal):
+Put `app-tests.yml` at exactly this path in the project: `.github/workflows/app-tests.yml` (the folder names matter; GitHub only looks there).
+
+**Option A, on your PC (recommended):**
+
+1. In the project folder, create a folder `.github`, and inside it a folder `workflows`. In File Explorer, type the name as `.github.` with a trailing dot if Windows refuses a name that starts with a dot.
+2. Save `app-tests.yml` into `.github\workflows\`.
+3. Commit and push, in a terminal in the project folder:
 
 ```bash
 git add .github/workflows/app-tests.yml docs/CI.md README.md
 git commit -m "Add GitHub Actions workflow for app tests"
 git push
 ```
+
+**Option B, on the GitHub website:** repository → **Add file → Create new file** → type the name `.github/workflows/app-tests.yml` (typing `/` creates the folders) → paste the file's contents → **Commit changes**. Afterwards run `git pull` on your PC so your copy has it too.
 
 ### 5. Run it once by hand
 

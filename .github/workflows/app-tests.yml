@@ -1,0 +1,145 @@
+# =====================================================================================
+#  eGenome app tests on GitHub Actions  (the "recipe card" GitHub's robot follows)
+#
+#  WHEN it runs (see "on:" below):
+#    - every pull request into main      -> smoke suite   (~5 min of tests)
+#    - every night at 02:00 India time   -> regression suite
+#    - whenever you press "Run workflow" in the Actions tab -> the suite you pick
+#
+#  WHAT it does, in order:
+#    1. borrows a fresh Linux computer from GitHub (a "runner")
+#    2. downloads this repository onto it
+#    3. installs Node.js, the project's libraries and Appium's Android driver
+#    4. downloads the staging app (APK)
+#    5. starts an Android emulator, installs the app, runs the tests
+#    6. saves the dashboard (reports/) so you can download it afterwards
+#
+#  BEFORE THE FIRST RUN, add these in GitHub: Settings -> Secrets and variables -> Actions
+#    Secrets (hidden):  TEST_PHONE, TEST_OTP, STAGING_APK_URL
+#    Variables (visible, optional): TEST_USER_NAME, TEST_DEPENDENT_NAME
+#  See docs/CI.md for the full walkthrough.
+# =====================================================================================
+
+name: App tests                         # the name shown in the Actions tab
+
+# ---------- 1. TRIGGERS: what starts a run -------------------------------------------
+on:
+  pull_request:                         # a pull request is opened or updated...
+    branches: [main]                    # ...that wants to merge into main
+  schedule:
+    - cron: '30 20 * * *'               # every day at 20:30 UTC = 02:00 IST (cron uses UTC)
+  workflow_dispatch:                    # adds a "Run workflow" button in the Actions tab
+    inputs:
+      suite:
+        description: 'Which suite to run'
+        type: choice
+        options: [smoke, regression, layout]
+        default: smoke
+
+# If you push to the same pull request twice, cancel the older run (saves minutes)
+concurrency:
+  group: app-tests-${{ github.ref }}
+  cancel-in-progress: true
+
+# ---------- 2. THE JOB: one computer, one list of steps ------------------------------
+jobs:
+  test:
+    name: Android tests
+    runs-on: ubuntu-latest              # the borrowed computer: Linux (Android emulators run fastest here)
+    timeout-minutes: 120                # stop if something hangs, so it can't burn minutes forever
+
+    # Settings the tests read (the same names as in your .env).
+    # Secrets come from the repository's secret store and are hidden in logs.
+    env:
+      TEST_PHONE: ${{ secrets.TEST_PHONE }}
+      TEST_OTP: ${{ secrets.TEST_OTP }}
+      TEST_USER_NAME: ${{ vars.TEST_USER_NAME || 'John Doe' }}
+      TEST_DEPENDENT_NAME: ${{ vars.TEST_DEPENDENT_NAME || 'Johny Mark' }}
+      DEVICE_NAME: emulator-5554        # the emulator below always gets this name
+      DEVICE_UDID: emulator-5554
+      TEST_ENV: ci
+      DASHBOARD_LOGCAT: 'true'
+      # Pick the suite: chosen by hand > nightly = regression > pull request = smoke
+      SUITE: ${{ github.event.inputs.suite || (github.event_name == 'schedule' && 'regression') || 'smoke' }}
+
+    steps:
+      # 2.1 Download this repository onto the runner
+      - name: Check out the code
+        uses: actions/checkout@v4
+
+      # 2.2 Install Node.js (the same major version you use locally) and remember
+      #     downloaded libraries between runs so later runs install faster
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      # 2.3 Install exactly the library versions in package-lock.json
+      - name: Install project libraries
+        run: npm ci
+
+      # 2.4 Appium's Android driver (what you once did with "npm run appium:setup").
+      #     "|| true" = don't fail if it's already installed.
+      - name: Install Appium UiAutomator2 driver
+        run: npx appium driver install uiautomator2 || true
+
+      # 2.4b Stop early with a clear message if a secret hasn't been added yet
+      - name: Check the secrets are set
+        env:
+          HAS_PHONE: ${{ secrets.TEST_PHONE != '' }}
+          HAS_OTP: ${{ secrets.TEST_OTP != '' }}
+          HAS_APK: ${{ secrets.STAGING_APK_URL != '' }}
+        run: |
+          missing=""
+          [ "$HAS_PHONE" = "true" ] || missing="$missing TEST_PHONE"
+          [ "$HAS_OTP" = "true" ]   || missing="$missing TEST_OTP"
+          [ "$HAS_APK" = "true" ]   || missing="$missing STAGING_APK_URL"
+          if [ -n "$missing" ]; then
+            echo "::error::Add these repository secrets (Settings > Secrets and variables > Actions):$missing"
+            exit 1
+          fi
+
+      # 2.5 Default settings: .env.example becomes .env. The real secrets above win,
+      #     because dotenv never overwrites a value that is already set.
+      - name: Create .env from the template
+        run: cp .env.example .env
+
+      # 2.6 Download the staging app. STAGING_APK_URL must be a direct download link.
+      - name: Download the staging APK
+        run: |
+          curl --fail --location --silent --show-error -o app.apk "${{ secrets.STAGING_APK_URL }}"
+          ls -lh app.apk
+
+      # 2.7 Let the emulator use the CPU's hardware acceleration (KVM) - much faster
+      - name: Enable hardware acceleration for the emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      # 2.8 Start an emulator (no screen - it runs invisibly), then run the commands in "script".
+      #     The emulator is shut down automatically when the script ends.
+      - name: Start emulator and run the ${{ env.SUITE }} suite
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34                 # Android 14
+          target: google_apis           # includes Google services (phone-number picker etc.)
+          arch: x86_64
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: |
+            adb shell wm size 720x1280      # same screen shape as the layout baselines
+            adb shell wm density 320
+            adb install -r app.apk
+            npm run test:$SUITE
+
+      # 2.9 Save the dashboard - even when tests failed ("always()"), that's when you need it most
+      - name: Upload the test dashboard
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-${{ env.SUITE }}-run${{ github.run_number }}
+          path: reports/
+          retention-days: 14
+          if-no-files-found: ignore

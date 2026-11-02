@@ -30,8 +30,9 @@ End-to-end tests for the eGenome Android app (`com.egenome.app`, React Native). 
 12. [Capturing locators](#capturing-locators)
 13. [Deliverables for testers](#deliverables-for-testers)
 14. [Project structure](#project-structure)
-15. [Troubleshooting](#troubleshooting)
-16. [Known gaps](#known-gaps)
+15. [Continuous integration](#continuous-integration-github-actions)
+16. [Troubleshooting](#troubleshooting)
+17. [Known gaps](#known-gaps)
 
 ---
 
@@ -308,6 +309,18 @@ Navigate the app; each screen is saved to `locators/<Screen>.json` with a screen
 ├── reports/                     runs + dashboard (generated, git-ignored)
 └── deliverables/                tester package (generated, git-ignored)
 ```
+
+## Continuous integration (GitHub Actions)
+
+`.github/workflows/app-tests.yml` runs the tests on GitHub automatically:
+
+| When | Suite |
+|---|---|
+| Pull request into `main` | Smoke |
+| Nightly, 02:00 IST | Regression |
+| Actions tab → **Run workflow** | Your choice |
+
+Each run starts a fresh emulator, installs the staging APK, runs the suite and uploads the dashboard as a downloadable artifact. Setup (secrets `TEST_PHONE`, `TEST_OTP`, `STAGING_APK_URL`) and troubleshooting: [docs/CI.md](docs/CI.md).
 
 ## Troubleshooting
 

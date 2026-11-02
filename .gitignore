@@ -13,6 +13,7 @@ reports/
 allure-results/
 allure-report/
 # rebuilt with: npm run deliverables
+deliverables/
 locators/raw/
 *.log
 logs/

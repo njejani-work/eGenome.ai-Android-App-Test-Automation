@@ -1,5 +1,6 @@
 # =====================================================================================
-#  eGenome app tests on GitHub Actions  (the "recipe card" GitHub's robot follows)
+# check.. 
+# eGenome app tests on GitHub Actions  (the "recipe card" GitHub's robot follows)
 #
 #  WHEN it runs (see "on:" below):
 #    - every pull request into main      -> smoke suite   (~5 min of tests)

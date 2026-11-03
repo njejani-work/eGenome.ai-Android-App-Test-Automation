@@ -1,6 +1,5 @@
 # =====================================================================================
-# check.. 
-# eGenome app tests on GitHub Actions  (the "recipe card" GitHub's robot follows)
+#  eGenome app tests on GitHub Actions  (the "recipe card" GitHub's robot follows)
 #
 #  WHEN it runs (see "on:" below):
 #    - every pull request into main      -> smoke suite   (~5 min of tests)
@@ -141,6 +140,41 @@ jobs:
           echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm.rules
           sudo udevadm control --reload-rules
           sudo udevadm trigger --name-match=kvm
+
+      # 2.7b Free disk space: the runner comes with ~14 GB free and the emulator image plus
+      #      its virtual disk need several GB. Deletes big tools this job never uses.
+      - name: Free disk space
+        run: |
+          sudo rm -rf /usr/share/dotnet /opt/ghc /usr/local/share/boost /usr/local/lib/node_modules/@angular /opt/hostedtoolcache/CodeQL || true
+          df -h /
+
+      # 2.7c Keep the Android system image between runs (GitHub's cache), so it is only
+      #      downloaded when there is no saved copy. Saves ~2 minutes and avoids flaky downloads.
+      - name: Restore the cached Android system image
+        uses: actions/cache@v4
+        with:
+          path: /usr/local/lib/android/sdk/system-images/android-34/google_apis/x86_64
+          key: sysimg-android-34-google_apis-x86_64-v1
+
+      # 2.7d Download the system image ourselves, retrying up to 3 times, and check it is complete.
+      #      ("Error on ZipFile unknown archive" = a corrupted download; a retry usually fixes it.)
+      - name: Download the Android system image (with retries)
+        run: |
+          SDKM="$ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager"
+          IMG="$ANDROID_HOME/system-images/android-34/google_apis/x86_64"
+          yes | "$SDKM" --licenses > /dev/null || true
+          for attempt in 1 2 3; do
+            if [ -f "$IMG/system.img" ] && [ -f "$IMG/source.properties" ]; then
+              echo "System image ready ($(du -sh "$IMG" | cut -f1))"; exit 0
+            fi
+            echo "Attempt $attempt: downloading system-images;android-34;google_apis;x86_64"
+            rm -rf "$IMG"
+            "$SDKM" --install "system-images;android-34;google_apis;x86_64" --channel=0 > /dev/null || true
+            [ -f "$IMG/system.img" ] || sleep 20
+          done
+          [ -f "$IMG/system.img" ] && exit 0
+          echo "::error::Could not download the Android system image after 3 attempts. Re-run the job; if it keeps failing, Google's download servers may be having problems."
+          exit 1
 
       # 2.8 Start an emulator (no screen - it runs invisibly), then run the commands in "script".
       #     The emulator is shut down automatically when the script ends.

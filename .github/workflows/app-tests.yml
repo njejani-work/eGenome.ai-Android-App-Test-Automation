@@ -15,7 +15,9 @@
 #    6. saves the dashboard (reports/) so you can download it afterwards
 #
 #  BEFORE THE FIRST RUN, add these in GitHub: Settings -> Secrets and variables -> Actions
-#    Secrets (hidden):  TEST_PHONE, TEST_OTP, STAGING_APK_URL
+#    Secrets (hidden):  TEST_PHONE, TEST_OTP
+#    The app: a Release tagged "staging-apk" with the .apk attached
+#             (or, instead, a STAGING_APK_URL secret with a direct download link)
 #    Variables (visible, optional): TEST_USER_NAME, TEST_DEPENDENT_NAME
 #  See docs/CI.md for the full walkthrough.
 # =====================================================================================
@@ -89,12 +91,10 @@ jobs:
         env:
           HAS_PHONE: ${{ secrets.TEST_PHONE != '' }}
           HAS_OTP: ${{ secrets.TEST_OTP != '' }}
-          HAS_APK: ${{ secrets.STAGING_APK_URL != '' }}
         run: |
           missing=""
           [ "$HAS_PHONE" = "true" ] || missing="$missing TEST_PHONE"
           [ "$HAS_OTP" = "true" ]   || missing="$missing TEST_OTP"
-          [ "$HAS_APK" = "true" ]   || missing="$missing STAGING_APK_URL"
           if [ -n "$missing" ]; then
             echo "::error::Add these repository secrets (Settings > Secrets and variables > Actions):$missing"
             exit 1
@@ -105,11 +105,34 @@ jobs:
       - name: Create .env from the template
         run: cp .env.example .env
 
-      # 2.6 Download the staging app. STAGING_APK_URL must be a direct download link.
-      - name: Download the staging APK
+      # 2.6 Get the staging app (APK). Two ways, the first that is set up wins:
+      #     a) a GitHub Release in THIS repository tagged "staging-apk" with the .apk attached
+      #        (no link needed - GitHub's own token downloads it, even from a private repo)
+      #     b) the STAGING_APK_URL secret: a DIRECT download link (opening it downloads the file)
+      #     Then it checks the file really is an app: an APK is a zip file, so it starts with "PK".
+      - name: Get the staging APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          APK_URL: ${{ secrets.STAGING_APK_URL }}
         run: |
-          curl --fail --location --silent --show-error -o app.apk "${{ secrets.STAGING_APK_URL }}"
+          if gh release view staging-apk --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            echo "Using the APK attached to the GitHub Release 'staging-apk'"
+            gh release download staging-apk --repo "$GITHUB_REPOSITORY" --pattern '*.apk' --output app.apk --clobber
+          elif [ -n "$APK_URL" ]; then
+            echo "Downloading from the STAGING_APK_URL secret"
+            curl --fail --location --silent --show-error -o app.apk "$APK_URL"
+          else
+            echo "::error::No APK source. Create a GitHub Release tagged 'staging-apk' with the .apk attached, or add the STAGING_APK_URL secret (see docs/CI.md)."
+            exit 1
+          fi
           ls -lh app.apk
+          if [ "$(head -c 2 app.apk)" != "PK" ]; then
+            echo "::error::The download is not an APK ($(stat -c %s app.apk) bytes). It looks like this:"
+            head -c 400 app.apk | tr -cd '[:print:]\n' ; echo
+            echo "::error::The link opens a web page (share page or login) instead of downloading the file. Use a direct download link, or attach the APK to a GitHub Release tagged 'staging-apk'."
+            exit 1
+          fi
+          echo "OK: valid APK, $(stat -c %s app.apk) bytes"
 
       # 2.7 Let the emulator use the CPU's hardware acceleration (KVM) - much faster
       - name: Enable hardware acceleration for the emulator
